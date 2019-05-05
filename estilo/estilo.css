@@ -223,7 +223,7 @@ color: #fff
 }
 .icones{
     border: solid 1px #fff;
-    padding-top: 5px;
+    padding: 5px 3px;
 }    
 .dropdown_search{
     position: relative;
@@ -284,8 +284,7 @@ color: #fff
     flex-wrap: wrap;
     justify-content: center;
     border: solid 1px #ffffff;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 0 -5%;
 }
 .sobplenum{
     border-left: 2px solid #cccc;
@@ -405,10 +404,7 @@ img {
   
 }
 
-.top-link-right > div{
-    margin: 5px;
-   
-}
+
 
 .top-link-right-mobile{
     border: solid 1px #fff;
