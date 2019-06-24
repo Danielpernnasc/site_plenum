@@ -818,7 +818,7 @@
                         <div class="col-xs-12 col-md-8">
                             <div class="row">
                                 <div class="titulo-plenum-short col-md-4">
-                                    <h3>Mini Pilar SH</h3>
+                                    <h3>Mini Pilar Short</h3>
                                 </div>
                                 <div class="col-md-8 col-md-offset-8">
                                     <div class="linha-atencao row">
