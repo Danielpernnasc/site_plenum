@@ -25,12 +25,12 @@
 <body>
     <header>
         <?php
-         include 'menu_plenum.php'
+         include '../menu-footer/menu_plenum.php'
         ?>
     </header>
     <footer>
         <?php
-        include 'footer_plenum.php'
+        include '../menu-footer/footer_plenum.php'
         ?>
     </footer>
 </body>

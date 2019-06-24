@@ -45,7 +45,7 @@
          url("Fontes/GOTHAM/gotham-book.svg")             format("svg"); /*padrão iOS*/         
 }
 
-#h1{
+#bio_titulo{
     font-family: "gothamroundedbold", serif;
     font-size: 40px;
 }
@@ -54,6 +54,7 @@
     font-family: "Crimson-Roman", sans-serif;
     font-size: 23px;
     line-height: 30px;
+    color: #fff;
 }
 .rodape{
     font-family: "Crimson-Roman", sans-serif;
@@ -77,6 +78,9 @@
 
 }
 
+#h1 {
+    font-family: "gothamroundedbold", serif;
+}
 .text_fabri{
     font-family: "Crimson-Roman", sans-serif;
     font-size: 22px;
@@ -107,12 +111,12 @@
 
 .titulo_bottom{
     font-family: "gothamroundedbold", serif;
-    border: solid 1px #ffffff;
+
 }
 
 .subtitulo_bottom{
     font-family: "Gotham-Light", serif;
-    border: solid 1px #ffffff;
+ 
 }
 .dropdown-mobile{
     font-family: "Gotham-Light", serif;
@@ -180,7 +184,6 @@
 .text_indus {
     color: #ffffff;
     font-family: "Crimson-Roman", sans-serif;
-    border: solid 1px #ffffff;
     padding-right: 26%;
     font-size: 20px;
 }
@@ -401,3 +404,1138 @@
     font-size: 15px;
 }
 
+#marcadores{
+    font-family: "Gotham-Light", serif;
+    font-size: 15px;
+}
+
+#texto_faq {
+
+    color: #969696;
+    font-family: "Gotham-Light", serif;
+    padding: 2%;
+}
+
+.button_faq, .button_faq_mobile {
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.h2_faq {
+    font-family: "gothamroundedbold", serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.h4_faq {
+    font-family: "gothamroundedbold", serif;
+    color: #ffffff;
+    text-align: center;
+}
+.fonecapi, .fonelocal {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+    margin-right: 2%;
+}
+
+#faq_contato > h4  {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#faq_contato > p {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#faq_chat > h4 {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#faq_chat > p {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#faq_email > h4 {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#faq_email > p {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+.btn_faq_chat {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+    font-size: 17px;
+}
+
+.btn_faq_email {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+    font-size: 17px;
+}
+
+.btn-fc-enviar {
+    color: #ffffff;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#formulario > h2 {
+    font-family: "gothamroundedbold", serif;
+}
+
+#linhas_form  {
+    font-family: "gothamroundedbold", serif;
+}
+
+#endereco_fc {
+    font-family: "Gotham-Book", sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.h5_footer {
+    font-family: "Gotham-Light", serif
+}
+
+#apresentacao{
+    color: #fff;
+}
+#privacidade > h4 {
+   color: #f57521;
+   font-family: "gothamroundedbold", serif;
+}
+
+#privacidade > h5 {
+    color: #000;
+    font-family: "gothamroundedbold", serif;
+ }
+#privacidade > p {
+    font-family: "Gotham-Book", sans-serif;
+    text-align: justify;
+    line-break: auto;
+    
+}
+
+#privacidade > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+
+#privacidade > span {
+    color: #f57521;
+}
+.destaque {
+    color: #000;
+    font-family: "gothamroundedbold", serif;
+}
+.link {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+    text-decoration: underline;
+}
+#fundo_cinza_educacao {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.container-cursos > h2 {
+    color: #969696;
+    font-family: "Gotham-Light", serif;
+}
+.titulo-filtro > h6 {
+    color: #fff;
+    font-family: "Gotham-Book", serif;
+    font-size: 18px;
+}
+.btn-cursos-educacao {
+    color: #fff;
+    font-family: "Gotham-Book", serif;
+}
+.doutor {
+    font-family: "gothamroundedbold", serif; 
+    font-size: 16px;
+}
+#doutor {
+    font-family: "gothamroundedbold", serif; 
+    font-size: 14px;
+}
+.doutor-mobile {
+    font-family: "gothamroundedbold", serif; 
+    font-size: 12px;
+}
+.tempo {
+    font-family: "gothamroundedbold", serif; 
+    font-size: 16px;
+}
+.tempo-mobile {
+    font-family: "gothamroundedbold", serif; 
+    font-size: 12px;
+}
+
+#especi-curso > h3 {
+    font-family: "gothamroundedbold", serif; 
+}
+#especi-curso > h3 {
+    font-size: 18px
+}
+#especi-curso > span {
+    color: #737375;
+    font-family: "Gotham-Light", serif; 
+    font-size: 22px;
+}
+
+#especi-curso-mobile > h3 {
+    font-family: "gothamroundedbold", serif; 
+}
+.agendamento > span {
+    color: #737375;
+    font-family: "Gotham-Light", serif; 
+    font-size: 21px;
+}
+
+.resultados > span {
+    font-family: "gothamroundedbold", serif;
+    color: #737375;
+    font-size: 19px;
+    margin-left: 60px;
+}
+.local_edu {
+    font-family: "gothamroundedbold", serif;
+    color: #737375;
+    font-size: 17px;
+  
+}
+#local-edu {
+    font-family: "gothamroundedbold", serif;
+    color: #737375;
+    font-size: 13px;
+    margin-left: 60px;
+    margin-top: 12px;
+}
+
+.inscricao {
+    color: #f57521;
+    font-family: "gothamroundedbold", serif;
+    margin-right: 15px;
+}
+.btn-edu {
+    font-family: "Gotham-Light", serif;
+}  
+.btn-edu-mobile {
+    font-family: "Gotham-Light", serif;
+    font-size: 12px;
+}  
+
+.dados-mobile > span {
+    color: #737375;
+    font-family: "Gotham-Light", serif; 
+    font-size: 12px
+}
+.resultado-mobile > span {
+    font-family: "gothamroundedbold", serif;
+    color: #737375;
+    font-size: 12px;
+}
+
+.detalhe-mobile > span {
+    font-family: "Gotham-Book", serif; 
+ 
+}
+.edu-titulo > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+}
+.edu-titulo > p {
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 15px;
+}
+
+.edu-titulo > ol {
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 15px;
+}
+.close-edu {
+    font-family: "gothamroundedbold", serif;
+    font-size: 20px;
+}
+#edu-info {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 25px;
+}
+.ficha-tecnica > p {
+    font-family:  "Crimson-Roman", sans-serif;
+    color: #fff;
+    line-height: 25px;
+}
+.ficha-tecnica > h6 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.ficha-tecnica > h5 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.button_ficha-tecnica {
+    font-family: "Gotham-Book", serif;
+}
+.curso-mobile {
+    font-family: "gothamroundedbold", serif;
+}
+.conteudo-mobile {
+    font-family:  "Crimson-Roman", sans-serif;
+    font-size: 20px;
+}
+.informacoes-mobile > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.data-mobile {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 30px;
+}
+.horas-mobile {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 30px;
+}
+.local-mobile  {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.vagas-mobile  {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.ficha-tecnica-mobile {
+    font-family:  "Crimson-Roman", sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.close-edu-mobile{ 
+    font-family: "gothamroundedbold", serif;
+}
+
+#fundo_cinza_pesquisa {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#tema {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+#botao-artigo {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+#btn-artigos {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+.filtro-categoria {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.busca-pesquisa {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.ministro-nome {
+    font-family: "Gotham-Book", serif;
+}
+.ministro-data, .ministro-data-profissionais {
+    font-family: "Gotham-Book", serif;
+    color:#5954a3;
+}
+.btn-pesquisa-8, .btn-pesquisa-4 {
+    font-family: "Gotham-Light", serif;
+    font-size: 14px
+}
+.text-prof > p{
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 15px;
+}
+
+.titulo-prof > h2 {
+    font-family: "gothamroundedbold", serif;
+}
+
+#titulo-pdf > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.button-profi {
+    font-family: "Gotham-Book", serif;
+    font-size: 15px;
+}
+
+.text_share > h5{
+    font-family: "Gotham-Book", serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.box-pdf > h5 {
+    font-family: "gothamroundedbold", serif;
+    font-size: 25px;
+}
+.label-pdf {
+    font-family: "Gotham-Book", serif;
+}
+.close-pdf {
+    font-family: "gothamroundedbold", serif;
+    font-size: 20px;
+}
+.saudacao > h3 {
+    font-family: "Gotham-Book", serif;
+}
+.saudacao > h5 {
+    font-family: "Gotham-Book", serif;
+    text-decoration: underline;
+}
+.btn-dados  {
+    font-family: "Gotham-Book", serif;
+    font-size: 20px;
+}
+.dados-dentista {
+    font-family: "Gotham-Light", serif;
+    font-size: 15px;
+}
+
+.resposta-dados {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+.titulo-curso > h2 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.titulo-curso > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.descricao-curso {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.titulo-conta > h2{
+    font-family: "gothamroundedbold", serif;
+}
+.button-cancelar {
+    font-family: "Gotham-Book", serif;
+}
+.auditorio-conta > h3 {
+    font-size: 20px;
+}
+.container-data {
+    font-family: "gothamroundedbold", serif;
+}
+.container-saudacao  {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+#valor {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+#data-pedido {
+    font-family: "Gotham-Book", serif;
+}
+#codigo {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+#item > p {
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 10px;
+}
+#item > h6 {
+    font-family: "Gotham-Book", serif;
+    text-decoration: underline;
+    color: #f57521;
+    text-align: center;
+}
+#valores-boleto >  p {
+    font-size: 10px;
+}
+.fonte-compra-final {
+    font-family: "Gotham-Book", serif;
+}
+
+.cartao-dados {
+    font-family: "Gotham-Light", serif;
+    text-align: right;
+    margin: 0 10%;
+    font-size: 12px;
+
+}
+.deliveryapp {
+    font-family: "Gotham-Book", serif;
+}
+#campo-receber > h5  {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+#linha-endereco {
+    font-family: "Gotham-Book", serif;
+}
+#titulo-dados {
+    font-family: "gothamroundedbold", serif;
+    font-size: 20px;
+}
+.btn-voltar > h6 {
+    float: right;
+    font-family: "Gotham-Book", serif;
+    text-decoration: underline;
+    color: #f57521;
+}
+.btn-login-continuar  {
+    font-family: "Gotham-Book", serif;
+}
+#texto-cadastro > p {
+    font-family: "Gotham-Book", serif;
+}
+#texto-cadastro > p > span > a {
+    font-family: "Gotham-Book", serif;
+    color: #f57521;
+    text-decoration: underline;
+}
+.btn-criar-conta {
+    font-family: "Gotham-Book", serif;
+}
+.box-login > h3{
+    font-family: "gothamroundedbold", serif;
+}
+.box-login > h5{
+    font-family: "Gotham-Light", serif;
+}
+.login-entrada-email, .login-entrada-senha {
+    font-family: "Gotham-Light", serif;
+}
+.login-email {
+    font-family: "Gotham-Light", serif;
+}
+
+.entre > h5 {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    color: #969696;
+   }
+.campo-recuperar > span > a {
+    font-family: "Gotham-Light", serif;
+    font-weight: bolder;
+    color: #f57521;
+    text-decoration: underline;
+}
+#dados-credito > p {
+    font-family: "Gotham-Book", serif;
+}
+#cartao-credito > p {
+    font-family: "Gotham-Book", serif;
+}
+
+.data > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+.nova-data > h2 {
+    font-family: "gothamroundedbold", serif;
+    color: #969696;
+    margin: 30% 0;
+   
+}
+.horas > h3 {
+    font-size: 20px;
+    font-family: "gothamroundedbold", serif;
+    color: #969696;
+    margin: 10% 0;
+}
+.fundo_cinza_implantes > h2 {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+    text-align: center;
+}
+.fundo_cinza_implantes > p {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+    font-size: 20px;
+    color: #858787;
+}
+.tema-radio {
+    text-align: center;
+}
+.tema-choice > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #737375;
+}
+.tema-radio > h3 {
+    font-family: "Gotham-Book", serif;
+    color: #737375;
+}
+.tema-radio > h3:focus {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+}
+.barra-regular > h3 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.barra-short > h3 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.barra-slim > h3 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.especificacao > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    margin: 4%;
+}
+
+#especifica {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+
+#tecnicas {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+
+.btn-espec {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-decoration: underline;
+}
+.btn-baixar-ficha-regular {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.btn-baixar-ficha-short {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.btn-baixar-ficha-slim {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+
+.componentes {
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+    text-decoration: underline;
+}
+#carrossel_produtos-componentes > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+
+.span-h3 {
+    font-family: "gothamroundedbold", serif;
+    font-size: 20px;
+}
+
+.btn-selecionar ,.btn-selecionar-regular, .btn-selecionar-slim {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.titulo-plenum-short > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+.valores-short > h1 {
+    font-family: "gothamroundedbold", serif;
+}
+
+.valores-short > span {
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+}
+.span-short{
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+}
+.size-short {
+    font-family: "Gotham-Book", serif;
+}
+.titulo-short-plenum > h3 {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-align: center;
+}
+.titulo-short-plenum > h2 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+}
+.titulo-short-plenum > p {
+    font-family: "Gotham-Book", serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.btn-start-plenum {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.fundo_cinza_componentes > h4 {
+    font-family: "gothamroundedbold", serif;
+    color:#858787;
+}
+.fundo_cinza_componentes > h5 {
+    font-family: "gothamroundedbold", serif;
+    color:#f57521;
+}
+.size-short > span {
+    font-size: 12px;
+}
+.pecas-regulares > h3 {
+    font-family: "gothamroundedbold", serif;
+    color:#737375;
+}
+#legenda-componentes > h6 {
+    font-family: "gothamroundedbold", serif;
+    font-size: 12px;
+    color:#737375;
+    margin: 31% 0;
+}
+#texto-atencao > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #ed215c
+}
+#texto-atencao > p {
+    font-family: "Gotham-Book", serif;
+    color: #ed215c;
+    font-size: 12px;
+}
+.btn-comprar-regular {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-comprar-short {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-comprar-slim {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-implante-comprar-regular  {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    font-size: 20px;
+}
+#box_produtos > h6 {
+    font-family: "gothamroundedbold", serif;
+    color: #969696;
+    margin: 35% 0;
+}
+.fundo_cinza_transferentes > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+}
+.fundo_cinza_transferentes > p {
+    font-family: "gothamroundedbold", serif;
+    color: #969696;
+    font-size: 23px;
+}
+.subtitulo-transferente, .subtitulo-analogo > h2{
+    font-family:  "gothamroundedbold", serif;
+    color: #969696;
+}
+.filtro-transparente > h5 {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+ .button-transferentes_analogos {
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+    font-size: 15px;
+}  
+
+#linha-completa > h5 {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-decoration: underline;
+    margin-right: 16%
+}
+
+.titulo-transf-re > h4  {
+    text-align: center;
+    font-size: 30px;
+    font-family:  "gothamroundedbold", serif;
+    color: #fff;
+}
+.comprar-re {
+    font-family:  "gothamroundedbold", serif; 
+    color: #fff;
+}
+.fundo_cinza_analogo > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+}
+.fundo_cinza_analogo > p {
+    font-family: "gothamroundedbold", serif;
+    color: #969696;
+    font-size: 23px;
+}
+
+#titulo-re-trans > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+#titulo-re-trans > h6 {
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+}
+.check-transfer-analogo > h5 {
+    font-family: "gothamroundedbold", serif;
+}
+
+#titulo-re-trans > h2 {
+    font-family: "gothamroundedbold", serif;
+}
+
+#titulo-re-trans > h4{
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+}
+
+.fundo_cinza_acessorios > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+}
+#atencao-acessorio > h6 {
+
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 18px;
+}
+#atencao-acessorio > p {
+    font-family: "Crimson-Roman", sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.fundo_cinza_kitcirurgicos > h2 {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+}
+
+.fundo_cinza_kitcirurgicos > p {
+    font-family: "gothamroundedbold", serif;
+    color: #969696;
+    font-size: 18px;
+}
+
+#titulo-kit > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #737375;
+}
+#espaco-kit, .link-kit > h4  {
+
+ font-family: "gothamroundedbold", serif;
+ color: #737375;
+}
+
+#titulo-caixa > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+#lista-caixa{
+    color: #fff;
+    font-family: "Gotham-Book", serif;
+    font-size: 15px;
+}
+
+.titulo-configuracao > h4 {
+    color: #fff;
+    font-family: "Gotham-Book", serif;
+    text-align: center;
+} 
+
+.subtitulo-configuracao > h5 {
+    color: #fff;
+    font-family: "Gotham-Book", serif;
+}
+
+.subtitulo-configuracao-right > h5 {
+    color: #fff;
+    font-family: "Gotham-Book", serif;
+    text-align: right
+}
+
+.subtitulo-configuracao-right {
+    float: right;
+}
+
+#subtitulo-kit-instrumental > h4 {
+    font-family: "gothamroundedbold", serif;
+}
+.titulo-instrumental > h3{
+    font-family: "gothamroundedbold", serif;
+}
+.titulo-instrumental > h6 {
+    font-family: "Gotham-Book", serif;
+    color: #858787;
+}
+.btn-espec-instru {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.btn-configuracao {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.fundo-cinza-biomaterais > h3 {
+   color: #858787;
+   font-family: "Gotham-Book", serif;
+   font-weight: bolder;
+}
+
+
+.legenda-biomaterial > span {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+    font-size: 10px;
+}
+
+#titulo-selecione > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+}
+.barra-oss > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    text-align: center;
+}
+
+.legenda-kits-cirurgicos > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+}
+.titulo-plenum-oss {
+    font-family: "gothamroundedbold", serif;
+    color:#000;
+    font-size: 20px;
+}
+#font-oss {
+    color: #858787;
+    font-family: "Gotham-Book", serif;
+    font-size: 12px;
+}
+.btn-biomateriai, .comprar-biomaterial {
+    font-family: "Gotham-Book", serif;
+    color:#fff;
+}
+
+.text-plenum-oss > p {
+    color:#fff;
+    text-align: center;
+    font-family: "Gotham-Book", serif;
+    font-size: 20px;
+    margin: 0 5%
+}
+
+.subtitulo-composicao  {
+    color:#fff;
+    text-align: center;
+    font-family: "Gotham-Book", serif;
+   
+}
+
+.subtitulo-composicao > h3  {
+
+    text-align: center;
+    font-family: "gothamroundedbold", serif;
+    font-weight: bolder;
+   
+}
+
+#titulo-composicao > span{
+    font-family: "gothamroundedbold", serif;
+    color: #63bf61;
+    font-size: 15px;
+    margin: 1% 0;
+}
+
+#titulo-composicao > p{
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    font-size: 15px;
+    margin:10% 0;
+}
+.subtitulo-composicao > h5 {
+    font-family: "gothamroundedbold", serif;
+}
+
+.h3composicao {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 20px;
+}
+.legenda-guide  > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #63bf61;
+}
+.legenda-guide  > h4  {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.campo-checkbox-bio {
+    margin: 22%;
+}
+
+#box_produtos > h5  {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    color: #737375;
+}
+
+.texto-modelos > p {
+    font-family: "gothamroundedbold", serif;
+    font-size: 22px;
+}
+
+#texto-qualidade > h3 {
+    font-family: "gothamroundedbold", serif;
+    
+}
+
+#texto-qualidade > p {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+#titulo-indicacao > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+#titulo-indicacao > p {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 6%;
+}
+.circulo-destaque > p {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    font-size: 15px;
+}
+.titulo-biomaterial > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+    margin-top: 1%;
+}
+.titulo-hp {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+    font-size: 10px;
+}
+.legenda-biomaterial > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+}
+.barra-os-title > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.barra-os-hp {
+    font-family: "gothamroundedbold", serif;
+    font-size: 10px;
+    color: #fff;
+    margin: 1.1% 0%;
+}
+.fundo-cinza-start > h3 {
+    background-image: linear-gradient(to right, #dd6d39, #e47877, #e981a7 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+}
+
+.fundo-cinza-start > p {
+
+    font-family: "Gotham-Book", serif;
+    color: #858787;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 17px;
+}
+#titulo-start > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+}
+.fundo-branco-start > h6 {
+    font-family: "gothamroundedbold", serif;
+    color: #858787;
+    font-size: 20px;
+}
+.barra-start {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    text-align: center;
+}
+#box-cinza > h4 {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+#box-branco > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+  
+}
+
+#box-preto > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+#total-smart > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+} 
+#economia-smart > h4 {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    color: #fff;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#campo-vendas > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+
+}
+#descricao-start > h6 {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+    font-size: 15px;
+}

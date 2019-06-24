@@ -27,11 +27,11 @@
 <body>
 
     <header>
-        <?php include 'menu_plenum.php';?>
+        <?php include '../menu-footer/menu_plenum.php';?>
     
     </header>
   
-    <div  class="container" id="container_body_superior" style="border: solid 1px #ffffff">
+    <div  class="container" id="container_body_superior">
         <div id="fundo_nav" class="row">
         </div>    
             <div id="fundo_bioengenharia" class="row">
@@ -100,11 +100,11 @@
                 </div>
                 <div class="col-md-4">
                     <img class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_2.png" alt="">
-                    <h5 class="titulo_ciencia">Porque acreditamos na Ciência da Vida?</h5>
+                    <h5 class="titulo_ciencia">Inovação e sustentabilidade nos processos</h5>
                 </div>
                 <div class="col-md-4">
                     <img  class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_3.png" alt="">
-                    <h5 class="titulo_ciencia">Porque acreditamos na Ciência da Vida?</h5>
+                    <h5 class="titulo_ciencia">Tecnologia de Impressão 3D de Implantes</h5>
                 </div>
             </div>
         </div>
@@ -115,13 +115,13 @@
               <!--Carousel-->
          
                
-              <div id="carrossel_produtos">
+                <div id="carrossel_produtos">
                         <div id="secondCarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
                                         <div class="col-md-12">
                                                <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12" style="border: solid 1px #000000">
+                                                        <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
                                                                 <div id="box_produtos" class="col-md-3" >
                                                                             campo 1
@@ -144,7 +144,7 @@
                                         <div class="col-md-12">
                                         
                                         <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12" style="border: solid 1px #000000">
+                                                        <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
                                                                 <div id="box_produtos" class="col-md-3" >
                                                                             campo 1
@@ -167,7 +167,7 @@
                                         <div class="col-md-12">
                                         
                                         <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12" style="border: solid 1px #000000">
+                                                        <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
                                                                 <div id="box_produtos" class="col-md-3" >
                                                                             campo 1
@@ -186,19 +186,19 @@
                                                     </div> 
                                             </div>
                                 </div>
-                           </div>
-                           <!-- Left and right controls -->
-                         
-                            <a class="left carousel-control" href="#secondCarousel" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#secondCarousel" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#secondCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#secondCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        </div>
+        </div>
               
                        
             
@@ -251,7 +251,7 @@
     </div> 
 <footer>
     
-      <?php include 'footer_plenum.php';?>
+      <?php include '../menu-footer/footer_plenum.php';?>
       
 </footer>
  

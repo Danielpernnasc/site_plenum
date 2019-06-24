@@ -1,9 +1,98 @@
 body  nav{
     width: 100%;
+   
 
 }
+body {
+    overflow-x: hidden
+}
+textarea:focus,
+input:focus,
+select:focus {
+border-color: none !important;
+outline: 0;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+button button:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+    button:focus {
+     outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+.active { display: block !important }
+.active_ { display: block !important }
+
+/*footer*/
+#container_empresas > h6 {
+    float: left;
+}
+/*footer*/
+#lista_indicadores, #marcadores {
+    list-style-type: none;
+    float: left;
+    padding: 33px;
+    color: #fff;
+
+}
+
+
+#lista_indicadores {
+    margin-left: 20%;
+}
+@media screen and (max-width: 600px) {
+    #lista_indicadores {display: none;}
+}
+.carousel 
+{
+    position: relative;
+}
+.rodape {
+    margin: 3% 0;
+}
+.carousel .carousel-indicators {
+    position: absolute;
+	bottom: 0;
+	left:0px;
+    width: 700px;
+    margin-bottom: 40%;
+    margin-left: 23%;
+  	left: 0;
+ 	right: 0;
+
+     display: flex;	/* this is for indicators  */
+    
+}
+
+@media screen and (max-width: 600px) {
+    .carousel .carousel-indicators {display: none;}
+}
+ .carousel-indicators li {
+    flex-grow: 1;  /* make all indicator li similarly stretched */
+    height: 40px;
+    
+}
+
+
+.carousel-indicators .active {
+    width: 8px;
+    height: 70px;
+    margin: 0;
+    border-bottom: 3px solid #f57521;;
+  }
+
+  
+.campo_foto_trajetoria > h4 {
+    color: #f57521;
+}
+
 #campo_carrossel {
-    border: solid 1px #000000; 
+  
     background-color: #f5f5f5;
 }
 nav {
@@ -11,7 +100,7 @@ nav {
     color: #fff;
     position: fixed;
     z-index: 99;
-    border: solid 1px #fff;
+  
  
    
 }
@@ -60,8 +149,8 @@ color: #fff
     margin: 10px 10px;
 }
 #fundo_nav{
-    padding-top: 104px;
-    background: #000;
+    padding-top: 97px;
+    background: #0d0d0d;;
     
 }
 @media screen and (max-width: 980px) {
@@ -138,8 +227,11 @@ color: #fff
     color: #ccc;
 
 }
+.active-transf {
+ display: none;
+}
 .country {
-    border: solid 1px #ffffff;
+ 
 
 
     display: flex;
@@ -148,7 +240,7 @@ color: #fff
 
 }
 .country_mobile{
-    border: solid 1px #ffffff;
+
     width: 120px;
     display: flex;
     flex-wrap: wrap;
@@ -160,12 +252,13 @@ color: #fff
     margin-right: 10px;
 }
 .idioma{
-    border: solid 1px #ffffff;
+
     width: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .sigla{
     margin: 10px;
 }
@@ -182,11 +275,14 @@ color: #fff
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:#0d0d0d;
+    background-color: #0d0d0d;
     z-index: 1;
-    border: solid 1px #fff;
-    margin-top: 9px;
+    margin-left: -30%;
+
+    
+   
 }
+
 .dropdown-content-mobile{
     margin-left: -72px;
     margin-top: 9px;
@@ -194,7 +290,7 @@ color: #fff
     position: absolute;
     background-color:#0d0d0d;
     z-index: 1;
-    border: solid 1px #fff;
+   
 }
 .dropdown-content a {
     color: #ffffff;
@@ -207,12 +303,13 @@ color: #fff
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    background:#0d0d0d;
 }
 .dropdown-content a:hover {
-    background-color: #0d0d0d;
+    background-color: #262626;
 } 
 .dropdown-content-mobile a:hover {
-    background-color: #0d0d0d;
+    background-color: #262626;
 }  
 
 .dropdown:hover .dropdown-content {
@@ -222,8 +319,8 @@ color: #fff
     display: block;
 }
 .icones{
-    border: solid 1px #fff;
-    padding: 5px 3px;
+   padding: 5px 2px;
+
 }    
 .dropdown_search{
     position: relative;
@@ -254,7 +351,7 @@ color: #fff
     background-color: #000000;
     color: #ffffff;
     width: 83%;
-    border-radius: 25px;
+    border-radius: 10px;
     border: solid 2px #cccc;
 }
 .busca{
@@ -272,47 +369,60 @@ color: #fff
 }
 
 #dropdown_nav{
-    background-image: linear-gradient(to right, rgba(222, 110, 61, 0.5), rgba(233, 128, 159, 0.5), rgba(237, 135, 197, 0.5) );
+    background-image: linear-gradient(to right, rgba(222, 110, 61, 0.9), rgba(233, 128, 159, 0.9), rgba(237, 135, 197, 0.9) );
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2%; /* alterar depois para 2%*/
+    z-index: 1;
     display: none;
-  z-index: 1;
+   
 }
 
 .drop_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid 1px #ffffff;
-    margin: 0 -5%;
+    margin-right: 2.5%;
+
+
 }
-.sobplenum{
+#subplenum{
     border-left: 2px solid #cccc;
-    height: 265px;
-   margin-left: -10%;
+    width: 187px;
+   
 }
-#sobplenum{
+ 
+#subplenum_artigos{
     border-left: 2px solid #cccc;
-    height: 265px;
-   margin-left: -43%;
+    width: 187px;    
+    margin-right: 0.5%;
+    margin-left: -4%;
+   
+}
+ 
+.subplenum_single {
+
+    border-left: 2px solid #cccc;
+    margin-left: -33%;
+    width: 200px;
 }
 .submenu{
-    margin-top: 10%;
+  
     margin-bottom: 10%;
-    margin-left: 1%;
+  
 }
 .vl_submenu{
     border-left: 2px solid #cccc;
     height: 35px;
 }
-#container_dropdown {
-    margin-left: 10%;
-    margin-right: 10%;
+
+#container_menu_plenum{
+   margin-left: 23%;
 }
 #container_header {
     width: 100%;
     height: auto;
-    padding: 30px 100px 30px 100px;
+    padding: 2% 5%;
+    background: #0d0d0d;
 }
 @media only screen and (max-width: 980px) {
     #container_header {
@@ -342,13 +452,13 @@ nav:hover #dropdown_nav{
    
     width: 100%;
     height: auto;
-    border: solid 1px black;
+    
 }
 #container_body_inferior{
    
     width: 100%;
     height: auto;
-    border: solid 1px black;
+  
 }
 
 img {
@@ -363,14 +473,13 @@ img {
 }
 
 .logo {
-    width: 120px;
-    margin-left: 10px;
+    /*width: 120px;
+    margin-left: 10px;*/
+    margin: -5% 0;
 
 }
 .logo-mobile{
-    width: 120px;
-    margin-left: 10%;
-    margin-bottom: 10px;
+    margin: -31% 0 0 30%;
 }
 
 .logo-footer{
@@ -385,8 +494,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 4%;
-    padding-right: 4%;
+    margin: 0 -1%;
+
     
 }
 
@@ -404,10 +513,12 @@ img {
   
 }
 
-
+/*.top-link-right > div{
+    margin: 5px;
+   
+}*/
 
 .top-link-right-mobile{
-    border: solid 1px #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -416,19 +527,21 @@ img {
 
 }
 .icones_mobile{
-    border: solid 1px #fff;
+
     margin: 5%;
 }
 .buscador_mobile{
     background-color: #000000;
     color: #ffffff;
     width: 100%;
-    border-radius: 25px;
+    border-radius: 10px;
+    padding: 4%;
 }
 .lupa_mobile{
     cursor: pointer;
-    margin-top: -23px;
-    margin-left: 129px;
+    margin-top: -28px;
+    margin-left: 139px;
+    margin-right: 10px;
 }
 
 
@@ -445,9 +558,8 @@ img {
 }
 
 #apresentacao{
-    color: #fff;
-    border: solid 1px #fff;
-    margin-top: 24%;
+
+    padding-top: 20%;
     margin-left:0;
     margin-bottom: 5%
 
@@ -457,8 +569,8 @@ img {
 .text_apresenta {
     line-break: auto;
     line-height: 20px;
-    margin-right: 24%;
-    margin-left: 20%;
+    margin-right: 49%;
+    margin-left: 15%;
 }
 
 .btn_knows{
@@ -480,15 +592,13 @@ img {
 
  .titulo {
      color: #ffffff;
-     border: solid 1px #ffffff;
-     margin-top: 14%;
+     padding-top: 14%;
      margin-right: 50%;
      margin-left: 10%;
  }
 
  .subtitulos{
     color: #ffffff;
-    border: solid 1px #ffffff;
     margin-right: 48%;
     margin-left: 10%;
     margin-top: 37%;
@@ -498,10 +608,10 @@ img {
  .subtitulos_two{
     
     color: #ffffff;
-    border: solid 1px #ffffff;
+   
     margin-right: 56%;
     margin-left: 10%;
-    margin-top: 64%;
+    padding-top: 60%;
     line-break: auto;
     line-height: 20px
  }
@@ -521,37 +631,37 @@ img {
    margin:10%;
 }
 .carrossel_mobile {
-    border: solid 1px #000000;
+  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
     .carrossel_mobile { display: none;}
  }
 
  .carrossel_mobile_produtos {
-    border: solid 1px #000000;
+  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 10%;
  }
- @media screen and (min-width: 600px) {
+ @media screen and (min-width: 1400px) {
     .carrossel_mobile_produtos { display: none;}
  }
 
 #slide_mobile{
-    border: solid 1px #000000;
+
     text-align: center;
-    width: 25em;
+    width: 23em;
     height: 15em;
     background-color:#fff;
 }
 
 #slide_mobile_produtos{
-    border: solid 1px #000000;
+
     text-align: center;
     width: 20em;
     height: 20em;
@@ -600,11 +710,12 @@ img {
 #box_produtos{
     width: 15em;
     height: 15em;
-    background-color: #ffffff;
-    border: solid 1px #000000;
+    background-color: #ffffff;;
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
+    border-radius: 100%;
+    padding: 5% 0;
    
 }
  #fabricacao{
@@ -637,8 +748,10 @@ img {
 
 #bioengeharia{
    
-    height: 950px;
-    margin-top: 20%;
+    height: 100%;
+    background: #000;
+    padding: 4%;
+  
 
   
 }
@@ -660,7 +773,7 @@ img {
     -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     display: flex;   
     flex-wrap: wrap;
-    margin: 10px 54px 10px 54px;
+    margin: 0 10%;
 
 }
 
@@ -671,16 +784,15 @@ img {
 
 .network{
     border: solid 2px #cccc;
-    border-radius: 40px;
+    border-radius: 100%;
     padding: 8px 7px 5px 7px;
-   
 }
 
 #container_email{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:1% 6%;
+    margin:1% 9%;
 }
 #borda_newsletter {
     border: solid 2px #ccc;
@@ -688,18 +800,18 @@ img {
     width: 100%;
    text-align: center;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1401px) {
     #borda_newsletter{
         display:none;
     }
 }
 
 .newsletter_mobile{
-    border: solid 1px #ffff;
+ 
     width: 40em;
     height: 6em;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1400px) {
     .newsletter_mobile {
         display: none;
     }
@@ -729,13 +841,45 @@ img {
 }
 
 
+
+.btn_news_mobile{
+    width: 30%;
+    padding: 1%;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border-radius: 25px;
+    border: 0px;
+    margin-left: 36%;
+    margin-top: 2%;
+    
+  
+}
+
+
+
 .newsletter {
     background-color: #000000;
     border: 0;
-    width: 83%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 88%;
+    padding: 0 5%;
+ 
 }
+@media screen and (max-width: 1788px) {
+    .newsletter{ display: none;}
+ }
+
+
+ .newsletter_big {
+    background-color:#0000;
+    border: 0;
+    width: 84%;
+    margin: 0 1%;
+    padding: 0 5%;
+}
+@media screen and (min-width: 1788px) {
+    .newsletter_big{ display: none;}
+ }
+
 
 
 .btn_news{
@@ -754,20 +898,25 @@ img {
     -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
+  
    
 }
 
 #menu-bottom {
-  margin: 0 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 166px;
+    margin: 0 3%;
 }
 
 #menu-bottom > div {
-  margin: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container-bottom > div{
-    margin: 0 5%;
+    margin:0;
 
    
 }
@@ -782,29 +931,45 @@ img {
 }
 
 .container-bottom-right > div{
-    margin: 0 7%;
+    margin: 0 65px 0 65px;
 
    
 }
+.aplicativo {
+    margin: 0;
+}
 
-.app{
+.app-desktop{
     display: -webkit-flex; /* Safari */
     -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    border: solid 1px #fff;
-  
+
+
+}
+
+#app-mobile > h6 {
+        margin: 0 35%;
+}
+#appmo {
+    margin: 0 42%;
+} 
+@media screen and (max-width: 600px) {
+    .app-desktop {display: none;}
+}
+@media screen and (min-width: 600px) {
+    #app-mobile {display: none;}
 }
 
 .vl{
     border-left: 2px solid #cccc;
     height: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10%;
+
 }
-.apple, .android {
-    margin-left: 7px;
+#apple, #android {
+    margin: 0;
+    margin-right: 13%;
     
 }
 
@@ -819,39 +984,75 @@ a {
 }
 
 #traco{
-    padding-left: 0;
-    padding-right:0;
-    padding-bottom:20px;
-    padding-top: 20px;
+  padding: 2% 2%;
 }
 .colorline{
     background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
-    width: 100%;
-    border: 0;
-    margin-top: 20px;
-    margin-bottom: 19px;
-    padding-top: 3px;
+   
 }
+.progress-bar {
+    width: 0;
+    animation: progress 30s ease-in-out forwards;
+    
 
-.colorlinegray{
-    background: rgba(31,31,38,1.5);
-    width: 100%;
-    border: 0;
-    margin-top: 20px;
-    margin-bottom: 19px;
-    padding-top: 3px;
-}
+  } 
+  
+  @keyframes progress {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+  @keyframes show  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
-#ask{
-    padding-bottom: 40px;
-    color: #ffffff
-}
 
-#bio_titulo, #bio_mensagem,  #etica_trans, #rede {
-    padding-bottom: 30px;
+
+#bio_titulo, #bio_mensagem,  #etica_trans, #rede, #ask {
+    padding-bottom: 3%;
     color: #ffffff;
 }
 
+#etica_trans {
+    margin: 1% 18%;
+}
+#etica_trans_mobile {
+    margin-top: 10%;
+    margin-bottom: 50%;
+    
+}
+
+#etica_trans > li {
+   padding: 2% 4%;
+   list-style: none;  
+  
+ 
+}
+#etica_trans_mobile > li {
+    list-style: none;  
+    float: left;
+    margin: 10px 5px;
+   
+}
+
+@media screen and (max-width: 980px)  {
+    #etica_trans {display: none;}
+}
+@media screen and (min-width: 980px)  {
+    #etica_trans_mobile {display: none;}
+}
+#texto_animados {
+    margin-top: 100px;
+    
+}
 #container_empresas{
     display: flex;
     flex-wrap: wrap;
@@ -863,7 +1064,6 @@ a {
 
 #empresas {
     width: 120px;
-    border: solid 1px #ffffff;
     margin: 5px;
     text-align: center;
 
@@ -871,7 +1071,6 @@ a {
 
 #regulacao {
     width: 120px;
-    border: solid 1px #ffffff;
     margin: 5px;
     text-align: center;
    
@@ -883,13 +1082,15 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+
+
 /*Plenum*/
 
 #text_industria {
     padding-left: 10%;
     background-color: #211f1f;
     height: 850px;
-    padding-bottom: 24.5%;
+    padding: 15% 5% 9.85% 7%;
 }
 
 #imagem_fundo_trajetoria {
@@ -900,7 +1101,7 @@ a {
     background-position: center;
     background-size: cover;
      position: relative;
-     border: solid 1px #fff; 
+  
 }
 #imagem_manifesto {
     background-image:url('../ASSETS/PLENUM/fundo_manifesto.jpg');
@@ -910,7 +1111,7 @@ a {
     background-position: center;
     background-size: cover;
      position: relative;
-     border: solid 1px #fff; 
+
 }
 #imagem_visao_missao_valor{
     background-color: #fff;
@@ -919,19 +1120,15 @@ a {
     background-position: center;
     background-size: cover;
     position: relative;
-    border: solid 1px #000; 
     margin-left: 10%;
     margin-right: 10%;
-    border: solid 1px #000000;
     text-align: center;
-    padding-top: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
+   padding: 2% 4%;
 }
 
 .vl_plenum{
     border-left: 2px solid #000;
-    height: 320px;
+    height: 240px;
     margin-left: 30px;
   
 }
@@ -988,7 +1185,7 @@ a {
     background-position: center;
     background-size: cover;
      position: relative;
-    border: solid 1px #fff;        
+       
 }
 
 #titulo_plenum{
@@ -1005,7 +1202,6 @@ a {
     background-position: center;
     background-size: cover;
      position: relative;
-     border: solid 1px #fff; 
      padding-top: 5%;
      padding-bottom: 5%;
 }
@@ -1046,12 +1242,10 @@ a {
 }
 
 #carrossel_trajetoria{
- border: solid 1px #fff;
- margin: 10%;
-    
+margin: 10%;
 }
 #campo_carousel{
-    border: solid 1px #fff;
+   
     padding: 5%;
 }
 .texto_manifesto{
@@ -1061,13 +1255,11 @@ a {
 }
 
 #campo_foto_trajetoria{
-    border: solid 1px #fff;
     height: 100%;
     padding: 0;
 }
 
 .texto_trajetoria_ano{
-    border: solid 1px #fff;
     margin: 14.75%;
     margin-left: 20%;
    
@@ -1077,7 +1269,6 @@ a {
 
 
 #campo_texto_trajetoria{
-    border: solid 1px #fff;
     height: 100%
     
 }
@@ -1089,14 +1280,13 @@ a {
 }
 
 #icones_coloborativos {
-    border: solid 1px #000000;
+
     text-align: center;
     max-width: 100%;
 }
 .col_h4 {
     width: 140px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 12%;
 }
 .p_rede{
     margin-bottom: 30px;
@@ -1150,19 +1340,16 @@ a {
 #campo_bio_quavida{
     background-image: linear-gradient(to right, #5baa6d, #5a8288, #595d9f );
     height: 100% ;
+    padding: 1.2% 0;
 }
 .texto_ciencia_vida {
     color: #fff;
-    border: solid 1px #fff;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin: 13.6% 25%;
+
 }
 
 .texto_bio_quavida{
     color: #fff;
-    border: solid 1px #fff;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 10%;
@@ -1206,7 +1393,7 @@ a {
      padding-bottom: 2.5%;
 }
 .texto_qualidade{
-    border: solid 1px #000;
+
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 16%;
@@ -1228,7 +1415,7 @@ a {
 
 .anvisa{
 
-   border: solid 1px #000;
+
    margin-left: 10%;
    margin-right: 10%;
 
@@ -1256,16 +1443,17 @@ a {
 .h2_trans{
     margin-left: 10%;
     margin-top: 24%;
-    border: solid 1px #fff;
     width: 300px;
 }
 .p_trans {
     margin-left: 15%;
     margin-top: 16%;
-    border: solid 1px #fff;
     font-size: 17px;
     line-height: 40px;
     margin-right: 45%;
+}
+@media screen and (max-width: 1024px) {
+    .lista-ano{display: none;}
 }
 /*Fim Plenum*/
 /*Inicio Bioengenharia*/
@@ -1277,7 +1465,7 @@ a {
     background-position: center;
     background-size: cover;
      position: relative;
-    border: solid 1px #fff;  
+    
 }
 
 #fundo_cinza_bioengenharia{
@@ -1370,7 +1558,7 @@ a {
     background-position: center;
     background-size: cover;
     position: relative;
-    border: solid 1px #fff;
+
 }
 
 #fundo_texto_fabrica {
@@ -1387,7 +1575,7 @@ a {
 #fundo_texto_fabrica_mobile {
     background-image: url('../ASSETS/FABRICA/fundo_cinza_mobile.jpg');
     width: 100%;
-    height: 100%;
+    height: 784px;
     padding-top: 2%;
     padding-bottom: 2%;
     color:#737375;
@@ -1399,6 +1587,7 @@ a {
 .texto_fabrica {
     margin-left: 31%;
     margin-right: 30%;
+    float: left;
 }
 
 #campo_arquitetura {
@@ -1468,6 +1657,8 @@ a {
 .paragrafo_tour {
     margin-left: 35%;
     margin-right: 35%;
+    float: left;
+    display: inline-block;
 }
 
 .btn_tour {
@@ -1482,9 +1673,10 @@ a {
 #principios {
     background: #737375;
     height: 100%;
+    padding: 3%;
 }
 
-.titulo_principios, h3, h6{ 
+.titulo_principios > h3,   .titulo_principios > h6{ 
     text-align: center;
 }
 .titulo_principios {
@@ -1518,7 +1710,7 @@ margin: 1.5%;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: solid 1px #fff;
+
 
 }
 
@@ -1563,7 +1755,7 @@ margin: 1.5%;
 
 .agenda > img {
     width: 250px;
-    margin-left: -3%;
+    margin-left: 3%;
 }
 
 #visita_fabrica_plenum {
@@ -1622,7 +1814,7 @@ margin: 1.5%;
    .h2_localiza {
        margin-top: 3%;
    }
-  #endereco {
+   #endereco {
     margin-left: 22%;
     margin-right: 20%;
 
@@ -1631,36 +1823,3019 @@ margin: 1.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 2%;
   }
   .icon {
     padding: 6px;
-}
+}f
 
 #campo_agendamento {
     padding-left: 5%;
     padding-right: 5%;
 }
-  
+
 /*Fim Visita*/
 
+/*Inicio FAQ*/
+#imagem_banner_faq {
+    background-image:url('../ASSETS/FAQ/banner_faq.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+     position: relative;     
+}
+
+#pontos_empresas {
+    background-image: linear-gradient(to right, #df6f46, #e47978, #eb84b7 );
+    height: 280px;
+    width: 280px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    padding: 0;
+    
+  
+}
+
+#pontos_empresas_medio_mobile {
+    background-image: linear-gradient(to right, #df6f46, #e47978, #eb84b7 );
+    height: 240px;
+    width: 240px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    padding: 0;
+  
+}
+
+
+#linha_pontos {
+    margin: 3% 4% 2% 10%;
+}
+@media screen and (max-width: 1684px) {
+    #linha_pontos {display:none;}
+ }
+#linha_pontos_medio {
+    margin: 3% 10%;
+}
+@media screen and (min-width: 1684px) {
+    #linha_pontos_medio {display:none;}
+ }
+.button_faq {
+    width: 100%;
+    height: 100.1px;
+    background: 0;
+    text-align: left;
+    padding-left: 5%;
+}
+.button_faq:hover,
+.button_faq:focus {
+    background: #969696;
+    color: #fff;
+}
+.button_faq_mobile {
+    width: 100%;
+    height: 100.1px;
+    background: 0;
+    text-align: left;
+    padding-left: 5%;
+}
+.button_faq_mobile:hover,
+.button_faq_mobile:focus {
+    background: #969696;
+    color: #fff;
+}
+
+#first_button {
+    border-radius: 0 30px 0 0;
+}
+
+#last_button {
+    border-radius: 0 0 30px 0
+}
+
+#campo_pagamentos {
+    margin: 3%;
+}
+
+#campo_contato {
+    background: #1f1f26;
+    height: 100%;
+  padding: 4%;
+ 
+}
+.fones_faq {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+.btn_faq_chat {
+    background-image: linear-gradient(to right, #df6f46, #e47978, #eb84b7 );
+    border-radius: 25px;
+    border: 0;
+    width: 150px;
+    height: 35px;
+}
+
+.btn_faq_email {
+    background-image: linear-gradient(to right, #df6f46, #e47978, #eb84b7 );
+    border-radius: 25px;
+    border: 0;
+    width: 150px;
+    height: 35px;
+}
+
+.texto_inovacao > h2 {
+    background: linear-gradient(to right, #dc6b30, #ec86bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#espacos {
+    width: 0%;
+}
+#texto_faq {
+
+    padding: 2%;
+}
+@media screen and (max-width: 1024px) {
+    #texto_faq {display: none;}
+}
+
+.button_faq  > span  {
+    float: right;
+    padding-right: 2%;
+}
+.button_faq_mobile > span {
+    float: right;
+    padding-right: 2%;
+}
+.texto_faq_mobile { 
+    margin: 2%;
+    color: #969696;
+  
+}
+
+@media screen and (min-width: 900px) {
+    .campo_faq_mobile {display: none;}
+}
+@media screen and (max-width: 900px) {
+    .campo_faq_desktop {display: none;}
+}
+
+/*Fim FAQ*/
+/*Fale Conosco*/
+#imagem_banner_faleconosco {
+    background-image:url('../ASSETS/FALECONOSCO/banner_faleconosco.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+     position: relative;
+    
+}
+
+#formulario {
+    height: 100%;
+   margin: 7% 5%;
+
+}
+#linhas_form {
+    margin-bottom: 5%;
+}
+.assunto_nome_email {
+    border-radius: 8px;
+    width: 100%;
+    border: solid 1px #d7d9db;
+} 
+.ddd_uf {
+    width: 4em;
+    border-radius: 8px;
+    border: solid 1px #d7d9db;
+}
+.telefone_cidade {
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px #d7d9db;
+}
+
+.area_fc {
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px #d7d9db;
+}
+
+.btn-fc-enviar {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #df6f46, #e47978, #eb84b7 );
+    border: 0;
+    float: right;
+    width:30%;
+    height: 40px;
+    margin: 2%;
+    padding: 1%;
+}
+#fundo_localiza_fc {
+    height: 950px;
+    padding: 1% 0;
+    background: #d1d4d6;
+}
+
+#map {
+        padding: 5%
+       
+}
+
+/*Fim Fale Conosco*/
+
+
+/*Politica Privacidade*/
+
+#privacidade {
+    padding: 5%;
+    border: solid 1px #ccc;
+    border-radius: 25px;
+    margin: 8% 1%;
+    background: #fff;
+    padding: 4% 8%;
+}
+
+
+.link_privacidade {
+
+    color: #000;
+    text-decoration: underline;
+  
+}
+/*Educação*/
+.curso-ortodontia {
+    margin: 3%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .campo-cursos-educacao {display: none;}
+}
+@media only screen and (min-width: 600px) {
+    .container-edu-mobile {display: none;}
+}
+#borda_educacao {
+    border: solid 1px #969999;
+    margin: 4% 1%;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.campo_localiza_educacao {
+    margin: 2% 0%;
+    width: 85%;
+    height: 30px;
+    border: 0;
+}
+
+.lupa_educacao {
+    float: right;
+    margin: 2%;
+}
+.cursos-educacao {
+    height: 100%;
+    background-color: #211f1f;
+}
+.container-cursos {
+    margin: 5% 0;
+}
+.titulo-filtro {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.btn-cursos-educacao {
+  border-radius: 10px;
+  padding: 1% 10%;
+  margin: 1% 2%;
+  background-color:  #211f1f;
+}
+
+.imagem_banner_educacao {
+    background-image: url('../ASSETS/EDUCACAO/banner_educacao.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#fundo_cinza_educacao {
+    background-image: url('../ASSETS/EDUCACAO/fundo_educacao.jpg');
+    padding: 5% 10%;
+    color: #737375;
+    text-align: center;
+}
+
+.campo_pesquisa {
+    height: 100%;
+}
+.botao-categoria {
+    float: right;
+    margin-top: 60%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+.campo-cursos-educacao {
+    margin: 5% 10%;
+    text-align: center;
+}
+#foto-cursos {
+    position: relative;
+    margin: 0 10%;
+    height: 100%;
+}
+#especi-curso {
+
+    margin: 0 10%;
+    height: 100%;
+    padding:0 18px;
+    text-align: left;
+    border-bottom: solid 2px #a8abad;
+
+}
+.bloco-medio > h4{
+    font-size: 15px;
+}
+
+.box-medio > h4 {
+    font-size: 15px;
+    color: #000;
+}
+@media only screen and (max-width: 1676px) {
+    .bloco-grande {display: none;}
+}
+@media only screen and (min-width: 1675px) {
+    .bloco-medio {display: none;}
+}
+.info-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.dados-mobile {
+ 
+    width: 58px;
+}
+.resultado-mobile {
+
+    width: 200px;
+}
+.legenda {
+    background-image: linear-gradient(to right,  #dd6d39, #e47979, #eb84b6  );
+    height: 52px;
+}
+.doutor {
+    float: left;
+    margin: 16px 8px;
+    color: #fff;
+}
+#doutor {
+    float: left;
+    margin: 16px 8px;
+    color: #fff;
+}
+.doutor-mobile {
+    float: left;
+    margin: 16px 8px;
+    color: #fff;
+}
+@media only screen and (max-width: 1676px) {
+    .doutor {display: none;}
+}
+@media only screen and (min-width: 1675px) {
+    #doutor {display: none;}
+}
+.tempo {
+    float: right;
+    margin: 12px 8px;
+    color: #fff;
+}
+.tempo-mobile {
+    float: right;
+    margin: 16px 8px;
+    color: #fff;
+}
+.relogio {
+    float: right;
+    margin: 8px 8px;
+    color: #fff;
+}
+.resultados {
+    padding-bottom: 5%;
+}
+#bloco-edu {
+    background-color:#e5e8e8;
+    margin: 0 9%;
+    padding: 2% 0;
+}
+#bloco-edu-mobile {
+    margin: 0 -5%;
+    padding: 0 1%;
+    background-color:#e5e8e8;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#inscricao {
+    margin: 0 5%;
+}
+.horario{
+ 
+    width: 140px;
+    height: 45px;
+    float: right;
+}
+.borda-edu {
+    border: 2px solid #a8abad;
+    height: 40px;
+    margin: 0 2%;
+}
+.borda-left {
+    border-right: solid 2px #a8abad;
+}
+.detalhes {
+    float: left;
+    margin: 8px;
+}
+.detalhe-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 0;
+
+
+}
+.dentista {
+    background-image: url("../ASSETS/EDUCACAO/curso_basico.jpg");
+    width: 467px;
+} 
+.subtitle {
+margin-top: 96%;
+}
+.btn-edu {
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 4%;
+    left: 55%;
+    width: 145px;
+}
+.btn-edu-mobile {
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 4%;
+    left: 55%;
+    width: 145px;
+}
+.simbolo {
+    margin-right: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.simbolo > h5 {
+    margin-top: 2px;
+    margin-left: 14px;
+}
+.box {
+    color: #000;
+}
+.educacao-mobile {
+    margin: 2% 0;
+}
+.local_edu {
+    margin-bottom: 2.25%;
+    margin-left: 60px;
+}
+#local-edu {
+    margin-bottom: 5.25%;
+    margin-left: 60px;
+    margin-top: 12px;
+}
+@media only screen and (max-width: 1676px) {
+    .local_edu{display: none;}
+}
+@media only screen and (min-width: 1675px) {
+    #local-edu {display: none;}
+}
+.curso-ortodontia_box {
+    display: none; /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.light-box {
+    max-width: 100%;
+    height: auto;
+    margin: 1%;
+
+}
+
+/* Add Animation */
+ .light-box  {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  .curso-ortodontia_box-mobile{
+    display: none; /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.light-box-mobile {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+  
+
+}
+
+/* Add Animation */
+ .light-box-mobile  {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+
+.edu-titulo {
+    width: 580;
+    height:800px;
+    background: #fff;
+  
+}
+.edu-titulo > h3 {
+    text-align: left;
+    margin: 6% 15%;
+}
+.edu-titulo > p {
+    text-align: justify;
+    margin: 2% 16%;
+    line-height: 30px;
+}
+.edu-titulo > ol {
+    margin: 0 11%;
+}
+.edu-info {
+    width: 580;
+    height: 800px;
+    background: #000;
+    position: relative;
+    
+}
+.close-edu-mobile{
+    float: right;
+    margin: 2% 65%;
+    position: fixed;
+    width: 68px;
+}
+
+.close-edu-mobile:hover, 
+.close-edu-mobile:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#edu-info {
+    margin: 7%;
+}
+
+.close-edu {
+
+    color: #fff;
+    font-weight: bolder;
+    float: right;
+    margin: 2% 2%;
+}
+.close-edu:hover, 
+.close-edu:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+.image-edu {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.rede-sociais-edu {
+    padding: 5% 8%;
+}
+.ficha-tecnica {
+    margin: -1% -4%;
+}
+.button_ficha-tecnica {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border: 0;
+    color: #fff;
+    padding: 1%;
+    margin: 2% 0;
+}
+.button_ficha-tecnica-mobile {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border: 0;
+    color: #fff;
+    padding: 1% 10%;
+    margin: 2% 28%;
+}
+.calendario-edu, .relogio-edu, .local-edu, .vagas-edu {
+    margin: 4% 0;
+}
+
+.curso-mobile {
+    width: 210px;
+    height: 100%;
+    border: solid 1px #000;
+    background: #fff;
+}
+.programa-mobile {
+    width: 210px;
+    height: 100%;
+    border: solid 1px #fff;
+    background-color: #000;
+    padding: 10%;
+}
+.image-cirurgica-mobile {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+.conteudo-mobile {
+    margin: 0 10%;
+  
+}
+.curso-mobile > h3 {
+ margin: 4% 10%;
+}
+
+
+.informacoes-mobile > h3 {
+    margin: 5% 10%;
+}
+.calendario-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+
+}
+.horario-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+
+}
+.local-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+}
+.vagas-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.data-mobile {
+    margin: 0 15%;
+    float: left;
+}
+.horas-mobile {
+    margin: 0 5%;
+}
+.palestrantes {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rede-sociais-edu-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5%;
+}
+.rede-sociais-mobile {
+    margin: 5%;
+}
+.ficha-tecnica-mobile {
+    margin: 0 12%;
+}
+@media only screen and (max-width: 1024px) {
+    .curso-ortodontia_box{display: none;}
+}
+
+@media only screen and (min-width: 980px) {
+    .curso-ortodontia_box-mobile {display: none;}
+}
+
+/*Fim da Educação*/
+
+/*Pesquisa*/
+.imagem_banner_pesquisa {
+    background-image: url('../ASSETS/PESQUISA/banner_pesquisa.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#fundo_cinza_pesquisa {
+    background-image: url('../ASSETS/PESQUISA/fundo_pesquisa.jpg');
+    padding: 5% 22%;
+    margin: 0;
+    color: #737375;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+.fundo-pesquisa {
+    background-color:#211f1f;
+    height: 100% ;
+  
+}
+.busca-pesquisa {
+    border: solid 1px #fff;
+    background: 0;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0 1%;
+}
+.campo-pesquisa {
+ 
+    margin-top: 5%;
+    height: 60px;
+    
+}
+#tema {
+    margin: 5% 5% 0% 5%;
+}
+#botao-artigo {
+    margin: 2% 5% 5% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#btn-artigos {
+    border-radius: 10px;
+    border: solid 1px #fff;
+    width: 260px;
+    height: 30px;
+    text-align: center;
+    padding: 2px 0;
+    margin: 10px 10px;
+}
+.filtro-categoria {
+    text-align: center;
+    margin-top: -4%;
+}
+.lupa-artigos {
+    float: right;
+    margin: -4.5% 2%;
+}
+
+#campo-atividades  {
+    margin: 5% 0 2% 10%;
+}
+.image-atividade-oito {
+   
+   max-width: 100%;
+   height: 100%;
+    padding: 2%;
+}
+.image-atividade-quatro {
+    max-width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+
+.image-8 {
+    width: 100%;
+    height: 372px;
+}
+#temas-artigos {
+    margin: 5%;
+}
+.ministerio {
+    height: 50px;
+    padding: 0.5%;
+    margin-top: -3%;
+    border: solid 1px #969999;
+}
+.ministro {
+    width: 40px;
+    height: 40px;
+}
+.ministro-nome {
+    margin: 0 1%;
+}
+.ministro-data {
+    margin: 1% 2%;
+}
+.tema-artigo {
+    
+    margin-bottom: 3%;
+    background: rgba(13, 13, 13, 0.8);
+    padding: 2%;
+    color: #fff;
+    position: relative;
+    margin-top: -81px;
+}
+.btn-pesquisa-8 {
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 9%;
+    left: 78%;
+    width: 20%;
+    padding: 0.5% 4%;
+}
+.btn-pesquisa-4 {
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 9%;
+    left: 61%;
+    width: 33%;
+    padding: 0.5% 4%;
+}
+
+/*Profissionais*/
+
+.epaco_profissionais{
+    margin-top: 23%;
+    margin-bottom: 6%;
+    margin-left: 6%;
+}
+
+.ministro-data-profissionais {
+ 
+    margin: 1% 2%;
+}
+.pdf {
+    background: #211f1f;
+    position: relative;
+     margin: -8%;
+  
+   
+
+ 
+}
+#text_prof {
+    margin: 1%;
+}
+.share {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+.compartilhar {
+  
+    padding: 15% 2%;
+}
+.text_share{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9% 15%;
+    color: #fff;
+    width: 154px;
+
+}
+.button-profi {
+    margin: 9% 5%;
+    width: 180px;
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    height: 40px;
+}
+.button-profi-email {
+    margin: 9% 5%;
+    width: 180px;
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border-radius: 25px;
+    color: #fff;
+    border: 0;
+    height: 40px;
+    margin: 10% 30%;
+}
+#texto_profissional {
+    margin: 0% 10% 2% 10%;
+}
+.titulo-prof {
+    color: #f57521;
+}
+.text-prof {
+    line-height:30px; 
+    text-align: justify
+}
+#titulo-pdf {
+    margin: 5% 8%;
+}
+#titulo-pdf > h3 {
+    margin: 3% 7%;
+}
+.button-profi > span {
+    margin: 1%;
+}
+
+#campo-pdf {
+    margin: 0 6%;
+}
+.download-pdf {
+    background: rgba(13,13,13,0.5)
+}
+.box-pdf {
+    background: #fff;
+    margin: 10%;
+    border-radius: 5px;
+    height: 350px;
+    box-shadow: -20px 20px 5px rgba(20,19,10,0.8);
+}
+.box-pdf > h5 {
+    text-align: center;
+    margin: 5% 20%;
+}
+.input-pdf {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.download-pdf  {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  .download-pdf{
+    display: none; /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 102%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.close-pdf {
+    float: right;
+    margin: 1%;
+}
+.close-pdf:hover, 
+.close-pdf:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+ .dados-prof {
+     margin-bottom: 10%;
+     margin-top: 1%;
+ }
+ #linha-artigo {
+     margin: 1%;
+ }
+ .campo-acima {
+     margin-top: -10%;
+     padding-top: 9%;
+ }
+ .imagem_banner_industria {
+    background-image: url('../ASSETS/PESQUISA/profissionais/banner_industria.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nome-ministro {
+    color: #000;
+}
+/*Fim Profissionais*/
+/*Fim Pesquisa*/
+/*Minha Conta*/
+#cartao-credito > p {
+margin: 0 -60%;
+}
+.data > h2 {
+    margin: 12% 0;
+}
+
+#dados-credito {
+    text-align: right;
+   
+}
+.dados{
+    background-image: linear-gradient(to right, #e37770, #ea81a7, #ed87c5);
+    height: 100%;
+    color: #fff;
+    padding: 1% 6%;
+}
+#dados-conta  {
+    border: solid 1px #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2% 1%;
+    float: right;
+
+}
+#linha-btn {
+    margin: 0 3%;
+}
+.btn-dados {
+    background: 0;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+}
+.btn-dados > span {
+    float: right;
+    margin: 0 1%;
+}
+#btn-dados-super {
+    border-radius: 0 10px 0 0;
+    border: solid 1px #d1d4d6;
+    padding: 2%;
+}
+#btn-dados-super:active {
+    border: solid 1px #969696;
+}
+#btn-dados-infer {
+    border-radius: 0 0 10px 0;
+}
+.link-dados {
+    color: #000;
+}
+.container-dados {
+    margin: 5% 10%;
+}
+#senha-cliente {
+    border: solid 1px #a8abad;
+    height: 100%;
+    margin-top: 3%;
+    padding: 2% 0 2% 5%;
+    border-radius: 10px;
+}
+#endereco-cliente  {
+    border: solid 1px #a8abad;
+    height: 100%;
+    margin-top: 3%;
+    padding: 2% 0 2% 5%;
+    border-radius: 10px;
+}
+#dados-cliente {
+  
+
+    border: solid 1px #a8abad;
+    height: 100%;
+    margin-top: 3%;
+    padding: 2% 1%;
+    border-radius: 10px;
+}
+#linha-endereco {
+    margin: 2% 0;
+}
+#linha-conta {
+    margin: 5%;
+}
+.dentista-conta {
+    width: 150px;
+    height: 150px;
+    margin: 10% 10% 2% 10%;
+}
+.selecionar {
+    background: #333840;
+    margin: 0 10%;
+    color: #fff;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+
+.editar-conta {
+    float: right;
+    margin: 1% 1%;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border: 0;
+    color: #fff;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#cancelar-curso {
+
+    background: #211f1f;
+    margin: 1% 5% 5% 5%;
+    padding: 0;
+    height: 100%;
+
+}
+#imagem-cancelar {
+    padding: 0;
+}
+#image-curso {
+    padding: 0;
+}
+.titulo-curso {
+    margin: 5%;
+}
+.descricao-curso {
+    margin: 1% 3%;
+    
+}
+.curso-descricao {
+    margin: 3% 0;
+}
+#linha-titulo {
+    margin: 0 4% 1% 4%;
+    padding: 0;
+   
+}
+#linha-data-horas {
+    margin: 0 15%;
+}
+.btn-curso {
+    float: right;
+    margin: 3% 1% 0% 0;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    width: 190px;
+    padding: 1%;
+}
+#agendar-visita {
+    background: #f5f5f5;
+    margin: 1% 5% 5% 5%;
+    padding: 0;
+    height: 100%;
+}
+.container-data {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 7%;
+}
+.container-saudacao {
+    margin: 2% 8%;
+}
+#image-agendar {
+    padding:0;
+}
+#row-historico {
+    align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.campo-historico {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#campo-historico {
+
+    margin: 2% 4%;
+
+}
+
+#row-dados {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 1%;
+}
+.button-history{
+    float: right;
+    margin: 3% 1% 0% 0;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+   
+}
+.campo-dados-compra {
+   border: solid 1px #a8abad;
+   height: 100%;
+   margin: auto;
+   border-radius: 10px;
+}
+#valor {
+    float: right;
+}
+#data-pedido {
+    text-align: center;
+}
+#linha-compra {
+    padding: 2% 0;
+    border-bottom: 1px solid;
+}
+#linha-compra-final {
+
+    border-top: 1px solid;
+}
+#item, #pay{
+    border-right: solid 1px #000;
+    border-radius: 0;
+    height: 200px;
+}
+#campo-pagamento {
+    margin-top: 9%;
+}
+.pendente {
+  margin: 11%;
+}
+#linha-fabrica {
+    margin-top: 10%;
+}
+#linha-entrega {
+    margin-top: 30%;
+}
+
+#linha-compra-final {
+    border-top: 1px solid #000;
+    border-radius: 0;
+  
+    padding: 2% 0;
+}
+#titulo-dados > h3 {
+    margin: 0 4% 5% 4%; 
+}
+#linha_receber {
+    margin: 10% 1%;
+ 
+}
+#campo-receber > h5{
+    margin: 5% 10%;
+ 
+}
+#delivery{
+    margin-left: 10%;
+    
+}
+.deliveryapp {
+    margin-left: 5%;
+    
+}
+#resposta-endereco {
+    font-weight: bolder;
+}
+.excluir{
+    color: #f57521;
+    text-decoration: underline;
+}
+
+#cartao-cliente {
+    border: solid 1px #a8abad;
+    height: 100%;
+    margin-top: 3%;
+    padding: 2% 0 2% 5%;
+    border-radius: 10px;
+}
+.btn-editar {
+    background: #969696;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 2% 5%;
+    margin: 0 5%;
+}
+.btn-adicionar {
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 2% 5%;
+    margin: 0 5%;
+}
+.btn-editar-senha {
+    background: #969696;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 2% 20%;
+  
+}
+.fonte-compra-final {
+    padding: 1.2% 1%;
+}
+
+/*Fim Minha Conta*/
+/*Login*/
+.campo-login {
+    background: #f5f5f5;
+}
+.box-login {
+    margin: 10% 30%;
+    border: solid 1px #d1d4d6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2% 1%;
+    background: #fff;
+    height: 100%;
+}
+.login-email {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d1d4d6;
+    margin-left: 33%;
+    padding: 3% 10% 3% 2%
+  
+
+}
+.btn-login-continuar {
+ background: #969696;
+ border: 0;
+ border-radius: 5px;
+ padding: 3.4% 14%;
+ color: #fff;
+ margin-right: 18%;
+}
+#texto-cadastro {
+    margin: 4% 0;
+    padding: 0 15%;
+}
+.btn-criar-conta {
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    border-radius: 25px;
+    width: 300px;
+    padding: 2% 0;
+    border: 0px;
+    color: #fff;
+}
+.campo-email-entrada, .campo-senha-entrada {
+    margin: 2% 0;
+}
+.login-entrada-email, .login-entrada-senha {
+    margin: 1% 0;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #d1d4d6;
+    padding: 1% 10% 1% 2%;
+
+}
+.entre {
+ margin: 0.5%;
+}
+#olho {
+    margin: -6.4% 74%;  
+}
+
+/*Fim Login*/
+/*Pasta Conta*/
+/*Formulario*/
+.fundo_form {
+    background: #f5f5f5;
+}
+.box-form {
+    border: solid 1px #d7d9db;
+    background: #fff;
+    margin: 5%;
+    border-radius: 10px;
+}
+.box-form > h2 {
+    text-align: center;
+} 
+.box-form > h4 {
+    text-align: center;
+} 
+.text-dados > h6 {
+    text-align: left;
+}
+.text-dados {
+    margin: 5%;
+}
+.formulario-form {
+    width: 100%;
+    border-radius: 5px;
+    margin: 5%;
+}
+#item > h6 {
+    margin: 15% ;
+}
+
+/*Fim Formulario*/
+/*Fim Pasta Conta*/
+/*Pasta Produtos*/
+/*Implantes*/
+.osimplantes {
+    width: 70px;
+}
+.acessorios-implantes {
+    width: 60px;
+    margin: -30% 0;
+    padding-top: 15%;
+}
+.fundo_implantes {
+    background-image: url('../ASSETS/PRODUTOS/01-IMPLANTES/fundo_implantes.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.fundo_cinza_implantes {
+    background-image: url('../ASSETS/PRODUTOS/01-IMPLANTES/fundo_cinza.jpg');
+    height: 100%;
+    padding: 4% 0;
+}
+.implant-model {
+    height: 100%;
+  
+}
+.tema-choice > h3 {
+    margin: 2% 10%;
+}
+.choice-implant {
+    margin: 4% 0;
+}
+.choice-implant-componentes {
+    margin: 1%;
+}
+.implantes {
+   
+    width: 100px;
+    margin: 45% 4% 0 4%;
+}
+.tema-radio {
+    margin: 0 3%;
+}
+.container-radio {
+    display: block;
+    position: relative;
+    
+    cursor: pointer;
+    font-size: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ /*a .btn-radio:active {
+    border: solid 5px #969696;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 1% 26%;
+    padding:0;
+}*/
+a .btn-radio-componentes{
+    border: solid 5px #969696;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 1% 22%; 
+    padding:0;
+ }
+ .btn-radio-regular, .btn-radio-short, .btn-radio-slim {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 1% 26%; 
+    padding:0;
+    border: solid 5px #969696;
+    
+ }
+
+
+a #btn-radio-short-componentes:active {
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    border-radius: 100%;
+    padding: 35%;
+    margin: 14% 0;
+}
+a #btn-radio-regular-componentes:active {
+    background-image: linear-gradient(to right, #fdb003, #f29911, #e27826);
+    border-radius: 100%;
+    padding: 35%;
+    margin: 14% 0;
+}
+a #btn-radio-slim-componentes:active {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    border-radius: 100%;
+    padding: 35%;
+    margin: 14% 0;
+}
+#btn-radio-short {
+
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    border-radius: 100%;
+    margin: 0% 0;
+    width: 40px;
+    height: 40px;
+}
+a #btn-radio-short:active {
+    border-radius: 100%;
+     background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+
+}
+
+#btn-radio-regular {
+    background-image: linear-gradient(to right, #fdb003, #f29911, #e27826);
+    border-radius: 100%;
+    margin: 0% 0;
+    width: 40px;
+    height: 40px;
+}
+a #btn-radio-regular:active {
+    background-image: linear-gradient(to right, #fdb003, #f29911, #e27826);
+    border-radius: 100%;
+ 
+}
+
+#btn-radio-slim {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    border-radius: 100%;
+    margin: 0% 0;
+    width: 40px;
+    height: 40px;
+}
+a #btn-radio-slim:active {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    border-radius: 100%;
+
+}
+#btn-radio-short-componentes {
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    border-radius: 100%;
+    margin: 1% 0;
+    width: 40px;
+    height: 40px;
+}
+
+#btn-radio-regular-componentes {
+    background-image: linear-gradient(to right, #fdb003, #f29911, #e27826);
+    border-radius: 100%;
+    margin: 1% 0;
+    width: 40px;
+    height: 40px;
+}
+#btn-radio-slim-componentes {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    border-radius: 100%;
+    margin: 1% 0;
+    width: 40px;
+    height: 40px;
+}
+
+.tema-radio > h3 {
+    margin: 10% 0;
+}
+.linha-regular {
+    background-color: #211f1f;
+    height: 100%;
+}
+.barra-short {
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    height: 100%;
+    padding: 1% 0;
+}
+.barra-regular {
+
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    height: 100%;
+    padding: 1% 0;
+}
+.barra-slim {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    height: 100%;
+    padding: 1% 0;
+}
+#up {
+    left: 82.5%;
+    margin: 35% 0;
+    font-size: 50px;
+}
+#down {
+   left: 82.5%;
+    margin: 44% 0;
+    font-size: 50px;
+}
+.carousel-indicators-vertical-componentes {
+
+    float: right;
+    margin: 32% -7%
+   
+   }
+.carousel-indicators-vertical {
+
+ float: right;
+ margin: 40% 10%;
+
+}
+.caroulsel-indicators-vertical li {
+    display: inline-block;
+ 
+ 
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+}
+.carousel-indicators-vertical .active {
+    width: 15px;
+    height: 15px;
+    margin: 30%;
+   border-radius: 100%;
+   border: solid 1px #fff;
+}
+
+.carousel-indicators-vertical .active:hover {
+    width: 15px;
+    height: 15px;
+    margin: 30%;
+   border-radius: 100%;
+   background: #fff;
+}
+
+#especificacao-tecnica {
+    margin: 6% 12%;
+}
+#especificacao-tecnica-componente {
+   background: #211f1f;
+}
+#container-regular-componentes {
+    margin: 6% 12%;
+}
+.hl {
+    border-bottom: 2px solid #fff; 
+    margin: 0.5% 5%;
+}
+.especificao > h3 {
+    margin: 4% 3%;
+}
+.especificao {
+    padding: 2% 0;
+}
+#especifica {
+    margin: 1% 0%;
+    padding: 0 6%;
+}
+#tecnicas {
+text-align: right;
+padding: 1% 6%;
+}
+
+#btn-espec-tecnica {
+    margin: 2% 0%;
+}
+.btn-espec {
+    border: solid 1px #fff;
+    background: 0;
+    border-radius: 25px;
+    padding: 4% 20%;
+    margin: 4% 0;
+}
+.btn-baixar-ficha-regular {
+    float: right;
+    border-radius: 25px;
+    padding: 4% 20%;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    border: 0;
+    margin: 4% 0;
+}
+
+.btn-baixar-ficha-short{
+  
+    background-image: linear-gradient(to right,#6cbf4d, #6b9b78, #696eb0);
+    float: right;
+    border-radius: 25px;
+    padding: 4% 20%;
+    border: 0;
+    margin: 4% 0;
+}
+
+.btn-baixar-ficha-slim{
+  
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    float: right;
+    border-radius: 25px;
+    padding: 4% 20%;
+    border: 0;
+    margin: 4% 0;
+}
+
+.linha-carousel-implantes {
+    background:#f5f5f5;
+}
+.linha-carousel-componentes {
+    background: #f5f5f5;
+}
+
+.linha-button-componentes {
+    margin: 5% 0;
+}
+.componentes {
+    background: 0;
+    border: solid 2px #969696;
+    border-radius: 25px;
+    padding: 1% 5%;
+}
+#carrossel_produtos-componentes > h3 {
+    margin: 4% 0;
+}
+#carrossel_produtos-componentes {
+    padding: 0 10%;
+    text-align: center;
+}
+#image-short {
+    width: 150px;
+}
+#linha-component-short {
+    margin: 4% 10%;
+
+}
+#implantes-shorts {
+    margin: 10% 0;
+}
+.btn-selecionar {
+    background-image: linear-gradient(to right,#6cbf4d, #6b9b78, #696eb0);
+    float: right;
+    border-radius: 25px;
+    padding: 4% 10%;
+    border: 0;
+    margin: 3% 0;
+}
+.btn-selecionar-regular {
+    background-image: linear-gradient(to right,  #faab06, #f19713, #e78220);
+    float: right;
+    border-radius: 25px;
+    padding: 4% 10%;
+    border: 0;
+    margin: 3% 0;
+}
+.btn-selecionar-slim {
+    background-image: linear-gradient(to right,  #cc42b4, #a54cbb, #7857c4);
+    float: right;
+    border-radius: 25px;
+    padding: 4% 10%;
+    border: 0;
+    margin: 3% 0;
+}
+.valores-short > h1 {
+    margin: 0;
+}
+.valores-short {
+    margin: 1% 0;
+}
+.linha-start {
+    background-image:url('../ASSETS/PRODUTOS/01-IMPLANTES/fundo_start_plenum.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+     position: relative;
+}
+
+.titulo-short-plenum > h2 {
+    background-image: linear-gradient(to right, #de6f43, #e87e97, #ed87c5 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-start-plenum {
+    background-image: linear-gradient(to right, #de6f43, #e87e97, #ed87c5) ;
+    float: right;
+    border-radius: 25px;
+    padding: 2% 20%;
+    border: 0;
+  
+}
+.titulo-short-plenum  {
+    margin: 10% 0;
+}
+.espaco-short {
+    height: 10px;
+    background-color: #fff;
+}
+
+.implantes {
+    margin-top: 22%;
+}
+
+.btn-implante-comprar-regular {
+    margin: 10% 10%;
+    background-image: linear-gradient(to right,  #faab06, #f19713, #e78220);
+    border-radius: 25px;
+    padding: 4% 30%;
+    border: 0;
+    position: relative;
+}
+.carousel-impla-regular {
+    width: 200px;
+    margin: 5% 0;
+}
+/*Fim de Implantes*/
+/*Componentes*/
+.componentes-plenum {
+    background-image:url('../ASSETS/PRODUTOS/COMPONENTES/fundo_componentes.jpg');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+     position: relative;
+}
+.fundo_cinza_componentes  {
+    background-image: url('../ASSETS/PRODUTOS/COMPONENTES/fundo_cinza.jpg');
+    height: 100%;
+    padding: 3% 0;
+    text-align: center
+}
+#implantes-regulares {
+    margin: 0 2%;
+    height: 100%;
+}
+#legenda-componentes {
+
+    text-align: center;
+    margin: 0 1%;
+    width: 170px;
+}
+#legenda-componentes-medio{
+
+    text-align: center;
+    margin: 0 1.7%;
+    width: 150px;
+}
+.fundo-branco {
+    border-radius: 100%;
+    background: #fff;
+    width: 190px;
+    height: 190px;
+    margin: 2.5% -5.9%;
+}
+
+#legenda-componentes-btn-regular{
+    width: 200px;
+    height: 200px;
+    margin: 2% -24%;
+    border-radius: 100%;
+    border: 0;
+    background: #fff;
+   /* background-image: linear-gradient(to right, #faab06, #f19713, #e78220);*/
+
+}
+#legenda-componentes-btn-regular-selecione{
+    width: 200px;
+    height: 200px;
+    margin: 2% -24%;
+    border-radius: 100%;
+   background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+   padding: 1% 10.7%;
+
+}
+ a #legenda-componentes-btn-regular:focus,
+     #legenda-componentes-btn-regular:hover{
+        background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+} 
+#legenda-componentes-btn-regular-medio {
+    width: 150px;
+    height: 150px;
+    margin: 9% -12%;
+    border-radius: 100%;
+    border: 0;
+    background: #fff;
+    
+}
+#legenda-componentes-btn-regular-medio-selecione {
+    width: 150px;
+    height: 150px;
+    margin: 8% -12%;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    padding: 3% 12.5%;
+}
+.fundo-branco-medio {
+    background: #fff;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    margin: 0 -8.4%;
+}
+#legenda-componentes-btn-regular-medio:focus,
+#legenda-componentes-btn-regular-medio:hover {
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+}
+.acessorios-re {
+    width: 60px;
+    margin: 20% 0;
+}
+.acessorios-re-medio {
+    width: 60px;
+    margin: 8% 0;
+}
+#legenda-componentes-btn-short{
+    width: 200px;
+    height: 200px;
+    margin: 2% -24%;
+    border-radius: 100%;
+    border: 0;
+    background: #fff;
+
+}
+#legenda-componentes-btn-short-selecione{
+    width: 200px;
+    height: 200px;
+    margin: 2% -24%;
+    border-radius: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    padding: 1% 10.7%;
+}
+a #legenda-componentes-btn-short:focus,
+ a  #legenda-componentes-btn-short:hover {
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+}
+
+#legenda-componentes-btn-short-medio{
+    width: 150px;
+    height: 150px;
+    margin: 8% -12%;
+    border-radius: 100%;
+    border: 0;
+    background: #fff;
+}
+
+ a #legenda-componentes-btn-short-medio:focus,
+a #legenda-componentes-btn-short-medio:hover {
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+}
+
+#legenda-componentes-btn-short-medio-selecione {
+    width: 150px;
+    height: 150px;
+    margin: 8% -12%;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    padding: 3% 12.5%;
+}
+
+@media screen and (max-width: 1900px) {
+    .linha-larga {display: none;}
+}
+@media screen and (min-width: 1889px) {
+    .linha-media {display: none;}
+}
 
 
 
 
+.linha-atencao {
+    border-top: solid #ed215c;
+    border-bottom: solid #ed215c;
+    margin: -8% 0;
+
+}
+.simbol-atencao {
+    padding: 3% 0;
+}
+#texto-atencao {
+    padding: 1% 8%;
+}
+.btn-comprar-regular {
+    background-image: linear-gradient(to right,  #faab06, #f19713, #e78220);
+    border-radius: 25px;
+    padding: 4% 30%;
+    border: 0;
+    margin: 3% 0;
+    float: right;
+}
+
+.btn-comprar-short {
+    background-image: linear-gradient(to right,  #6cbf4d, #6b9b78, #696eb0);
+    border-radius: 25px;
+    padding: 4% 30%;
+    border: 0;
+    margin: 3% 0;
+    float: right;
+}
+#linha-acessorio-slim {
+    margin:0 23.3%;
+}
+.acessorio-slim {
+    margin: 0 -1.5%;
+}
+#legenda-componentes-btn-slim {
+    width: 200px;
+    height: 200px;
+    margin: 2% -24%;
+    border-radius: 100%;
+    background: #fff;
+    border:0;
+}
+a #legenda-componentes-btn-slim:focus,
+a #legenda-componentes-btn-slim:hover
+ {
+         background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+
+}
+#legenda-componentes-btn-slim-selecione {
+    width: 200px;
+    height: 200px;
+    margin: 2% -24%;
+    border-radius: 100%;
+    border:0;
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    padding: 1% 10.8%;
+}
+#linha-larga-slim, #linha-media-slim {
+    margin: 0 22%;
+}
 
 
+@media screen and (max-width: 1900px) {
+    #linha-larga-slim {display: none;}
+}
+
+@media screen and (min-width: 1900px) {
+    #linha-media-slim {display: none;}
+}
+#legenda-componentes-btn-slim-medio {
+    width: 150px;
+    height: 150px;
+    margin: 9% -5%;
+    border-radius: 100%;
+    border: 0;
+    background: #fff;
+  
+}
+a #legenda-componentes-btn-slim-medio:hover,
+a #legenda-componentes-btn-slim-medio:focus
+ {
+      background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+ 
+}
+#legenda-componentes-btn-slim-medio-selecione {
+    width: 150px;
+    height: 150px;
+    margin: 9% -5%;
+    border-radius: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    padding: 2.5% 10.8%;
+}
+.btn-comprar-slim {
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    border-radius: 25px;
+    padding: 4% 30%;
+    border: 0;
+    margin: 3% 0;
+    float: right;
+}
+.acessorios-regular, .acessorios_short, .acessorios_slim{
+    width: 75px;
+    height: auto;
+    margin: -15% 0;
+
+}
+/*Fim do Componentes*/
+/*Transferentes*/
+.fundo_transferentes {
+    background-image: url('../ASSETS/PRODUTOS/TRANSFERENTES/transferentes_plenum.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fundo_cinza_transferentes {
+    background-image: url('../ASSETS/PRODUTOS/TRANSFERENTES/fundo_cinza.jpg');
+    height: 100%;
+    padding: 3% 0;
+    text-align: center
+}
+.fundo_cinza_transferentes > p {
+    margin: 2% 17%;
+}
+#linha-completa > h5 {
+    float: right;
+}
+.linhas-transferentes  {
+    background: #211f1f;
+    padding: 3% 0;
+}
 
 
+.subtitulo-analogo > h2, .subtitulo-transferente > h2 {
+    margin: 13%;
+
+  
+}
+
+.button-transferentes_analogos {
+    border-radius: 5px;
+    background: 0;
+    border: 2px solid #969696;
+    width: 200px;
+    height: 40px;
+  
+}
+
+.button-transferentes_analogos:hover {
+    background-image: linear-gradient(to right, #dd6d39, #e47979, #eb84b6 );
+    border: 0;
+    color: #fff;
+} 
+.titulo-transf-re > span {
+    margin: 1% 0;
+}
+.descricao-transfer {
+  margin: 6%;
+
+   
+}
+#titulo-re-trans {
+    width: 340px;
+}
+.size-medio {
+    width: 120px;
+    border: solid 1px #000;
+}
+.transfer-re {
+    width: 200px;
+}
+.check-transfer-analogo {
+    width: 700px;
+}
+.check-transfer-analogo > h5 {
+    margin: 0 2%;
+}
+#linha-transp-re {
+    padding: 3% 10%;
+}
+#linha-transp-analogo-re {
+    padding: 3% 20%;
+}
+.comprar-re{
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    color: #fff;
+}
+.comprar-sh{
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right,#6cbf4d, #6b9b78, #696eb0);
+    color: #fff;
+}
+.comprar-sl{
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    color: #fff;
+}
+.comprar-min-attachment {
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5);
+    color: #fff;
+}
+.linha-btn-transf {
+    margin: 2% 0;
+}
+.barra-mini-attachment {
+    background:#858787;
+    height: 100%;
+    padding: 1% 0;
+}
+.btn-drop-re {
+    background: 0;
+    border: 0;
+}
+.barra-regular-transferentes {
+
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    height: 100%;
+}
+.barra-short-transferentes {
+    background-image: linear-gradient(to right, #6cbf4d, #6b9b78, #696eb0 );
+    height: 100%;
+}
+.barra-slim-transferentes {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+    height: 100%;
+}
+.barra-mini-attachment-transferentes {
+    background:#858787;
+    height: 100%;
+}
+.dropdown-content-transf {
+    background: #fff;
+    margin: 0;
+    padding: 1%;
+}
+/*Fim Transferentes*/
+/*Análogos*/
+.fundo_analogo {
+    background-image: url('../ASSETS/PRODUTOS/ANALOGOS/banner_analogo.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fundo_cinza_analogo {
+    background-image: url('../ASSETS/PRODUTOS/ANALOGOS/fundo_cinza.jpg');
+    height: 100%;
+    padding: 3% 9%;
+    text-align: center
+}
+.transfer-re-destaque {
+    width: 350px;
+}
+.button-comprar {
+    margin-top: 18%;
+}
+.descricao-analogo {
+    margin: 20% 0;
+}
+.transfer-re-min-att {
+    width: 250px;
+}
+/*Fim Análogos*/
+/*Acessórios*/
+.fundo_acessorios {
+    background-image: url('../ASSETS/PRODUTOS/ACESSORIOS/banner_acessorios.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fundo_cinza_acessorios {
+    background-image: url('../ASSETS/PRODUTOS/ACESSORIOS/fundo_cinza.jpg');
+    height: 100%;
+    padding: 6% 9%;
+    text-align: center
+}
+#atencao-acessorio > h6 {
+    margin: 3% 16%;
+}
+#atencao-acessorio > p {
+    margin: 1% 15%;
+}
+/*Fim Acessórios*/
+/*Kits Cirurgicos */
+.texto-modelos > p {
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: -110% 0;
+}
+.circulo {
+    width: 20px;
+    height: 20px;
+    border: solid 1px #fff;
+    border-radius: 100%;
+    margin: -9% 46%;
+    position: relative;
+}
+.lh-pontilhada{
+    border-bottom: 2px dotted;
+    width: 80%;
+    margin: 7.3% 50%;
+    position: relative;
+
+}
+.lh-pontilhada-dois {
+    border-bottom: #fff 2px dotted;
+    width: 99%;
+    position: relative;
+    margin: 7.5% 0.5%;
+
+}
+#texto-qualidade {
+    margin: -8% -55%;
+}
+#texto-qualidade > h3 {
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fundo_kitcirurgicos {
+    background-image: url('../ASSETS/PRODUTOS/KITCIRURGICOS/banner_kitcirurgicos.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fundo_cinza_kitcirurgicos {
+    background-image: url('../ASSETS/PRODUTOS/KITCIRURGICOS/fundo_cinza.jpg');
+    height: 100%;
+    padding: 3% 9%;
+    text-align: center
+}
+.fundo_cinza_kitcirurgicos > p {
+    margin: 2% 35%;
+}
+#titulo-kit {
+    padding: 4%;
+}
+#kits-cirurgicos {
+    margin: 15% 20%;
+}
+.model-kit {
+    width: 300px;
+    margin: 10% 5%;
+
+  
+}
+.container-model-cirurgico {
+    margin: 7% 0;
+}
+.btn-kit-cirurgico {
+    width: 350px;
+    height: 350px;
+    margin: 2% -10%;
+    border-radius: 100%;
+    padding: 1% 0;
+    border: solid 0px #fff;
+
+}
+.btn-kit-cirurgico-branco{
+    background: #fff;
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    margin: 0 1.4%;
+ 
+
+   
+}
+.oskitsciru  {
+    height: 100%;
+}
+
+#espaco-kit > h4 {
+    margin: 10% 21%;
+}
+ a .btn-kit-cirurgico:hover, 
+.btn-kit-cirurgico:focus {
+    background-image: linear-gradient(to right, #cc42b4, #a54cbb, #7857c4);
+   
+}
+.caixa-kit  {
+    height: 100%;
+    background-image: url('../ASSETS/PRODUTOS/KITCIRURGICOS/fundo_caixa_kit.png');
+}
+#titulo-caixa > h3 {
+    margin: 10% 15%;
+}
+.vl-kit {
+
+    border-top: 4px solid;
+    border-image: linear-gradient(45deg, #cc42b4, #a54cbb, #7857c4) 1;
+    margin-left: 14%;
+    margin-top: -3%;
+}
+#lista-caixa {
+    margin: 1% 5%;
+    padding-right: 3%;
+}
+#lista-caixa li {
+    margin: 5% 0;
+}
+#campo-imagem-kit {
+ 
+    margin: 8% 0;
+    color: #fff;
+}
+#kit-caixa-aberta {
+    margin:6% 10%;
+}
+.comprar-kit {
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    color: #fff;
+    border: 0;
+    float: right;
+    position: relative
+}
+.circulo-destaque {
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: -57%;
+    padding: 32% 21%;
+}
+.img-caixa-aberta {
+    margin-top: -18%;
+}
+.box-open {
+    margin-top: 6%;
+}
+#titulo-indicacao > h3 {
+    margin-top: -300%;
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.circulo-dois {
+    border: solid 1px #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: relative;
+    margin: -10% 100%;
+
+}
+#carousel-indicators-vertical {
+    float: right;
+    margin: 40% 10%;
+}
+#up-kit {
+    left: 100%;
+    margin: 10% -68px;
+    font-size: 50px;
+}
+#down-kit {
+    left: 100%;
+    margin: 61% -78px;
+    font-size: 50px;
+    
+}
+
+#carousel-indicators-vertical:active {
+    width: 15px;
+    height: 15px;
+    margin: 30%;
+    border-radius: 100%;
+    border: solid 1px #fff;
+}
+#carousel-indicators-vertical .active:hover {
+    width: 15px;
+    height: 15px;
+    margin: 30%;
+   border-radius: 100%;
+   background: #fff;
+}
+.linha-dimensoes {
+    background: #333333;
+}
+#container-dimensoes {
+    margin: 3% 16%;
+}
+#linha-dimensao {
+    margin: 8% 6%;
+}
+.btn-configuracao {
+    float: right;
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    border-radius: 25px;
+    padding: 4% 10%;
+    border: 0;
+    margin: 4% 0;
+}
+.carrossel_configuracao {
+    margin: 3% 6%;
+}
+#slide-configuracao {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 1% 0;
+}
+
+#slide-configuracao > h4 {
+    margin: 20% 0;
+}
+#carrossel_produtos-kits {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+#subtitulo-kit-instrumental {
+    margin: 9.15% 3%;
+}
+
+#btn-instrumental {
+    padding: 3% 2%;
+}
+
+#linha-instrumental {
+    margin: 4%;
+}
+.compra-kit-instrumental {
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right,#cc42b4, #a54cbb, #7857c4);
+    color: #fff;
+    border: 0;
+ 
+}
+.btn-espec-instru {
+    border: solid 1px #fff;
+    background: 0;
+    border-radius: 25px;
+    padding: 4% 15%;
+    margin: 4% 0;
+}
+.componetes-implantes {
+    width: 65px;
+    margin: -35% 0;
+}
+.legenda-kits-cirurgicos > h4 {
+    margin: -20% 15%;
+}
+#campo_kit {
+    margin: 0 15%;
+}
+#box_produtos > h5 {
+    margin: 25%
+}
+/* Fim Kits Cirurgicos */
+/*Biomateriais*/
+.text-plenum-oss {
+ margin: 3%;
+}
+.fundo-biomateriais {
+    background-image: url('../ASSETS/PRODUTOS/BIOMATERIAIS/banner_biomateriais.png');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.fundo-cinza-biomaterais {
+    background-image: url('../ASSETS/PRODUTOS/BIOMATERIAIS/fundo_cinza.jpg');
+    height: 100%;
+    padding: 3% 0;
+    text-align: center
+}
+.fundo-cinza-biomaterais > h3 {
+    margin: 6% 40%;
+}
+.model-biomaterial {
+    width: 300px;
+    margin: 12% 3%;
+}
+.btn-biomateriais-branco {
+    background: #fff;
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    margin: 0 1.5%
+}
+
+.btn-model-biomateriais {
+    width: 350px;
+    height: 350px;
+    padding: 1% 0%;
+    border-radius: 100%;
+    border: 0;
+ 
+    
+}
+a .btn-model-biomateriais:focus, 
+a .btn-model-biomateriais:hover {
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+}
+.legenda-biomaterial {
+    margin: -12% 25%;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+
+.linha-biomaterial {
+    margin: 10%;
+}
+#titulo-selecione {
+    margin: 2% 7%;
+}
+#campo-biomateriais {
+    margin: 2% 0 12% 0;
+}
+#linha_biomateriais {
+    margin: 0 25%;
+}
+.barra-oss {
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    padding: 0.5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.fundo-plenum-oss-guide {
+    background-image: url('../ASSETS/PRODUTOS/BIOMATERIAIS/fundoplenumoss.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   padding: 5% 0;
+}
+#linha-biomaterial {
+    margin: 2% 5%;
+}
+.comprar-biomaterial {
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    color: #fff;
+    border: 0
+}
+.titulo-plenum-oss {
+    float: left;
+}
+.observacao-plenum-oss {
+    padding-left:10px;
+    margin-top:5px;
+}
+.imagem-plenum {
+
+    margin: 0 2%;
+}
+.btn-biomateriais {
+    float: right;
+    margin: 10%;
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    border:0;
+    border-radius: 25px;
+    color: #fff;
+    width: 170px;
+    height: 40px;
+    margin: 3% 28%;
+}
+#linha-composicao {
+    margin: 3%;
+}
+
+.subtitulo-composicao > h3 {
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitulo-composicao > h5 {
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#borda-pontilhada {
+    border-right: dotted;
+    height: 100px;
+}
+.borda-composicao {
+    border-radius: 100%;
+    width: 360px;
+    height: 360px;
+    margin: 0 7%;
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    padding: 2.5% 1%;
+}
+.fundo-escuro {
+    background: #1f1f26;
+    border-radius: 100%;
+    width: 335px;
+    height: 335px;
+    margin: 1% 2.2%;
+}
+.image-composicao {
+    border-radius: 100%;
+    border-radius: 100%;
+    margin: 2.1%;
+    width: 320px;
+    height: 320px;
+}
+
+#amostras-composicao {
+    margin: 5% 15%;
+}
+.linha-composicao-quimica {
+    background: #1f1f26; 
+    height: 100%;
+}
+#linha-composicao-especificacao {
+    margin: 0 14%;
+}
+#titulo-composicao {
+    padding-left: 7%;
+}
+
+.fundo-escuro-guide {
+    background: #1f1f26;
+    border-radius: 100%;
+    width: 330px;
+    height: 330px;
+    margin: -2% 1%;
+}
+.img-guide {
+    border-radius: 100%;
+    width: 320px;
+    height: 320px;
+    margin: 1.5%
+}
+.borda-composicao-guide {
+    border-radius: 100%;
+    width: 360px;
+    height: 360px;
+    margin: 0 20%;
+    background-image: linear-gradient(to right, #5bb566, #598784, #585aa1);
+    padding: 4% 2%;;
+}
+#linha-composicao-molecular {
+    margin: 0 20%;
+}
+.legenda-guide {
+    margin: 10% 25%;
+    text-align: center;
+}
+#campo-checkbox-bio {
+    margin-right: 22%;
+}
+/*Fim Biomateriais*/
+/*Start-Plenum*/
+.fundo-start {
+    background-image: url('../ASSETS/PRODUTOS/START-PLENUM/banner-start-plenum.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.fundo-cinza-start {
+    background-image: url('../ASSETS/PRODUTOS/01-IMPLANTES/fundo_cinza.jpg');
+    height: 100%;
+    padding: 4% 0;
+    
+}
+.container-start  {
+    margin: 8% 0;
+}
+#titulo-start > h4 {
+    margin: 1% 5%;
+
+}
+
+.borda-fundo-smart {
+    width: 350px;
+    height: 350px;
+    padding: 15% 0%;
+    border-radius: 100%;
+    border: 0;
+
+}
+a .borda-fundo-smart:focus, 
+a .borda-fundo-smart:hover{
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+}
+.fundo-branco-start {
+    width: 340px;
+    height: 340px;
+    padding: 15% 0%;
+    border-radius: 100%;
+    border: 0;
+    background: #fff;
+    margin: -14% 1.6%;
+}
+.produtos-smart {
+    width: 300px;
+    margin: 0 6%;
+}
+#box-cinza {
+    background: #969999;
+    margin: 1% 0.5%;
+}
+#box-branco {
+    background: #fff;
+    margin: 0 0.5% 1% 0.5%;
+}
+#linha_st_plenum {
+    margin: 1% 19%;
+   
+}
+#box-preto {
+    background: #000;
+    margin: 0 0.5% 1% 0.5%;
+}
+.start_plenum_campo {
+    background: #e5e8e8;
+}
+#total-smart {
+
+    text-align: right;
+    margin: -1% 20%;
+    padding: 0
+}
+#economia-smart {
+    text-align: right;
+    margin: -1% 39%;
+    padding: 0;
+}
+#campo-vendas {
+    margin: 2% 0;
+    padding: 0 10%;
+} 
+#campo-vendas > h4 {
+    margin: 3% 30.5%;
+}
+.image-start-regular, .image-start-short, .image-start-slim {
+    width: 50px;
+    margin: 4% 35%;
+}
+.image-start-oss{
+    margin: 10% 0;
+}
+.image-start-short {
+    padding: 15% 0;
+}
+.image-start-slim {
+    width: 40px;
+}
+#descricao-start {
+    margin: 0 -9%;
+}
+.select-regular, .select-short, .select-slim {
+    margin: 2% 8%;
+    background: #fff;
+    height: 30px;
+}
+.select-quantidade-regular {
+    background: #fff;
+    height: 30px;
+    margin: 15% -10%;
+}
+.select-quantidade {
+    background: #fff;
+    height: 30px;
+    width: 50px;
+    margin: 15% -10%;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.btn-comprar-start {
+    border-radius: 25px;
+    width: 170px;
+    height: 40px;
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    color: #fff;
+    border: 0;
+}
+.btn-comprar-plenum-start {
+    padding: 25% 0;
+}
+#box-branco > h4 {
+    padding: 5%;
+}
+/*Fim Start-Plenum*/
+/*Fim da Pasta Produtos*/
 
 
-
+/*Carrossel*/
+#controle-carrossel-vertical {
+    margin: -18% 0;
+} 
+#controle-carrossel-vertical-composicao {
+    margin: -37% 5%;
+    float: right;
+}
+#up-bio{
+    left: 100%;
+    margin: 10% -58px;
+    font-size: 50px;
+}
+#down-bio{
+    left: 100%;
+    margin: 60% -32%;
+    font-size: 50px;
+}
+.barra-start {
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    padding: 0.5% 0;
+}
+#itens-start {
+    margin-left: 40%;
+    padding: 0 3%;
+}
+.campo-start-image {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #000;
+    margin: 0px -100%;
+}
+/*Carrossel*/
 
 
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
-  }
   
+  }
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}

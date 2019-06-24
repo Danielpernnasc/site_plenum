@@ -26,9 +26,10 @@
 </head>
 <body>
 <header>
-    <?php include 'menu_plenum.php'?>
-</header>
-<div  class="container" id="container_body_superior" style="border: solid 1px #ffffff">
+<?php include '../menu-footer/menu_plenum.php';?>
+    
+</header> 
+<div  class="container" id="container_body_superior" >
     <div id="fundo_nav" class="row"></div>  
     <div id="fundo_visita" class="row">
         <div  id="titulo_plenum" class="col-md-6">
@@ -153,7 +154,7 @@
         <div id="fundo_localiza" class="col-md-12">
             <h2 class="h2_localiza">Onde Estamos</h2>
             <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4626.930774294464!2d-46.97702928434898!3d-23.20065075425695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf25294a8f4953%3A0x933b04c9984ac379!2sAv.+Ain+Ata+-+Jardim+Ermida+I%2C+Jundia%C3%AD+-+SP!5e1!3m2!1spt-BR!2sbr!4v1556209208080!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4626.930774294464!2d-46.97702928434898!3d-23.20065075425695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf25294a8f4953%3A0x933b04c9984ac379!2sAv.+Ain+Ata+-+Jardim+Ermida+I%2C+Jundia%C3%AD+-+SP!5e1!3m2!1spt-BR!2sbr!4v1556209208080!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div id="endereco" class="row">
                 <div id="campo_address"class="col-md-4">
@@ -188,42 +189,15 @@
     </div>
 </div>
 <footer>
-    <?php include 'footer_plenum.php'?>
+    <?php include '../menu-footer/footer_plenum.php'?>
 </footer>
+<script src="../js/dropdown_mobile.js"></script>
 <script src="../js/jquery.simple-calendar.js"></script>
 <script src="../js/eventos.js"></script>
-<script src="../js/jquery.simple-calendar-mobile.js"></script>
-<!--<script>
-        $(document).ready(function () {
-            // Event Demo init
-            $("#event-cal-container").simpleCalendar({
-                events: ['2019-03-04', '2019-03-08', '2019-03-12', '2019-03-15'],
-                eventsInfo: ['John\'s Birthday', 'Janet\'s Marriage','Graduation Day', 'Final Exams !'],
-                selectCallback: function(date){
-                    console.log('date selected '+date);
-                }
-            });
 
-            tippy('.day.event', {
-                theme: 'translucent',
-            });
-        });
-    </script>-->
 
-<!--<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>-->
 </body>
 </html>
 

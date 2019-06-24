@@ -25,11 +25,11 @@
 <body>
 
     <header>
-        <?php include 'menu_plenum.php';?>
+        <?php include '../menu-footer/menu_plenum.php';?>
     
     </header>
 
-    <div  class="container" id="container_body_superior" style="border: solid 1px #ffffff">
+    <div  class="container" id="container_body_superior">
     <div class="row">
     <div id="fundo_nav"class="col-md-12"></div>
 </div>  
@@ -54,30 +54,54 @@
                 <div class="titulos_plenum_trajetoria">
                     <h4>Conheça a trajetória da Plenum</h4>
                     </div>
+                  
                     <div id="carrossel_trajetoria" class="container-fluid">
-                    <div id="carousel_trajetoria" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div id="campo_carousel" class="row">
-                                <div id="campo_foto_trajetoria" class="col-md-6">      
-                                <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
-                                </div>
-                                <div id="campo_texto_trajetoria" class="col-md-6">
-                                    <div class="texto_trajetoria">
-                                  
-                                    <div class="texto_trajetoria_ano">
-                                    <div class="titulos_trajetoria_ano">
-                                        <h2>2009</h2>
+                        
+                    
+                       
+                   
+                        <div id="carousel_trajetoria" class="carousel slide" data-ride="carousel">
+                            <div class="container-fluid">
+                                <ul id="lista_indicadores" >
+                                    <li id="marcadores">2009</li>
+                                    <li id="marcadores">2012</li>
+                                    <li id="marcadores">2015</li>
+                                    <li id="marcadores">2016</li>
+                                    <li id="marcadores">2017</li>
+                                    <li id="marcadores">2018</li>
+                                    <li id="marcadores">2019</li>
+                                </ul>
+                                <ul class="carousel-indicators">
+                                    <li   class="active" data-target="#carousel_trajetoria" data-slide-to="0"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="1"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="2"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="3"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="4"></li>
+                                    <li data-target="#carousel_trajetoria" data-slide-to="5"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="6"></li>
+                                </ul>
+                            </div>
+                           
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div id="campo_carousel" class="row">
+                                    <div id="campo_foto_trajetoria" class="col-md-6">      
+                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
                                     </div>
-                                    <p>
-                                            Alberto Blay e Samy Tunchel tem<br>
-                                            o primeiro contato com a<br>
-                                            tecnologia de micro fusão a laser<br>
-                                            com titânio para a odontologia<br>
-                                            apresentada pelo Jamil Shibli.
-                                        </p>
-                                    </div>
-                                      
+                                    <div id="campo_texto_trajetoria" class="col-md-6">
+                                        <div class="texto_trajetoria">
+                                            <div class="texto_trajetoria_ano">
+                                                <div class="titulos_trajetoria_ano">
+                                                <h2>2009</h2>
+                                            </div>
+                                            <p>
+                                                Alberto Blay e Samy Tunchel tem<br>
+                                                o primeiro contato com a<br>
+                                                tecnologia de micro fusão a laser<br>
+                                                com titânio para a odontologia<br>
+                                                apresentada pelo Jamil Shibli.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -220,15 +244,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#carousel_trajetoria" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel_trajetoria" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                            
                         </div>
                                 <!-- Left and right controls -->
                                 <a class="left carousel-control" href="#carousel_trajetoria" data-slide="prev">
@@ -240,7 +256,10 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
-                    </div>
+                </div>
+                    
+                    
+                    
             </div>
             
         </div>
@@ -324,7 +343,7 @@
           
         </div>
         <div id="fundo_industria"class="row">
-                <div id="text_industria" class="col-md-6" style="border: solid 1px #ffffff;">
+                <div id="text_industria" class="col-md-6" >
                     <h6 class="h6_indus">O que é? </h6><br>
                     <h2 class="h2_indus">A indústria 4.0</h2><br>
                     <div class="text_indus">
@@ -342,7 +361,7 @@
                     </div>
                   
                 </div>
-                <div id="imagem_industria" class="col-md-6" style="border: solid 1px #ffffff;">
+                <div id="imagem_industria" class="col-md-6">
                       
                 </div>
                 <div id="image_resp" class="col-md-6">
@@ -541,7 +560,7 @@
                     estando presente em mais de 2
                     continentes. Somado à isso possuímos 5
                     certificações internacionais.</p>
-                    <button class="btneducacao">
+                    <button class="btneducacao" onclick="'.'">
                         <div class="text-educacao">
                         Educacao Continuada 
                         </div>
@@ -613,7 +632,7 @@
             </div>
             <div class="col-md-6">
                 <div class="anvisa">
-                    <img class="img_anvisa" src="../ASSETS/PLENUM/logo-anvisa.PNG" alt="">
+                    <img class="img_anvisa" src="../ASSETS/PLENUM/logo-anvisa.png" alt="">
                 </div>
             </div>
         </div>
@@ -639,7 +658,7 @@
 </div>
     <footer>
     
-      <?php include 'footer_plenum.php';?>
+      <?php include '../menu-footer/footer_plenum.php';?>
       
     </footer>
  

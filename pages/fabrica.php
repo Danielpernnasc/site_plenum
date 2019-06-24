@@ -27,10 +27,10 @@
 <body>
 
     <header>
-        <?php include 'menu_plenum.php';?>
+        <?php include '../menu-footer/menu_plenum.php';?>
     
     </header>
-    <div  class="container" id="container_body_superior" style="border: solid 1px #ffffff">
+    <div  class="container" id="container_body_superior" >
         <div id="fundo_nav" class="row"></div>  
         <div id="fundo_fabrica" class="row">
             <div  id="titulo_plenum" class="col-md-6">
@@ -114,7 +114,7 @@
                             odontológico que produz implantes e substitutos ósseos através
                             do processo tecnológico de impressão 3D.</p>
                     </div>
-                <button class="btn_tour" onclick="window.location.href='visita_fabrica.php'">Faça um Tour Virtual</button>
+                <button class="btn_tour" onclick="window.location.href='#'">Faça um Tour Virtual</button>
                 </div>
                 
             </div>
@@ -127,7 +127,7 @@
                         <h3 class="h3_subtitulo">3D</h3>
                         <h6 class="h4_subtitulo">MANUFATURA ADITIVA</h6>
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="250px" height="239px" viewBox="0 0 250 239" enable-background="new 0 0 250 239" xml:space="preserve">  <image id="image0" width="250" height="239" x="0" y="0"
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="239px" viewBox="0 0 250 239" enable-background="new 0 0 250 239" xml:space="preserve">  <image id="image0" width="250" height="239" x="0" y="0"
                                 href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAADvCAQAAABx/gGeAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAA
                             CxMAAAsTAQCanBgAAAxMelRYdFJhdyBwcm9maWxlIHR5cGUgaWNjAABYha2ZaW4kO66F/2sVvQTN
                             JJejicDb/wb6U6Ttsm+6gL7AyyohMhUhieJwzlE4/N9a4T98StYa4v2sXXuSKLGvmNPT1Xc/UiW3
@@ -312,7 +312,7 @@
                         <h3 class="h3_subtitulo">IA</h3>
                         <h6 class="h4_subtitulo">INTELIGÊNCIA ARTIFICIAL</h6>
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="280px" height="295px" viewBox="0 0 280 295" enable-background="new 0 0 280 295" xml:space="preserve">  <image id="image0" width="280" height="295" x="0" y="0"
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="240px" height="295px" viewBox="0 0 280 295" enable-background="new 0 0 280 295" xml:space="preserve">  <image id="image0" width="280" height="295" x="0" y="0"
                                 href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEnCAQAAADYq5R/AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAA
                             CxMAAAsTAQCanBgAAAxMelRYdFJhdyBwcm9maWxlIHR5cGUgaWNjAABYha2ZaW4kO66F/2sVvQTN
                             JJejicDb/wb6U6Ttsm+6gL7AyyohMhUhieJwzlE4/N9a4T98StYa4v2sXXuSKLGvmNPT1Xc/UiW3
@@ -674,7 +674,7 @@
                         <h3 class="h3_subtitulo">IoT</h3>
                         <h6 class="h4_subtitulo">INTERNET DAS COISAS</h6>
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="281px" height="294px" viewBox="0 0 281 294" enable-background="new 0 0 281 294" xml:space="preserve">  <image id="image0" width="281" height="294" x="0" y="0"
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="240px" height="294px" viewBox="0 0 281 294" enable-background="new 0 0 281 294" xml:space="preserve">  <image id="image0" width="281" height="294" x="0" y="0"
                                 href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAAEmCAQAAAD8NSzkAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAA
                             CxMAAAsTAQCanBgAAAxMelRYdFJhdyBwcm9maWxlIHR5cGUgaWNjAABYha2ZaW4kO66F/2sVvQTN
                             JJejicDb/wb6U6Ttsm+6gL7AyyohMhUhieJwzlE4/N9a4T98StYa4v2sXXuSKLGvmNPT1Xc/UiW3
@@ -928,7 +928,7 @@
                         <h3 class="h3_subtitulo">SynBio</h3>
                         <h6 class="h4_subtitulo">BIOLOGIA SINTÉTICA</h6>
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="281px" height="294px" viewBox="0 0 281 294" enable-background="new 0 0 281 294" xml:space="preserve">  <image id="image0" width="281" height="294" x="0" y="0"
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="240px" height="294px" viewBox="0 0 281 294" enable-background="new 0 0 281 294" xml:space="preserve">  <image id="image0" width="281" height="294" x="0" y="0"
                                     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAAEmCAQAAAD8NSzkAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAA
                                 CxMAAAsTAQCanBgAAAxMelRYdFJhdyBwcm9maWxlIHR5cGUgaWNjAABYha2ZaW4kO66F/2sVvQTN
                                 JJejicDb/wb6U6Ttsm+6gL7AyyohMhUhieJwzlE4/N9a4T98StYa4v2sXXuSKLGvmNPT1Xc/UiW3
@@ -1215,7 +1215,7 @@
                         <h3 class="h3_subtitulo">CPS</h3>
                         <h6 class="h4_subtitulo">SISTEMAS CIBER-FÍSICOS</h6>
                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="281px" height="294px" viewBox="0 0 281 294" enable-background="new 0 0 281 294" xml:space="preserve">  <image id="image0" width="281" height="294" x="0" y="0"
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="240px" height="294px" viewBox="0 0 281 294" enable-background="new 0 0 281 294" xml:space="preserve">  <image id="image0" width="281" height="294" x="0" y="0"
                                 href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAAEmCAQAAAD8NSzkAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAA
                             CxMAAAsTAQCanBgAAAxMelRYdFJhdyBwcm9maWxlIHR5cGUgaWNjAABYha2ZaW4kO66F/2sVvQTN
                             JJejicDb/wb6U6Ttsm+6gL7AyyohMhUhieJwzlE4/N9a4T98StYa4v2sXXuSKLGvmNPT1Xc/UiW3
@@ -1517,7 +1517,7 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <div class="row">
-                                            <div  class="col-lg-12" style="border: solid 1px #000000;">
+                                            <div  class="col-lg-12" >
                                                 <div class="row">
                                                     <div id="box_dialog" class="col-md-5" >
                                                         campo 1
@@ -1533,7 +1533,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                            <div  class="col-lg-12" style="border: solid 1px #000000;">
+                                            <div  class="col-lg-12" >
                                                 <div class="row">
                                                     <div id="box_dialog" class="col-md-5" >
                                                         campo 1
@@ -1549,7 +1549,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                            <div  class="col-lg-12" style="border: solid 1px #000000;">
+                                            <div  class="col-lg-12" >
                                                 <div class="row">
                                                     <div id="box_dialog" class="col-md-5" >
                                                         campo 1
@@ -1624,7 +1624,7 @@
   
     <footer>
     
-      <?php include 'footer_plenum.php';?>
+      <?php include '../menu-footer/footer_plenum.php';?>
       
     </footer>
  
