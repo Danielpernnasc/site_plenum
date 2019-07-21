@@ -82,6 +82,7 @@
 
 
 <div id="todos-acessorios" class="div-acessorios">
+
     <div class="barra-mini-attachment row">
         <div class="titulo-transf-re col-md-11">
             <h4>Coping</h4>
@@ -96,18 +97,19 @@
                 </span>
             </div>
         </button>
-        <div id="esconder-coping" class="container-fluid" style="background: #fff;">
-            <div class="row">
-                <div id="atencao-acessorio"  class="col-md-12">
-                    <h6>O Componente Plenum® PEEK – Modelo Coping tem a finalidade específica de ser utilizado para a sustentação de uma prótese dentária provisória.</h6>
-                </div>
+    </div> 
+    <div id="esconder-coping">
+        <div class="row">
+            <div id="atencao-acessorio"  class="col-md-12">
+            <h6>O Componente Plenum® PEEK – Modelo Coping tem a finalidade específica de ser utilizado para a sustentação de uma prótese dentária provisória.</h6>
             </div>
-            <div id="linha-transp-re" class="row ">
-                <div class="col-md-6">
-                    <div class="col-md-3 ">
-                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/co-cr-coping-mini-pilar.png" alt="">
-                    </div>
-                    <div class="descricao-transfer col-md-4">
+        </div>
+        <div id="linha-transp-re" class="row ">
+            <div class="col-md-6">
+                <div class="col-md-3 ">
+                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/co-cr-coping-mini-pilar.png" alt="">
+                </div>
+                <div class="descricao-transfer col-md-4">
                     <div class="row">
                         <div id="titulo-re-trans" class="col-md-12">
                             <h3>CO-CR Coping Mini Pilar</h3>
@@ -119,43 +121,19 @@
                         <h5>Escolha a dimensão necessária</h5>
                             <div class="col-md-3">
                                 <input id="implantes-shorts" type="checkbox">
-                                 <span>RE 4,8mm</span><br>
+                                <span>RE 4,8mm</span><br>
                             </div>
-                    </div>
+                            </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="col-md-3">
                     <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/peek_coping_mini_pilar.png" alt="">
                 </div>
-            <div class="descricao-transfer col-md-4">
-                <div class="row">
-                    <div  id="titulo-re-trans" class="col-md-12">
-                        <h3>Peek Coping Mini Pilar</h3>
-                        <h3>R$ 77,00/un</h3>
-                        <h6>x2 de R$ 38,50 sem juros</h6>
-                    </div>
-                </div>
-                <div class="check-transfer-analogo  row">
-                        <h5>Escolha a dimensão necessária</h5>
-                        <div class="col-md-3">
-                            <input id="implantes-shorts" type="checkbox">
-                            <span>4,8mm</span><br>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="linha-transp-re" class="row ">
-        <div class="col-sm-9">
-            <div class="row">
-                <div class="col-md-2">
-                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/peek_coping_ti_base.png" alt="">
-                </div>
-                <div class="descricao-transfer col-md-2">
+                <div class="descricao-transfer col-md-4">
                     <div class="row">
-                        <div id="titulo-re-trans" class="col-md-12">
-                            <h3>Peek Coping TI-Base</h3>
+                        <div  id="titulo-re-trans" class="col-md-12">
+                            <h3>Peek Coping Mini Pilar</h3>
                             <h3>R$ 77,00/un</h3>
                             <h6>x2 de R$ 38,50 sem juros</h6>
                         </div>
@@ -164,33 +142,55 @@
                         <h5>Escolha a dimensão necessária</h5>
                             <div class="col-md-3">
                                 <input id="implantes-shorts" type="checkbox">
-                                    <span>3,3mm</span><br>
-                                </div>
-                                <div class="col-md-3">
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>4,5mm</span><br>
-                                </div>
+                                <span>4,8mm</span><br>
                             </div>
                     </div>
                 </div>
             </div>
-            <div class="linha-btn-transf row">
-                <div class="col-md-3 col-md-offset-10">
-                    <button class="comprar-min-attachment">Comprar</button>
+        </div>
+        <div id="linha-transp-re" class="row ">
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/peek_coping_ti_base.png" alt="">
+                    </div>
+                    <div class="descricao-transfer col-md-2">
+                        <div class="row">
+                            <div id="titulo-re-trans" class="col-md-12">
+                                <h3>Peek Coping TI-Base</h3>
+                                <h3>R$ 77,00/un</h3>
+                                <h6>x2 de R$ 38,50 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
+                            <h5>Escolha a dimensão necessária</h5>
+                                <div class="col-md-3">
+                                    <input id="implantes-shorts" type="checkbox">
+                                        <span>3,3mm</span><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>4,5mm</span><br>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="linha-btn-transf row">
+                    <div class="col-md-3 col-md-offset-10">
+                        <button class="comprar-min-attachment">Comprar</button>
+                    </div>
+            </div>
         </div>
     </div>
-</div> 
 
-    </div> 
-   
-
+  
     <div class="barra-mini-attachment row">
         <div class="titulo-transf-re col-md-11">
             <h4>Tampa</h4>
         </div>
         <button class="btn-drop-re" data-element="#esconder-tampa">
-            <div class="titulo-transf-re col-md-1"> 
+            <div class="titulo-transf-re col-md-1">
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="40" height="40"
@@ -199,18 +199,20 @@
                 </span>
             </div>
         </button>
-        <div class="container-fluid" id="esconder-tampa" style="background: #fff; ;" >
-            <div class="row">
-                <div id="atencao-acessorio" class=" col-md-12">
-                    <h6>O Componente Plenum® PEEK – Modelo Tampa tem a finalidade específica de ser utilizado para a proteção do pilar intermediário.</h6>
-                </div>
+    </div> 
+    <div id="esconder-tampa"> 
+        <div class="row">
+            <div id="atencao-acessorio" class=" col-md-12">
+                <h6>O Componente Plenum® PEEK – Modelo Tampa tem a finalidade específica de ser utilizado para a proteção do pilar intermediário.</h6>
             </div>
-            <div id="linha-transp-re" class="row ">
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/peek_tampa_mini_pilar.png" alt="">
-                        </div>
+        </div>
+        <div id="linha-transp-re" class="row ">
+                
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-md-2">
+                                <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/peek_tampa_mini_pilar.png" alt="">
+                            </div>
                         <div class="descricao-transfer col-md-2">
                             <div class="row">
                                 <div id="titulo-re-trans" class="col-md-12">
@@ -224,22 +226,21 @@
                                 <div class="col-md-3">
                                     <input id="implantes-shorts" type="checkbox">
                                     <span>4,8mm</span><br>
+                                
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
-                    
-                <div class="linha-btn-transf row">
-                    <div class="col-md-3 col-md-offset-10">
-                        <button class="comprar-min-attachment">Comprar</button>
-                    </div>
+                
+            </div>
+                        
+            <div class="linha-btn-transf row">
+                <div class="col-md-3 col-md-offset-10">
+                    <button class="comprar-min-attachment">Comprar</button>
                 </div>
             </div>
         </div>
-    </div>  
-    
-
+    </div>
 
     <div class="barra-mini-attachment row">
         <div class="titulo-transf-re col-md-11">
@@ -255,65 +256,169 @@
                 </span>
             </div>
         </button>
-        <div class="container-fluid" id="esconder-parafuso" style="background:#fff;">
-            <div class="row">
-                <div id="atencao-acessorio" class=" col-md-12">
-                        <p>Os produtos que fazem parte da família dos Componentes Plenum-Ti têm a finalidade de interconectar o Implante Dental Plenum a prótese dentária (coroa), agindo como
-                            um pilar intermediário sobre o qual será fixada uma prótese dentária. Sendo que, esta prótese dentária pode ser unitária ou múltipla, fixa ou removível. O encaixe e fixação
-                                entre o componente protético e o implante se dá por meio de rosca e conexão do tipo Cone Morse.</p>
-                        <p>O Componente Plenum-Ti é composto por duas (2) peças, o corpo e o parafuso de fixaçaõ com conexão protética hexagonal. Está disponível em diferentes interfaces
-                                protéticas SLIM (SL), REGULAR (RE) e SHORT (SH) e em diferentes alturas de tecido gengival, para uma melhor adequação do tecido gengival.</p>
-                </div>
+    </div>  
+    <div id="esconder-parafuso">
+        <div class="row">
+            <div id="atencao-acessorio" class=" col-md-12">
+                    <p>Os produtos que fazem parte da família dos Componentes Plenum-Ti têm a finalidade de interconectar o Implante Dental Plenum a prótese dentária (coroa), agindo como
+                        um pilar intermediário sobre o qual será fixada uma prótese dentária. Sendo que, esta prótese dentária pode ser unitária ou múltipla, fixa ou removível. O encaixe e fixação
+                            entre o componente protético e o implante se dá por meio de rosca e conexão do tipo Cone Morse.</p>
+                    <p>O Componente Plenum-Ti é composto por duas (2) peças, o corpo e o parafuso de fixaçaõ com conexão protética hexagonal. Está disponível em diferentes interfaces
+                            protéticas SLIM (SL), REGULAR (RE) e SHORT (SH) e em diferentes alturas de tecido gengival, para uma melhor adequação do tecido gengival.</p>
             </div>
-            <div id="linha-transp-re" class="row ">
+        </div>
+        <div id="linha-transp-re" class="row ">
                 <div class="col-md-6">
                     <div class="col-md-3 ">
                         <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-angular-re.png" alt="">
                     </div>
-                <div class="descricao-transfer col-md-4">
-                    <div class="row">
-                        <div id="titulo-re-trans" class="col-md-12">
-                            <h3>TI Parafuso Angular RE</h3>
-                            <h3>R$ 40,00/un</h3>
-                            <h6>x2 de R$ 20,00 sem juros</h6>
+                    <div class="descricao-transfer col-md-4">
+                        <div class="row">
+                            <div id="titulo-re-trans" class="col-md-12">
+                                <h3>TI Parafuso Angular RE</h3>
+                                <h3>R$ 40,00/un</h3>
+                                <h6>x2 de R$ 20,00 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
+                            <h5>Escolha a dimensão necessária</h5>
+                                            <div class="col-md-3">
+                                                <input id="implantes-shorts" type="checkbox">
+                                                <span>RE 1,0mm</span><br>
+                                                <input id="implantes-shorts" type="checkbox">
+                                                <span>RE 2,0mm</span><br>
+                                                <input id="implantes-shorts" type="checkbox">
+                                                <span>RE 3,0mm</span><br>
+                                            
+                                            </div>
+                                            <div class="col-md-3">
+                                                <input id="implantes-shorts" type="checkbox">
+                                                <span>RE 4,0mm</span><br>
+                                                <input id="implantes-shorts" type="checkbox">
+                                                <span>RE 5,0mm</span><br>
+                                                <input id="implantes-shorts" type="checkbox">
+                                                <span>RE 6,0mm</span><br>
+                                            </div>
+                                        
                         </div>
                     </div>
-                    <div class="check-transfer-analogo  row">
-                        <h5>Escolha a dimensão necessária</h5>
-                                        <div class="col-md-3">
-                                            <input id="implantes-shorts" type="checkbox">
-                                            <span>RE 1,0mm</span><br>
-                                            <input id="implantes-shorts" type="checkbox">
-                                            <span>RE 2,0mm</span><br>
-                                            <input id="implantes-shorts" type="checkbox">
-                                            <span>RE 3,0mm</span><br>
-                                          
-                                        </div>
-                                        <div class="col-md-3">
-                                            <input id="implantes-shorts" type="checkbox">
-                                            <span>RE 4,0mm</span><br>
-                                            <input id="implantes-shorts" type="checkbox">
-                                            <span>RE 5,0mm</span><br>
-                                            <input id="implantes-shorts" type="checkbox">
-                                            <span>RE 6,0mm</span><br>
-                                        </div>
-                                    
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-3">
+                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-angular-sh.png" alt="">
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="col-md-3">
-                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-angular-sh.png" alt="">
-                </div>
-                <div class="descricao-transfer col-md-4">
-                    <div class="row">
-                        <div  id="titulo-re-trans" class="col-md-12">
-                            <h3>TI Parafuso Angular SH</h3>
-                            <h3>R$ 40,00/un</h3>
-                            <h6>x2 de R$ 20,00 sem juros</h6>
+                    <div class="descricao-transfer col-md-4">
+                        <div class="row">
+                            <div  id="titulo-re-trans" class="col-md-12">
+                                <h3>TI Parafuso Angular SH</h3>
+                                <h3>R$ 40,00/un</h3>
+                                <h6>x2 de R$ 20,00 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
+                                <h5>Escolha a dimensão necessária</h5>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SH 1,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SH 2,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SH 3,0mm</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SH 3,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SH 5,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SH 6,0mm</span>
+                                    </div>
                         </div>
                     </div>
-                    <div class="check-transfer-analogo  row">
+                </div>
+        </div>
+        <div id="linha-transp-re" class="row ">
+                <div class="col-md-6">
+                    <div class="col-md-3 ">
+                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-angular-sl.png" alt="">
+                    </div>
+                    <div class="descricao-transfer col-md-4">
+                        <div class="row">
+                            <div id="titulo-re-trans" class="col-md-12">
+                                <h3>TI Parafuso Angular SL</h3>
+                                <h3>R$ 40,00/un</h3>
+                                <h6>x2 de R$ 20,00 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
+                            <h5>Escolha a dimensão necessária</h5>
+                                <div class="col-md-3">
+                                    <input id="implantes-shorts" type="checkbox">
+                                    <span>SL 1,0mm</span><br>
+                                    <input id="implantes-shorts" type="checkbox">
+                                    <span>SL 2,0mm</span><br>
+                                    <input id="implantes-shorts" type="checkbox">
+                                    <span>SL 3,0mm</span><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input id="implantes-shorts" type="checkbox">
+                                    <span>SL 4,0mm</span><br>
+                                    <input id="implantes-shorts" type="checkbox">
+                                    <span>SL 5,0mm</span><br>
+                                    <input id="implantes-shorts" type="checkbox">
+                                    <span>SL 6,0mm</span><br>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-3">
+                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-pilar-re.png" alt="">
+                    </div>
+                    <div class="descricao-transfer col-md-4">
+                        <div class="row">
+                            <div  id="titulo-re-trans" class="col-md-12">
+                                <h3>TI Parafuso Base Pilar RE</h3>
+                                <h3>R$ 40,00/un</h3>
+                                <h6>x2 de R$ 20,00 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
+                                <h5>Escolha a dimensão necessária</h5>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 1,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 2,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 3,0mm</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 4,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 5,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 6,0mm</span>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="linha-transp-re" class="row ">
+                <div class="col-md-6">
+                    <div class="col-md-3 ">
+                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-pilar-sh.png" alt="">
+                    </div>
+                    <div class="descricao-transfer col-md-4">
+                        <div class="row">
+                            <div id="titulo-re-trans" class="col-md-12">
+                                <h3>TI Parafuso Base Pilar SH</h3>
+                                <h3>R$ 40,00/un</h3>
+                                <h6>x2 de R$ 20,00 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
                             <h5>Escolha a dimensão necessária</h5>
                                 <div class="col-md-3">
                                     <input id="implantes-shorts" type="checkbox">
@@ -325,151 +430,48 @@
                                 </div>
                                 <div class="col-md-3">
                                     <input id="implantes-shorts" type="checkbox">
-                                    <span>SH 3,0mm</span><br>
+                                    <span>SH 4,0mm</span><br>
                                     <input id="implantes-shorts" type="checkbox">
                                     <span>SH 5,0mm</span><br>
                                     <input id="implantes-shorts" type="checkbox">
                                     <span>SH 6,0mm</span>
                                 </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="linha-transp-re" class="row ">
-            <div class="col-md-6">
-                <div class="col-md-3 ">
-                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-angular-sl.png" alt="">
-                </div>
-                <div class="descricao-transfer col-md-4">
-                    <div class="row">
-                        <div id="titulo-re-trans" class="col-md-12">
-                            <h3>TI Parafuso Angular SL</h3>
-                            <h3>R$ 40,00/un</h3>
-                            <h6>x2 de R$ 20,00 sem juros</h6>
                         </div>
                     </div>
-                    <div class="check-transfer-analogo  row">
-                        <h5>Escolha a dimensão necessária</h5>
-                            <div class="col-md-3">
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SL 1,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SL 2,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SL 3,0mm</span><br>
-                            </div>
-                            <div class="col-md-3">
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SL 4,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SL 5,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SL 6,0mm</span><br>
-                            </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-3">
+                        <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-pilar-sl.png" alt="">
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="col-md-3">
-                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-pilar-re.png" alt="">
-                </div>
-                <div class="descricao-transfer col-md-4">
-                    <div class="row">
-                        <div  id="titulo-re-trans" class="col-md-12">
-                            <h3>TI Parafuso Base Pilar RE</h3>
-                            <h3>R$ 40,00/un</h3>
-                            <h6>x2 de R$ 20,00 sem juros</h6>
+                    <div class="descricao-transfer col-md-4">
+                        <div class="row">
+                            <div  id="titulo-re-trans" class="col-md-12">
+                                <h3>TI Parafuso Base Pilar SL</h3>
+                                <h3>R$ 40,00/un</h3>
+                                <h6>x2 de R$ 20,00 sem juros</h6>
+                            </div>
+                        </div>
+                        <div class="check-transfer-analogo  row">
+                                <h5>Escolha a dimensão necessária</h5>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 1,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 2,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 3,0mm</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 4,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 5,0mm</span><br>
+                                        <input id="implantes-shorts" type="checkbox">
+                                        <span>SL 6,0mm</span>
+                                    </div>
                         </div>
                     </div>
-                    <div class="check-transfer-analogo  row">
-                            <h5>Escolha a dimensão necessária</h5>
-                                <div class="col-md-3">
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 1,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 2,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 3,0mm</span>
-                                </div>
-                                <div class="col-md-3">
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 4,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 5,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 6,0mm</span>
-                                </div>
-                    </div>
                 </div>
-            </div>
-        </div>
-        <div id="linha-transp-re" class="row ">
-            <div class="col-md-6">
-                <div class="col-md-3 ">
-                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-pilar-sh.png" alt="">
-                </div>
-                <div class="descricao-transfer col-md-4">
-                    <div class="row">
-                        <div id="titulo-re-trans" class="col-md-12">
-                            <h3>TI Parafuso Base Pilar SH</h3>
-                            <h3>R$ 40,00/un</h3>
-                            <h6>x2 de R$ 20,00 sem juros</h6>
-                        </div>
-                    </div>
-                    <div class="check-transfer-analogo  row">
-                        <h5>Escolha a dimensão necessária</h5>
-                            <div class="col-md-3">
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SH 1,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SH 2,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SH 3,0mm</span>
-                            </div>
-                            <div class="col-md-3">
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SH 4,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SH 5,0mm</span><br>
-                                <input id="implantes-shorts" type="checkbox">
-                                <span>SH 6,0mm</span>
-                            </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="col-md-3">
-                    <img class="transfer-re" src="../../ASSETS/PRODUTOS/ACESSORIOS/ti-parafuso-pilar-sl.png" alt="">
-                </div>
-                <div class="descricao-transfer col-md-4">
-                    <div class="row">
-                        <div  id="titulo-re-trans" class="col-md-12">
-                            <h3>TI Parafuso Base Pilar SL</h3>
-                            <h3>R$ 40,00/un</h3>
-                            <h6>x2 de R$ 20,00 sem juros</h6>
-                        </div>
-                    </div>
-                    <div class="check-transfer-analogo  row">
-                            <h5>Escolha a dimensão necessária</h5>
-                                <div class="col-md-3">
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 1,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 2,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 3,0mm</span>
-                                </div>
-                                <div class="col-md-3">
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 4,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 5,0mm</span><br>
-                                    <input id="implantes-shorts" type="checkbox">
-                                    <span>SL 6,0mm</span>
-                                </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div id="linha-transp-re" class="row ">
             <div class="col-sm-9">
@@ -495,20 +497,20 @@
                                 
                             </div>
                         </div>
+                </div>
+                
             </div>
-            
+            <div class="linha-btn-transf row">
+                <div class="col-md-3 col-md-offset-10">
+                    <button class="comprar-min-attachment">Comprar</button>
+                </div>
+            </div>         
+    
         </div>
-        <div class="linha-btn-transf row">
-            <div class="col-md-3 col-md-offset-10">
-                <button class="comprar-min-attachment">Comprar</button>
-            </div>
-        </div>         
-  
     </div>
-        </div>
-    </div>  
-   
-</div>
+</div> 
+
+
 
 <div id="coping" class="div-acessorios">
     <div class="barra-mini-attachment row">
@@ -955,7 +957,7 @@
 <script src="../../js/dropdown_mobile.js"></script>
 <script>
 
-   $(".div-acessorios").css("display", "none");
+$(".div-acessorios").css("display", "none");
     $(".div-acessorios#todos-acessorios").addClass("active");
 
     $(".btn-acessorio").on("click", function( e ){         
@@ -975,6 +977,10 @@
 });
 
 
+
+
+
 </script>
+
 
 </html>

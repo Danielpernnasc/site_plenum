@@ -23,9 +23,14 @@
 <div  class="container" id="container_body_superior">
     <div id="fundo_nav" class="row"></div> 
     <div class="fundo_transferentes row">
-        <div id="titulo_plenum" class="col-md-6">
+        <video src="../../ASSETS/VIDEOS/video_baixo_transferentes.mp4?rel=0&arp;autoplay=1" class="video-entrada" autoplay controls="false" controls loop>
+    </div>
+    <div class="row">
+        <div id="titulo_plenum_video" class="col-md-6">
             <h1>Transferentes Plenum®</h1>
         </div>
+    </div>
+      
     </div>
     <div class="row">
         <div class="fundo_cinza_transferentes col md-12">
@@ -794,4 +799,5 @@ $(function() {
     });
 
 </script>
+<script src="../../js/video.js"></script>
 </html>

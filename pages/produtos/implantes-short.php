@@ -28,16 +28,16 @@
             <div class="tema-choice col-md-12">
                 <h3>Selecione o Sistema desejado</h3>
                     <div class="container">
-                    <div class="row">
-                                <div class="col-md-6 col-md-offset-3">
-                                    <div class="implantes col-xs-6 col-sm-3" style="margin-top: 45%;">
-                                        <img class="osimplantes" src="../../ASSETS/PRODUTOS/01-IMPLANTES/short.png" alt="">
+                            <div class="row" style="margin: -5% 0;">
+                                <div class="_implantes_ col-md-6 col-md-offset-3">
+                                    <div class="implantes col-xs-6 col-sm-3" >
+                                        <img class="osimplantes implante-sh" src="../../ASSETS/PRODUTOS/01-IMPLANTES/short.png" alt="">
                                     </div>
-                                    <div class="implantes col-xs-6 col-sm-3" style="margin-top: 31%;">
-                                        <img class="osimplantes" src="../../ASSETS/PRODUTOS/01-IMPLANTES/regular.png"  alt="">
+                                    <div class="implantes col-xs-6 col-sm-3" >
+                                        <img class="osimplantes implante-re" src="../../ASSETS/PRODUTOS/01-IMPLANTES/regular.png"  alt="">
                                     </div>
-                                    <div class="implantes col-xs-6 col-sm-3">
-                                        <img class="osimplantes" src="../../ASSETS/PRODUTOS/01-IMPLANTES/slim.png" alt="">
+                                    <div class="implantes col-xs-6 col-sm-3" >
+                                        <img class="osimplantes implante-sl" src="../../ASSETS/PRODUTOS/01-IMPLANTES/slim.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -106,8 +106,8 @@
             <div class="espaco-short row">
                 <div class="col-md-12"></div>
             </div>
-            <div id="especificacao-tecnica" class="row" style="border: solid 1px #fff">
-                    <div class="especificao col-md-6" style="border: solid 1px #fff">
+            <div id="especificacao-tecnica" class="row" >
+                    <div class="especificacao col-md-6" >
                         <h3>Especificações Técnicas</h3>
                             <div class="row">
                                 <div class="hl"></div>
@@ -170,7 +170,7 @@
                             <div id="btn-espec-tecnica" class="row">
                          
                                  <div class="col-sm-6">
-                                    <button class="btn-espec">Ver Instruções de Uso</button>
+                                    <button onclick="window.location.href='instrucao-uso.php'" class="btn-espec">Ver Instruções de Uso</button>
                                  </div>
                                  <div class="col-sm-6">
                                     <button class="btn-baixar-ficha-short">
@@ -189,13 +189,13 @@
                                             YAAAAABJRU5ErkJggg==" />
                                             </svg>
                                         </span>&nbsp;  
-                                    <span>Baixar Ficha Técnica</span>
+                                    <span>Baixar Cátalogo</span>
                             </button>
                                  </div>
                             </div>
                     </div>
                     <div class="col-md-6">
-                                quadro
+                        <video src="#" class="video-demonstra" controls></video>
                     </div>
             </div>
              <div class="linha-carousel-implantes row">
@@ -215,20 +215,20 @@
                                                         
                                                                     <div id="campo_produtos" class="row" >
                                                                         <div id="box_produtos" class="col-md-3" >
-                                                                          <a href="componentes-sh/provisorio-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/provisorio-smart-sh.png" alt=""></a>
-                                                                            <h6>Provisório Smart SH</h6>
+                                                                          <a href="componentes-sh/provisorio-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/provisorio-smart-sh.png" alt=""></a>
+                                                                            <h5>Provisório Smart SH</h5>
                                                                         </div>
                                                                         <div  id="box_produtos" class="col-md-3">
-                                                                            <a href="componentes-sh/mini-pilar-plenum-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/mini-pilar-plenum-sh.png" alt=""></a>
-                                                                            <h6>Mini Pilar Plenum SH</h6>
+                                                                            <a href="componentes-sh/mini-pilar-plenum-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/mini-pilar-plenum-sh.png" alt=""></a>
+                                                                            <h5>Mini Pilar Plenum SH</h5>
                                                                         </div>
                                                                         <div  id="box_produtos"  class="col-md-3">
-                                                                            <a href="componentes-sh/cicatrizador-scan-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/cicatrizador-scan-sh.png" alt=""></a>
-                                                                            <h6>Cicatrizador / Scan SH</h6>
+                                                                            <a href="componentes-sh/cicatrizador-scan-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/cicatrizador-scan-sh.png" alt=""></a>
+                                                                            <h5>Cicatrizador / Scan SH</h5>
                                                                         </div>
                                                                         <div id="box_produtos" class="col-md-3" >
-                                                                            <a href="componentes-sh/mini-pilar-angulado-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/mini-pilar-angulado-sh.png" alt=""></a>
-                                                                            <h6>Mini Pilar Angulado SH</h6>
+                                                                            <a href="componentes-sh/mini-pilar-angulado-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/mini-pilar-angulado-sh.png" alt=""></a>
+                                                                            <h5>Mini Pilar Angulado SH</h5>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -242,16 +242,16 @@
                                                             <div id="campo_produtos" class="row" >
                                                                 
                                                                 <div  id="box_produtos" class="col-md-3">
-                                                                    <a href="componentes-sh/ucla-smart-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/ucla-smart-sh.png" alt=""></a>
-                                                                    <h6>Ucla Smart SH</h6>
+                                                                    <a href="componentes-sh/ucla-smart-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/ucla-smart-sh.png" alt=""></a>
+                                                                    <h5>Ucla Smart SH</h5>
                                                                 </div>
                                                                 <div id="box_produtos" class="col-md-3" >
-                                                                <a href="componentes-sh/ti-base-smart-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/ti-base-smart-sh.png" alt=""></a>
-                                                                <h6>TI-Base Smart SH</h6>
+                                                                <a href="componentes-sh/ti-base-smart-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/ti-base-smart-sh.png" alt=""></a>
+                                                                <h5>TI-Base Smart SH</h5>
                                                             </div>
                                                             <div  id="box_produtos" class="col-md-3">
-                                                                <a href="componentes-sh/attachment-sh.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/attachment-sh.png" alt=""></a>
-                                                                <h6>Attachment SH</h6>
+                                                                <a href="componentes-sh/attachment-sh.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-sh/attachment-sh.png" alt=""></a>
+                                                                <h5>Attachment SH</h5>
                                                             </div>
                                                              
                                                                
@@ -291,7 +291,7 @@
             <div id="image-short"class="col-xs-6 col-md-4">
                 <img src="../../ASSETS/PRODUTOS/01-IMPLANTES/short.png" alt="">
             </div>
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-md-8 col-md-offset-1">
                 <div class="row">
                     <div class="titulo-plenum-short col-md-4">
                         <h3>Implante Plenum® Short</h3>
@@ -302,12 +302,12 @@
                 </div>
                 <div class="row">
                     <div class="valores-short col-md-12">
-                        <h1>R$ 410,00/un</h1>
-                        <span>x2 de R$ 205,00 sem juros</span>
+                        <h1>R$ 328,00/un</h1>
+                        <span>x2 de R$ 164,00 sem juros</span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="campo-choice-dimensao col-sm-12">
                          <span class="span-h3">Escolha a dimensão necessária</span> &nbsp;  
                              <span class="span-short">(Marque mais de uma opção, caso necessário)</span>
                     </div>
@@ -360,7 +360,7 @@
                         São 5 grupos de produtos pré-estabelecidos compostos por implantes, biomaterias <br>
                         e kit cirúrgicos, com descontos imbatíveis.</p><br>
                             <div class="col-md-6 col-md-offset-2">
-                                <button class="btn-start-plenum">VER START PLENUM</button>
+                                <button onclick="window.location.href='start-plenum.php'" class="btn-start-plenum">VER START PLENUM</button>
                             </div>
                         </div>
                     </div>

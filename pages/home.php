@@ -42,46 +42,79 @@
 </div>                  
         <div class="row">
             <div class="imagem_body_one" class="col-md-12">
-            <div  id="apresentacao" class="container">
+            <video src="../ASSETS/VIDEOS/video_home.mp4?rel=0&arp;autoplay=1" class="video-entrada" controls="false" autoplay="autoplay" >
+              
+            </video>
+                <div  id="apresentacao" class="container">
                           
-                          <div class="row">
-                                  <div class="col-md-12">
-                                  <div class=text_apresenta>
-                                          <h1 id="h1">A Plenum é <br>uma alavanca de possibilidades</h1>
+                          <div class="altura_texto" >
+                                  <div class="col-md-6">
+                                  <div class="text_apresenta">
+                                          <h1 id="h1">Inovação para uma vida plena</h1>
                                           <br>
-                                          <p id="text">Conectar dois mundos aparentemente distantes e permitir que a tecnologia em biomateriais devolva a espontaneidade da vida. </p>
+                                          <p id="text">Com o desenvolvimento de soluções inovadoras
+                                                        e de alta qualidade, a Plenum chega para
+                                                        protagonizar o novo momento da implantodontia
+                                                        e da bioengenharia no Brasil e no mundo. </p>
                                           <br>
-                                          <p id="text">Foi dessa ousadia que nasceu a Plenum e com ela, a medicina regenerativa ganha um novo significado.</p>
+                                          
                                           <br>
-                                          <button type="button" class="btn_knows" onclick="window.location.href='plenum.php'">Conheça a Plenum</button>
+                                          <button type="button" class="btn_knows" onclick="window.location.href='plenum.php'">Conheça a empresa</button>
                                   </div>
                                       
                                   </div>
                                  
                               </div>
-                  </div>
-            </div>
+                </div>
+                <div  id="apresentacao_mobile" class="container">
+                          
+                          <div class="altura_texto row" >
+                                  <div class="col-md-12">
+                                  <div class=text_apresenta>
+                                          <h1>INOVAÇÃO PARA UMA VIDA PLENA</h1>
+                                          <br>
+                                          <p id="text">Com o desenvolvimento de soluções inovadoras
+                                                        e de alta qualidade, a Plenum chega para
+                                                        protagonizar o novo momento da implantodontia
+                                                        e da bioengenharia no Brasil e no mundo. </p>
+                                          <br>
+                                          
+                                          <br>
+                                          <button type="button" class="btn_knows" onclick="window.location.href='plenum.php'">Conheça a empresa</button>
+                                  </div>
+                                      
+                                  </div>
+                                 
+                              </div>
+                </div>
+            </div> 
         </div>
         
          <div class="row">
              <div   id="imagem_body_two"  class="col-md-6" >
                     <div class="titulo">
-                            <h1 id="h1">Combinando ciência e pessoas</h1>
+                            <h1 id="h1">COMBINANDO CIÊNCIAS E PESSOAS</h1>
                           </div>
                           <div class="subtitulos">
-                              <h4 id="h4">Qual é o papel da Plenum?</h4>
-                              <p id="text">Ressignificar o conceito de inovação e ampliar as 
-                                  perspectiva sobre a reabilitação das pessoas.
+                              <h4 id="h4">QUAL É O PAPEL DA PLENUM?</h4><br>
+                              <p id="text">A PLENUM está ressignificando o conceito de
+                                            inovação ao ampliar a perspectiva de reabilitação
+                                            integral das pessoas. Motivados pela ciência da vida,
+                                            a Plenum busca revolucionar processos, produtos,
+                                            serviços e comportamento oferecendo soluções
+                                            acessíveis e com elevado grau de ciência e tecnologia.
                               </p>
                           </div>
             </div>
              <div  id="imagem_body_three"  class="col-md-6"  >
                     <div class="subtitulos_two">
-                            <h4 id="h4">O que são ciência da vida?</h4>
-                            <p id="text">Pesquisa  e tecnologia a favor de 
-                                uma vida mais plena, garantindo qualidade de
-                                vida e soluções inovadoras para que <br>
-                                todos aproveitem mais.
+                            <h4 id="h4">O QUE SÃO CIÊNCIAS DA VIDA?</h4><br>
+                            <p id="text">Em tempos de conexões real time onde tudo é
+                                        interdependente, valorizar a vida é estimular ainda
+                                        mais a consciência, a ética e a responsabilidade
+                                        contribuindo para a criação de novos paradigmas.
+                                        Dessa forma, a Plenum conecta vida e inovação,
+                                        proporcionando a plenitude física, mental e social.
                             </p>
                         </div>
             </div>
@@ -94,25 +127,22 @@
                                 <div class="col-md-12 col-md-8" >
                              
                                 <div class="row" id="bio-animate">
-                                     <div id="ask"class="col-md-6 col-md-offset-4" >
-                                             <h6>O que nos move?</h6>
-                                             <ul id="etica_trans_mobile" >
-                                                <li><a class="animated" href="animate-bio">Bioengenharia</a></li>
-                                                <li><a class="animated" href="animate-etica">Ética e transparência</a></li>
-                                                <li><a  class="animated" href="animate-rede">Rede Coloborativa</a></li>
-                                            </ul>
-                          
-                                     </div>
+                                    <div id="ask" class="col-sm-4 col-sm-offset-4">
+                                        <h5>O que nos move?</h5>
+                                        <ul class="etica_trans_mobile">
+                                            <li><a class="animated" href="animate-bio">Bioengenharia e estratégias regenerativas</a></li>
+                                            <li><a class="animated" href="animate-etica">Ética e transparência</a></li>
+                                            <li><a  class="animated" href="animate-rede">Ética e transparência</a></li>
+                                        </ul>
+                                    </div>
 
                                      <div class="row">
                                                 <div class="animate" id="animate-bio">
                                                         <div id="bio_titulo"class="col-md-6 col-md-offset-4">
-                                                                <h1>Bioengenharia</h1>
+                                                                <h1>Bioengenharia e estratégias regenerativas</h1>
                                                         </div>
                                                         <div id="bio_mensagem"class="col-md-6 col-md-offset-4" >
-                                                                <p id="text">Tudo o que a Plenum cria está alinhado a uma visão contemporânea da relação humana
-                                                                        com a ciência, o que resulta em uma integração harmônica. E é com a ciência como inspiração
-                                                                        que trabalhamos para oferecer uma reabilitação completa: a plenitude física, mental  e social.
+                                                                <p id="text">A Plenum tornou-se a primeira indústria brasileira do setor médico odontológico homologada para a produção de implantes e substitutos ósseos sintéticos por meio de manufatura aditiva e outras tecnologias
                                                                 </p>
                                                                 
                                                         </div>
@@ -129,8 +159,7 @@
                                                                 <h1>Ética e transparência</h1>
                                                         </div>
                                                         <div id="bio_mensagem"class="col-md-6 col-md-offset-4" >
-                                                                <p id="text">O caráter inovador da Plenum é fruto da ética e da transparência de seus criadores,
-                                                                    que construíram carreiras de reputação e credibilidade
+                                                                <p id="text">Estes valores norteiam os processos e os negócios da Plenum em todas as esferas de relacionamento, garantindo a equidade e evidenciando as normas que sustentam a reputação da empresa e de todos que dela fazem parte.
                                                                 </p>
                                                                 
                                                         </div>
@@ -145,11 +174,10 @@
                                                 
                                                 <div class="animate" id="animate-rede">
                                                         <div id="bio_titulo"class="col-md-6 col-md-offset-4">
-                                                                <h1 >Rede Colaborativa</h1>
+                                                                <h1 >Rede Coloborativa</h1>
                                                         </div>
                                                         <div id="bio_mensagem"class="col-md-6 col-md-offset-4" >
-                                                                <p id="text">A Plenum nasce com parceiros globais, estando presente em mais de 2 continentes.
-                                                                    Somado à isso possuímos 5 certificações internacionais.
+                                                                <p id="text">A cocriação é o caminho para inovar, construir propostas de valor e apoiar a construção de vínculos fortes e duradouros. Na Plenum, as parcerias contribuem para imagem e o sucesso de toda a cadeia envolvida.
                                                                 </p>
                                                                 
                                                         </div>
@@ -183,7 +211,7 @@
                             
                     <div class="col-md-12">
                         <ul id="etica_trans" >
-                            <li><a class="animated" href="animate-bio">Bioengenharia</a></li>
+                            <li><a class="animated" href="animate-bio">Bioengenharia e estratégias regenerativas</a></li>
                             <li><a class="animated" href="animate-etica">Ética e transparência</a></li>
                             <li><a  class="animated" href="animate-rede">Rede Coloborativa</a></li>
                         </ul>
@@ -200,129 +228,17 @@
  
  <div  class="container" id="container_body_inferior">
     
-        <div id="campo_carrossel" class="row">
-              <div class="col-md-12" >
-                    <h2 id="h2">Pesquisa Científica</h2>
-                    <!--Carousel-->
-                    <div id="carrossel">
-                            <div id="firstCarousel" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <div class="row">
-                                            <div  class="col-lg-12" >
-                                                <div class="row">
-                                                    <div id="box_dialog" class="col-md-5" >
-                                                        campo 1
-                                                        </div>
-                                                    <div class="col-md-2"></div>
-                                                    <div  id="box_dialog"  class="col-md-5">
-                                                        campo 2
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                       
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="row">
-                                            <div  class="col-lg-12" >
-                                                <div class="row">
-                                                    <div id="box_dialog" class="col-md-5" >
-                                                        campo 1
-                                                        </div>
-                                                    <div class="col-md-2"></div>
-                                                    <div  id="box_dialog"  class="col-md-5">
-                                                        campo 2
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                       
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="row">
-                                            <div  class="col-lg-12" >
-                                                <div class="row">
-                                                    <div id="box_dialog" class="col-md-5" >
-                                                        campo 1
-                                                        </div>
-                                                    <div class="col-md-2"></div>
-                                                    <div  id="box_dialog"  class="col-md-5">
-                                                        campo 2
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                       
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="left carousel-control" href="#firstCarousel" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#firstCarousel" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <div class= "link_degrade"> <a href="#">Ver Todas</h3></div>
-                    </div>
-                    <!--Carousel-->
-                    <!--Carousel Mobile-->
-                    <div class="carrossel_mobile">
-                        <div id="carousel_mobile" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div id="slide_mobile" class="col-md-6 md-offset-3">
-                                                Mobile Slide 1
-                                    </div>
-                                </div>
-                                <div class="item">
-                                        <div id="slide_mobile" class="col-md-6 md-offset-3">
-                                                Mobile Slide 2
-                                        </div>
-                                </div>
-                                <div  class="item">
-                                        <div id="slide_mobile"class="col-md-6 md-offset-3">
-                                                Mobile Slide 3
-                                        </div>
-                                </div>
-                                <div  class="item">
-                                        <div id="slide_mobile" class="col-md-6 md-offset-3">
-                                                Mobile Slide 4
-                                        </div>
-                                </div>
-                                
-                            </div>
-                             <!-- Left and right controls -->
-                         
-                             <a class="left carousel-control" href="#carousel_mobile" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel_mobile" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                                   
-                            <div class= "link_degrade"> <a href="#">Ver Todas</h3></div>
-                    </div>
-                    <!--Carousel Mobile-->
-                </div>
-        </div>
-        <div class="row">
-              <div id="fabricacao" class="col-md-12" >
+     
+        <div class="fabricacao row">
+              <div  class="col-md-12" >
                 <div class="container-fluid">
                     <div class="row">
                         <div id="conheca_fabri" class="col-md-6 col-md-offset-3" >
                             <h2 id="h2">
-                                Conheça nossa Fábrica
+                                INDÚSTRIA 4.0
                             </h2>
-                            <p class="text_fabri">A Plenum é a primeira Indústria Brasileira do segmento médico odontológico
-                                 que produz implantes e substitutos ósseos através do 
-                                 processo tecnológico de impressão 3D.</p>
+                            <p class="text_fabri">A Plenum foi idealizada nos pilares de indústria 4.0 para a bioengenharia onde oferece precisão, repetibilidade e perfeição em cada solução.
+                            Confira como sua tecnologia garante eficiência, medição e rastreabilidade de todos os processos em tempo real.</p>
                             <button class="btn_visita" onclick="window.location.href='visita_fabrica.php'">
                                 Agende sua Visita
                             </button>
@@ -332,8 +248,17 @@
             </div>
         </div>
         <div class="row">
-                <div class="col-xs-12" style= "background: #f5f5f5">
-                    <h2 id="h2">Produtos</h2>
+                <div class="col-md-12" style="background: #f5f5f5;">
+                    <div class="row">
+                        <div id="produtos-text" class="col-md-12">
+                            <h2>PRODUTOS</h2>
+                            <p>A Plenum produz implantes e substitutos ósseos por meio de manufatura aditiva – um método que possibilita customização,
+                            garante qualidade, proporciona melhor custo-benefício, aumenta a segurança para os profissionais de saúde e para os
+                            pacientes - atingindo resultados favoráveis em todo o processo, incluindo o tratamento pós-cirúrgico.</p>
+
+                        </div>
+                    </div>
+                   
                <!--Carousel-->
          
                
@@ -341,21 +266,45 @@
                         <div id="secondCarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
+                                    <div class="col-md-12">
+                                        <div  class="row">
+                                            <div id="padding_produtos" class="col-lg-12">
+                                                <div id="campo_produtos" class="row" >
+                                                    <div id="box_produtos" class="col-md-3" >
+                                                        <img class="box-produtos-implantes" src="../ASSETS/PRODUTOS/01-IMPLANTES/regular.png" alt="">
+                                                        <h5>Implantes</h5> 
+                                                    </div>
+                                                    <div  id="box_produtos" class="col-md-3">
+                                                        <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/mini-pilar-plenum-re.png" alt="">
+                                                        <h5>Componentes</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-acessorios" src="../ASSETS/PRODUTOS/ACESSORIOS/co-cr-coping-mini-pilar.png" alt="">
+                                                        <h5>Acessórios</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-kitcirurgicos" src="../ASSETS/PRODUTOS/KITCIRURGICOS/caixa-aberta-kit.png" alt="">
+                                                        <h5>Kit Cirúrgico</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="item">
                                         <div class="col-md-12">
-                                               <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12">
+                                        
+                                        <div  class="row">
+                                                        <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
                                                                 <div id="box_produtos" class="col-md-3" >
-                                                                            campo 1
+                                                                    <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/provisorio-smart-sh.png" alt="">
                                                                 </div>
                                                                 <div  id="box_produtos" class="col-md-3">
-                                                                            campo 2
+                                                                    <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/provisorio-smart-re.png" alt="">
                                                                 </div>
                                                                 <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 3
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 4
+                                                                    <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/provisorio-smart-sl.png" alt="">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -369,17 +318,15 @@
                                                         <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
                                                                 <div id="box_produtos" class="col-md-3" >
-                                                                            campo 1
+                                                                    <img class="box-produtos-transferentes" src="../ASSETS/PRODUTOS/TRANSFERENTES/transfer_mfma_sh.png" alt="">
                                                                 </div>
                                                                 <div  id="box_produtos" class="col-md-3">
-                                                                            campo 2
+                                                                    <img class="box-produtos-transferentes" src="../ASSETS/PRODUTOS/TRANSFERENTES/transfer_mfma_re.png" alt="">
                                                                 </div>
                                                                 <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 3
+                                                                    <img class="box-produtos-transferentes" src="../ASSETS/PRODUTOS/TRANSFERENTES/transfer_mfma_slim.png" alt="">
                                                                 </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 4
-                                                                </div>
+                                                           
                                                             </div>
                                                         </div>
                                                     </div> 
@@ -392,17 +339,15 @@
                                                         <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
                                                                 <div id="box_produtos" class="col-md-3" >
-                                                                            campo 1
+                                                                    <img class="box-produtos-transferentes" src="../ASSETS/PRODUTOS/ANALOGOS/analogo-sh.png" alt="">
                                                                 </div>
                                                                 <div  id="box_produtos" class="col-md-3">
-                                                                            campo 2
+                                                                    <img class="box-produtos-transferentes" src="../ASSETS/PRODUTOS/ANALOGOS/analogo-re.png" alt="">
                                                                 </div>
                                                                 <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 3
+                                                                    <img class="box-produtos-transferentes" src="../ASSETS/PRODUTOS/ANALOGOS/analogo-sl.png" alt="">
                                                                 </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 4
-                                                                </div>
+                                                           
                                                             </div>
                                                         </div>
                                                     </div> 
@@ -485,4 +430,5 @@
     
 <script src="../js/dropdown_mobile.js"></script>
 <script src="../js/texto.js"></script>
+<script src="../js/video.js"></script>
 </html>

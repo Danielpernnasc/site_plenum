@@ -32,8 +32,8 @@
                                 <h2>Fale Conosco</h2>
                             </div>
                         </div>
-                        <div id="imagem_fundo_inovacao" class="row">
-                            <div class="texto_inovacao">
+                        <div id="fundo_cinza_fc" class="row">
+                            <div class="texto_fc">
                                 <h2>Suporte Plenum</h2>
                             <p>Oferecemos suporte técnico especializado
                             em todo o território nacional, através de uma equipe profissional qualificada e
@@ -100,56 +100,65 @@
                                 <div id="campo_contato" class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <h2 class="h2_faq">Você tem alguma dúvida?</h2>
-                                            <h4 class="h4_faq">Fale com a Central de Relacionamento Plenum</h4>
+                                            <h2 class="h2_faq">TELEFONES PARA CONTATO</h2>
+                                            <h4 class="h4_faq">de segunda a sexta das 8h às 18h.</h4>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="lh"></div>
-                                    </div>
-                                    <div class="container">
-                                    <div class="row">
-                                            <div id="faq_contato" class="col-md-6">
-                                                <h4>TELEFONES PARA CONTATO</h4>
-                                                <p>de segunda a domingo</p>
-                                                <p>das 7h às 22h.</p>
+                                    <div id="linha-tel" class="row">
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Comercial</h4>
                                                 <div class="fones_faq">
                                                     <div class="fonecapi">
-                                                        <h4>011 3109 9000</h4>
-                                                        <h6>Capitais e regiões metropolitanas</h6>
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
                                                     </div>
-                                                    <div class="fonelocal">
-                                                        <h4>0800 270 9604</h4>
-                                                        <h6>Demais localidaes</h6>
+                                              
+                                                </div>
+                                            </div>
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Parcerias</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div id="faq_chat" class="col-md-3">
-                                                <h4>CHAT</h4>
-                                                <p>de segunda a domingo</p>
-                                                <p>das 7h às 22h.</p>
-                                                <button class="btn_faq_chat">CHAT</button>
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Imprensa</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div id="faq_email" class="col-md-3">
-                                                <h4>E-MAIL</h4>
-                                                <p>sua mensagem será</p>
-                                                <p>respondida em até 48h</p>
-                                                <button class="btn_faq_email">E-MAIL</button>
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Imprensa</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
+                                                    </div>
+                                                </div>
                                             </div>
+                                 
+                                     
+                                        
                                     </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div style="background: #d1d4d6" class="row">
                                 <div id="map" class="col-md-12">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4626.930774294464!2d-46.97702928434898!3d-23.20065075425695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf25294a8f4953%3A0x933b04c9984ac379!2sAv.+Ain+Ata+-+Jardim+Ermida+I%2C+Jundia%C3%AD+-+SP!5e1!3m2!1spt-BR!2sbr!4v1556209208080!5m2!1spt-BR!2sbr" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.8181114931126!2d-46.97550198483501!3d-23.200596871710733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf25294a8f4953%3A0x933b04c9984ac379!2sAv.+Ain+Ata+-+Jardim+Ermida+I%2C+Jundia%C3%AD+-+SP!5e1!3m2!1spt-BR!2sbr!4v1563548841797!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                                
                                         <div class="container">
                                             <div id="endereco_fc"  class="row">
                                                 <div id="campo_address" class="col-md-4">
                                                     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                        width="40px" height="40px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
+                                                        width="25px" height="25px" viewBox="0 0 438.536 438.536" style="enable-background:new 0 0 438.536 438.536;"
                                                         xml:space="preserve">
                                                     <g>
                                                         <path d="M322.621,42.825C294.073,14.272,259.619,0,219.268,0c-40.353,0-74.803,14.275-103.353,42.825
@@ -164,7 +173,7 @@
                                                 </div>
                                                 <div id="campo_address" class="col-md-4">
                                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="40px" height="40px"  viewBox="0 0 578.106 578.106" style="enable-background:new 0 0 578.106 578.106;" xml:space="preserve">
+                                                            width="25px" height="25px"  viewBox="0 0 578.106 578.106" style="enable-background:new 0 0 578.106 578.106;" xml:space="preserve">
                                                         <g>
                                                             <g>
                                                                 <path style="fill:#010002;" d="M577.83,456.128c1.225,9.385-1.635,17.545-8.568,24.48l-81.396,80.781
@@ -187,7 +196,7 @@
                                            
                                                 <div id="campo_address" class="col-md-4">
                                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                            width="40px" height="40px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+                                                            width="25px" height="25px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
                                                     <g>
                                                         <g>
                                                             <path style="fill:#030104;" d="M7,9L5.268,7.484l-4.952,4.245C0.496,11.896,0.739,12,1.007,12h11.986
@@ -197,7 +206,7 @@
                                                             <polygon style="fill:#030104;" points="0,2.878 0,11.186 4.833,7.079 		"/>
                                                             <polygon style="fill:#030104;" points="9.167,7.079 14,11.186 14,2.875 		"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
                                                     </svg>
-                                                    <h5>contato@plenum.bio</h5>
+                                                    <h5>relacionamento@plenum.bio</h5>
                                                 </div>
                                             </div>
                                         </div>

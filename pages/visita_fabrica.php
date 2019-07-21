@@ -39,9 +39,9 @@
     <div  class="row">
         <div id="intro_visita" class="col-md-12">
             <div class="texto_visita">
-                <p>Participe do Programa de Visitação à Fábrica Plenum.</p><br>
+                <p>Participe do Programa de Visitação à Fábrica Plenum.</p>
                 <p>Venha passar um dia conosco e conhecer todo o processo<br>
-                    de fabricação de nossos produtos.</p><br>
+                    de fabricação de nossos produtos.</p>
                 <p>Inscreva-se e agende a data de sua visita.</p>
             </div>
         </div>
@@ -58,79 +58,23 @@
             <div id="visita_fabrica_plenum" class="row">
                 <div class="col-md-6">
                     <div class="agenda">
-                    <h2>Agende uma Visita</h2>
-                        <br>
-                        <p>Faça sua inscrição para  conhecer a fábrica</p>
+                        <h2>Agende uma Visita</h2>
                         <img src="../ASSETS/VISITA/logo.png" alt="">
-                        <h6>Selecione a Data e o Horário de sua vista</h6>
+                        <h3>Preencha o formulário</h3>
+
+                        <p>Entraremos em contato com você<br>
+                        para agendamento da sua visita.</p>
+                       
                     </div>
                 
                 </div>
                 <div id="campo_agendamento" class="col-md-6">
-                <!--<div class="calendario">
-                                    <div class="mes">
-                                        <ul>
-                                        <li class="prev">&#10094;</li>
-                                        <li class="next">&#10095;</li>
-                                        <li>
-                                        August<br>
-                                        <span style="font-size:18px">2017</span>
-                                        </li>
-                                        </ul>
-                                    </div>
-                                    
-                                        <ul class="semana">
-                                            <li>DOM</li>
-                                            <li>SEG</li>
-                                            <li>TER</li>
-                                            <li>QUA</li>
-                                            <li>QUI</li>
-                                            <li>SEX</li>
-                                            <li>SAB</li>
-                                        </ul>
-                                        <ul class="days">  
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                            <li>8</li>
-                                            <li>9</li>
-                                            <li><span class="active">10</span></li>
-                                            <li>11</li>
-                                            <li>12</li>
-                                            <li>13</li>
-                                            <li>14</li>
-                                            <li>15</li>
-                                            <li>16</li>
-                                            <li>17</li>
-                                            <li>18</li>
-                                            <li>19</li>
-                                            <li>20</li>
-                                            <li>21</li>
-                                            <li>22</li>
-                                            <li>23</li>
-                                            <li>24</li>
-                                            <li>25</li>
-                                            <li>26</li>
-                                            <li>27</li>
-                                            <li>28</li>
-                                            <li>29</li>
-                                            <li>30</li>
-                                            <li>31</li>
-                           
-                            </div>
+                    <!--<div id="container" class="calendar-container" data-tippy-content="content tip" style="background:#fff;"></div>
+                    <div id="event-cal-container" class="calendar-container"></div>
+                    <div id="container" class="calendar-container" data-tippy-content="content tip" style="background:#fff;"></div>
+                    <div id="event-cal-container-mobile" class="calendar-container"></div>
 
-                    
-                </div>-->
-                <div id="container" class="calendar-container" data-tippy-content="content tip" style="background:#fff;"></div>
-                <div id="event-cal-container" class="calendar-container"></div>
-                <div id="container" class="calendar-container" data-tippy-content="content tip" style="background:#fff;"></div>
-                <div id="event-cal-container-mobile" class="calendar-container"></div>
-
-                <div id="agendamento" class="row">
+                        <div id="agendamento" class="row">
                         <h5>Datas e Horários Disponíveis</h5>
                         <div class="col-md-6">
                             <input class="calendar_agenda"type="date" name="" id="">
@@ -139,9 +83,69 @@
                             <input class="calendar_agenda" type="date" name="" id="">
                         </div>
                         <h6>Vagas Limitada. Sujeito a disponibilidade de vagas</h6>
-                        </div> 
+                        </div> -->
+                        <div class="container-agenda container">
+                            <h4>Faça sua inscrição para conhecer a fábrica</h4>
+                            <div class="row">
+                                <label for="">Nome</label>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="agendamento-label col-sm-12">
+                                            <label for="">Nome</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="campo-agendamento col-sm-12">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="agendamento-label col-sm-12">
+                                            <label for="">E-mail</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="campo-agendamento col-sm-12">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="agendamento-label col-sm-2">
+                                            <label for="">DDD</label>
+                                        </div>
+                                        <div class="agendamento-label col-sm-10">
+                                            <label for="">Telefone</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="campo-agendamento col-sm-2"   >
+                                            <input  type="text" style="margin: 10% 0; padding: 6% 15%;">
+                                        </div>
+                                        <div class="campo-agendamento col-sm-10">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="agendamento-label col-sm-10">
+                                           <label for="">Cidade</label>
+                                       </div>
+                                       <div class="agendamento-label col-sm-2" >
+                                           <label for="">UF</label>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="campo-agendamento col-sm-10">
+                                            <input type="text">
+                                        </div>
+                                        <div class="campo-agendamento col-sm-2" >
+                                            <input  type="text" style="margin: 10% 0; padding: 6% 15%;" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                        <div id="campo_agendar" class="row">
-                       <button class="agendar_visita">AGENDAR VISITA</button>
+                        <button class="agendar_visita">AGENDAR VISITA</button>
                        </div>
                 </div>
             
@@ -154,7 +158,7 @@
         <div id="fundo_localiza" class="col-md-12">
             <h2 class="h2_localiza">Onde Estamos</h2>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4626.930774294464!2d-46.97702928434898!3d-23.20065075425695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf25294a8f4953%3A0x933b04c9984ac379!2sAv.+Ain+Ata+-+Jardim+Ermida+I%2C+Jundia%C3%AD+-+SP!5e1!3m2!1spt-BR!2sbr!4v1556209208080!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.8181114931126!2d-46.97550198483501!3d-23.200596871710733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf25294a8f4953%3A0x933b04c9984ac379!2sAv.+Ain+Ata+-+Jardim+Ermida+I%2C+Jundia%C3%AD+-+SP!5e1!3m2!1spt-BR!2sbr!4v1563548841797!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <div id="endereco" class="row">
                 <div id="campo_address"class="col-md-4">
@@ -177,12 +181,19 @@
                 </div>
                 <div id="campo_address" class="col-md-4">
                 <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                            width="20" height="20"
-                            viewBox="0 0 192 192"
-                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g id="original-icon" fill="#ffffff" opacity="0" visibility="hidden"><g id="surface1"><path d="M22.15385,29.53846c-12.23077,0 -22.15385,9.92308 -22.15385,22.15385v88.61538c0,12.23077 9.92308,22.15385 22.15385,22.15385h147.69231c12.23077,0 22.15385,-9.92308 22.15385,-22.15385v-88.61538c0,-12.23077 -9.92308,-22.15385 -22.15385,-22.15385zM5.76923,50.53846l90.23077,48.69231l90.23077,-48.69231l-57.23077,44.53846l47.30769,48.46154l-57.69231,-41.07692l-22.61538,14.53846l-22.61538,-14.53846l-57.69231,41.07692l47.30769,-48.46154z"></path></g></g><g id="subtracted-icon" fill="#ffffff"><g id="surface1 1"><path d="M169.84615,29.53846c12.23077,0 22.15385,9.92308 22.15385,22.15385v57.02993c-10.84707,-12.30983 -26.71104,-20.10686 -44.30769,-20.10686c-4.0959,0 -8.09793,0.42244 -11.96466,1.22591l50.50313,-39.30284l-90.23077,48.69231l-90.23077,-48.69231l57.23077,44.53846l-47.30769,48.46154l57.69231,-41.07692l22.61538,14.53846l2.14143,-1.37663c-6.02069,9.25068 -9.52604,20.27033 -9.52604,32.06894c0,5.0949 0.65364,10.04455 1.88121,14.76923h-68.34275c-12.23077,0 -22.15385,-9.92308 -22.15385,-22.15385v-88.61538c0,-12.23077 9.92308,-22.15385 22.15385,-22.15385z"></path></g></g><g fill="#000000"><g id="Windows_x5F_8"><path d="M147.69231,103.38462c-24.36923,0 -44.30769,19.93846 -44.30769,44.30769c0,24.36923 19.93846,44.30769 44.30769,44.30769c24.36923,0 44.30769,-19.93846 44.30769,-44.30769c0,-24.36923 -19.93846,-44.30769 -44.30769,-44.30769zM169.84615,155.07692h-14.76923v14.76923h-14.76923v-14.76923h-14.76923v-14.76923h14.76923v-14.76923h14.76923v14.76923h14.76923z"></path></g><g id="Windows_x5F_8" opacity="0"><path d="M147.69231,206.76923c32.49231,0 59.07692,-26.58462 59.07692,-59.07692c0,-32.49231 -26.58462,-59.07692 -59.07692,-59.07692c-32.49231,0 -59.07692,26.58462 -59.07692,59.07692c0,32.49231 26.58462,59.07692 59.07692,59.07692z"></path></g></g></g></svg>
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                            width="25px" height="25px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+                                                    <g>
+                                                        <g>
+                                                            <path style="fill:#fff;" d="M7,9L5.268,7.484l-4.952,4.245C0.496,11.896,0.739,12,1.007,12h11.986
+                                                                c0.267,0,0.509-0.104,0.688-0.271L8.732,7.484L7,9z"/>
+                                                            <path style="fill:#fff;" d="M13.684,2.271C13.504,2.103,13.262,2,12.993,2H1.007C0.74,2,0.498,2.104,0.318,2.273L7,8
+                                                                L13.684,2.271z"/>
+                                                            <polygon style="fill:#fff;" points="0,2.878 0,11.186 4.833,7.079 		"/>
+                                                            <polygon style="fill:#fff;" points="9.167,7.079 14,11.186 14,2.875 		"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                                                    </svg>
                 </div>
-                <h6>contato@plenum.bio</h6>
+                <h6>relaciomento@plenum.bio</h6>
                 </div>
             </div>
         </div>

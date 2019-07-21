@@ -40,19 +40,105 @@
     </div>
         <div id="imagem_fundo_inovacao" class="row">
             <div class="titulos_plenum_inovacao">
-                    <h4>INOVAÇÃO PARA UMA VIDA PLENA</h4>
-                </div>
+                    <h4>PLENUM</h4>
+                 
+            </div>
+           
+          
                 <div class="texto_inovacao">
-                    <p>Ressignificar o conceito de inovação e ampliar as perspectivas
-                    sobre a reabilitação das pessoas.</p>
-                   <p> Esse é o nosso propósito e é para isso que trabalhamos todos os dias.
-                    Buscando o completo bem-estar físico, mental e social.</p>
+                    <h3>Inovação para uma vida plena.</h3>
+                    <p>A Plenum inaugura uma nova fase da implantodontia e bioengenharia, agregando
+                        soluções que fazem a diferença para a qualidade de vida de cada indivíduo.
+                        Motivados pela ciência da vida, a instituição busca revolucionar processos,
+                        produtos, serviços e comportamento oferecendo soluções acessíveis e com elevado
+                        grau de ciência e tecnologia.</p><br>
+                    <p>Incorporar a cultura de inovação no seu DNA só foi possível com
+                        investimentos em pesquisas cientificas, testes de eficácia da tecnologia e a criação
+                        de novos modelos de atuação para atender o mercado. Atrelado a isso, pessoas
+                        engajadas e capacitadas em cuidar de cada detalhe do projeto e que levam a busca
+                        do conhecimento sólido como guia para uma vida plena.</p><br>
+                    <p>Construída no modelo de indústria 4.0 para a medicina regenerativa, a
+                        Plenum oferece um portfólio completo, inovador e de alta qualidade.
+                        Implantes e biomateriais são associados a um serviço personalizado que contempla
+                        inteligência artificial a fim de garantir uma cirurgia mais precisa, rápida e previsível.
+                        É por meio da manufatura aditiva que garante a precisão, a repetibilidade e a
+                        perfeição de cada peça.</p><br>
                 </div>
+        </div>
+        <div class="destaque-pesquisa row">
+            <h4>Todo este trabalho de pesquisa e desenvolvimento resulta em três frentes de atuação:</h4>
+                <div id="pesquisa-desenvol" class="row">
+                 
+                    <div class="col-md-3">
+                        <div class="text_pesquisa_desenv">
+                            <p>Soluções completas e
+                                customizáveis para
+                                implantodontia.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="vl_plenum_pesquisa"></div>
+                    </div>
+            <div class="col-md-3">
+                <div class="objetivo">
+           
+                </div>
+                <div class="text_pesquisa_desenv">
+                <p>Soluções tecnológicas
+                    customizadas para auxílio
+                    nas cirurgias.</p>
+              </div>
+            </div>
+            <div class="col-md-1">
+                <div class="vl_plenum_pesquisa"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="text_pesquisa_desenv">
+                    <p>Pesquisas, cursos
+                    e palestras.</p>
+                </div>
+            </div>
+                </div>
+          
+        </div>
+        <div id="imagem_manifesto" class="row">
+             <div class="texto_manifesto">
+                <div class="titulos_plenum_manifesto">
+                    <h4>MANIFESTO PLENUM</h4>
+                    </div>
+                        <p>Conectar dois mundos aparentemente distantes e permitir que a tecnologia devolva a espontaneidade da vida.</p>
+                        <p>Com esse propósito, nasceu a Plenum. E com ela, a implantologia ganha uma nova dimensão.
+                        Por trás de cada inovação, profissionais com uma absoluta paixão pelo conhecimento e um profundo
+                        encantamento pelo potencial humano. Uma mistura motivadora de gente que está revolucionando
+                        processos, produtos e serviços por meio da cocriação.</p>
+                        <p>Inovando em implantes e biomateriais, a Plenum busca a expressão do corpo em sua totalidade, da
+                        regeneração física ao bem-estar mental e social.</p>
+                        <p>Ao trazer soluções de excelência e torná-las acessíveis e sustentáveis, a Plenum revoluciona o mercado e
+                        constrói vínculos fortes, inspirando a comunidade científica e tantas vidas que estão sendo renovadas.
+                        De um leve sorriso ao riso solto, largo. Dos movimentos mais sutis aos mais surpreendentes. Reabilitar é
+                        tornar a vida ainda maior e melhor.</p>
+                        <p>Plenum. Inovação para uma vida plena.</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="imagem_fundo_trajetoria" class="row">
             <div class="col-md-12">
-                <div class="titulos_plenum_trajetoria">
-                    <h4>Conheça a trajetória da Plenum</h4>
+                    <div class="titulos_plenum_trajetoria">
+                        <h4>DEMANDA DE MERCADO ORIGINOU A PLENUM</h4>
+                    </div>
+                    <div class="row">
+                        <div id="text-history"class="col-sm-12">
+                            <p>A empresa foi criada para atender às necessidades do setor médico odontológico, agregando novas tecnologias em biomateriais.
+                                Seus fundadores Samy Tunchel, Alberto Blay e Jamil Shibli – renomados cirurgiões dentistas, professores e pesquisadores da área da implantodontia,
+                                passaram a se dedicar ao desenvolvimento de inovações na fabricação de implantes e em métodos que amenizassem os traumas cirúrgicos.</p><br>
+                                <p>Após longos anos de estudos, experiência, testes e dificuldades, estes profissionais uniram forças na pesquisa de materiais e soluções.
+                                    Customizaram enxertos ósseos, inovaram em biomateriais sintéticos e melhoraram as aplicações em implantes dentários. Hoje, com uma
+                                    equipe de colaboradores extremamente qualificados, a Plenum é a primeira indústria brasileira homologada para produzir implantes e substitutos
+                                    ósseos por meio do processo de manufatura aditiva.</p>
+                        </div>
                     </div>
                   
                     <div id="carrossel_trajetoria" class="container-fluid">
@@ -64,7 +150,10 @@
                             <div class="container-fluid">
                                 <ul id="lista_indicadores" >
                                     <li id="marcadores">2009</li>
+                                    <li id="marcadores">2010</li>
+                                    <li id="marcadores">2011</li>
                                     <li id="marcadores">2012</li>
+                                    <li id="marcadores">2014</li>
                                     <li id="marcadores">2015</li>
                                     <li id="marcadores">2016</li>
                                     <li id="marcadores">2017</li>
@@ -79,10 +168,15 @@
                                     <li  data-target="#carousel_trajetoria" data-slide-to="4"></li>
                                     <li data-target="#carousel_trajetoria" data-slide-to="5"></li>
                                     <li  data-target="#carousel_trajetoria" data-slide-to="6"></li>
-                                </ul>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="7"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="8"></li>
+                                    <li  data-target="#carousel_trajetoria" data-slide-to="9"></li>
+                              
                             </div>
                            
                         <div class="carousel-inner">
+                           
+                   
                             <div class="item active">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
@@ -92,24 +186,57 @@
                                         <div class="texto_trajetoria">
                                             <div class="texto_trajetoria_ano">
                                                 <div class="titulos_trajetoria_ano">
-                                                <h2>2009</h2>
+                                                    <h2>2009</h2>
+                                                </div>
+                                                <p>Primeiro contato com a tecnologia.</p>
                                             </div>
-                                            <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
-                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                             <div class="item">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
-                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
+                                        <img src="../ASSETS/PLENUM/2010.jpg" alt="">
+                                    </div>
+                                    <div id="campo_texto_trajetoria" class="col-md-6">
+                                        <div class="texto_trajetoria">
+                                            <div class="texto_trajetoria_ano">
+                                                <div class="titulos_trajetoria_ano">
+                                                    <h2>2010</h2>
+                                                </div>
+                                                <p>
+                                                Início do plano de trazer a tecnologia de
+                                                impressão 3D de metal para o Brasil.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div id="campo_carousel" class="row">
+                                    <div id="campo_foto_trajetoria" class="col-md-6">      
+                                        <img src="../ASSETS/PLENUM/2011.jpg" alt="">
+                                    </div>
+                                    <div id="campo_texto_trajetoria" class="col-md-6">
+                                        <div class="texto_trajetoria">
+                                            <div class="texto_trajetoria_ano">
+                                                <div class="titulos_trajetoria_ano">
+                                                    <h2>2011</h2>
+                                                </div>
+                                                <p>
+                                                    Pedido de inspeção na fábrica italiana.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div id="campo_carousel" class="row">
+                                    <div id="campo_foto_trajetoria" class="col-md-6">      
+                                        <img src="../ASSETS/PLENUM/2012.jpg" alt="">
                                     </div>
                                     <div id="campo_texto_trajetoria" class="col-md-6">
                                         <div class="texto_trajetoria">
@@ -118,11 +245,8 @@
                                                     <h2>2012</h2>
                                                 </div>
                                                 <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
+                                                Redefinição do modelo da tecnologia
+                                                para a fabricação no Brasil.
                                                 </p>
                                             </div>
                                         </div>
@@ -132,7 +256,27 @@
                             <div class="item">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
-                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
+                                        <img src="../ASSETS/PLENUM/2014.jpg" alt="">
+                                    </div>
+                                    <div id="campo_texto_trajetoria" class="col-md-6">
+                                        <div class="texto_trajetoria">
+                                            <div class="texto_trajetoria_ano">
+                                                <div class="titulos_trajetoria_ano">
+                                                    <h2>2014</h2>
+                                                </div>
+                                                <p>
+                                                Termo de doação de terreno em Tietê (SP)
+                                                e averbação contratual INPI.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div id="campo_carousel" class="row">
+                                    <div id="campo_foto_trajetoria" class="col-md-6">      
+                                        <img src="../ASSETS/PLENUM/2015.jpg" alt="">
                                     </div>
                                     <div id="campo_texto_trajetoria" class="col-md-6">
                                         <div class="texto_trajetoria">
@@ -141,11 +285,8 @@
                                                     <h2>2015</h2>
                                                 </div>
                                                 <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
+                                                Transferência da tecnologia iniciada.
+                                                Inova Cred do BNDES.
                                                 </p>
                                             </div>
                                         </div>
@@ -155,7 +296,7 @@
                             <div class="item">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
-                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
+                                        <img src="../ASSETS/PLENUM/2016.jpg" alt="">
                                     </div>
                                     <div id="campo_texto_trajetoria" class="col-md-6">
                                         <div class="texto_trajetoria">
@@ -164,11 +305,17 @@
                                                     <h2>2016</h2>
                                                 </div>
                                                 <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
+                                                Definição de equipe de Engenharia e início
+                                                das contratações.<br>
+                                                Negociação para construção e contratação da
+                                                equipe de Logística.<br>
+                                                Mudança de local da fábrica para Jundiaí (SP).
+                                                Definição do plano de marketing e contratação
+                                                da equipe de Vendas.<br>
+                                                Desenvolvimento de Produtos e primeiros
+                                                desenhos dos implantes Plenum.<br>
+                                                Aquisição do terreno em Jundiaí (SP) e criação
+                                                do plano estratégico.
                                                 </p>
                                             </div>
                                         </div>
@@ -178,7 +325,7 @@
                             <div class="item">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
-                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
+                                        <img src="../ASSETS/PLENUM/2017.jpg" alt="">
                                     </div>
                                     <div id="campo_texto_trajetoria" class="col-md-6">
                                         <div class="texto_trajetoria">
@@ -187,11 +334,18 @@
                                                     <h2>2017</h2>
                                                 </div>
                                                 <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
+                                                Criação da marca Plenum e sua missão,
+                                                visão e valores.<br>
+                                                Contratação das equipes de P&D de Ortopedia
+                                                e Buco-maxilo e de Engenharia de Produção.
+                                                Início das obras em Jundiaí (SP).<br>
+                                                Fabricação do primeiro biomaterial – teste
+                                                de absorção de líquido.<br>
+                                                Pesquisa e desenvolvimento de Produtos no
+                                                Laboratório Provisório e chagada dos
+                                                primeiros equipamentos.<br>
+                                                Fabricação do primeiro implante
+                                                Plenum – teste em cultura de célula.
                                                 </p>
                                             </div>
                                         </div>
@@ -201,7 +355,7 @@
                             <div class="item">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
-                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
+                                        <img src="../ASSETS/PLENUM/2018.jpg" alt="">
                                     </div>
                                     <div id="campo_texto_trajetoria" class="col-md-6">
                                         <div class="texto_trajetoria">
@@ -210,11 +364,15 @@
                                                     <h2>2018</h2>
                                                 </div>
                                                 <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
+                                                Mudança para a nova planta de Jundiaí (SP) e
+                                                patentes das linhas de produtos.<br>
+                                                Finalização das obras da plana, testes mecânicos dos
+                                                implantes, preparação para registro na ANVISA e
+                                                protocolação da patente da membrana reabsorvível.<br>
+                                                Implantação do sistema ERP JD Edwards.
+                                                Desenvolvimento de software cirúrgico virtual,
+                                                blocos customizados, guias cirúrgicos, inteligência
+                                                artificial, rede natural e realidade aumentada.
                                                 </p>
                                             </div>
                                         </div>
@@ -224,7 +382,7 @@
                             <div class="item">
                                 <div id="campo_carousel" class="row">
                                     <div id="campo_foto_trajetoria" class="col-md-6">      
-                                        <img src="../ASSETS/PLENUM/foto_trajetoria_1.jpg" alt="">
+                                        <img src="../ASSETS/PLENUM/2019.jpg" alt="">
                                     </div>
                                     <div id="campo_texto_trajetoria" class="col-md-6">
                                         <div class="texto_trajetoria">
@@ -233,11 +391,8 @@
                                                     <h2>2019</h2>
                                                 </div>
                                                 <p>
-                                                Alberto Blay e Samy Tunchel tem<br>
-                                                o primeiro contato com a<br>
-                                                tecnologia de micro fusão a laser<br>
-                                                com titânio para a odontologia<br>
-                                                apresentada pelo Jamil Shibli.
+                                                Homologação da ANVISA e lançamento da
+                                                marca Plenum.
                                                 </p>
                                             </div>
                                         </div>
@@ -263,47 +418,15 @@
             </div>
             
         </div>
-        <div id="imagem_manifesto" class="row">
-         
-            <div class="texto_manifesto">
-            <div class="titulos_plenum_manifesto">
-                <h4>Nosso Manifesto</h4>
-            </div>
-                <p>
-                Conectar dois mundos aparentemente distantes e permitir que a tecnologia em biomateriais devolva a
-                espontaneidade da vida.</p>
-                <p>Foi dessa ousadia que nasceu a Plenum e com ela, a medicina regenerativa ganha um novo significado.
-                Por trás desta conquista, líderes de respeito unidos por um propósito contagiante e que foi vivido intensamente
-                por cada profissional que sonhou junto, pesquisou, comprovou e construiu a Plenum.
-                Gente que tem uma absoluta paixão pelo conhecimento e um profundo encantamento pelo potencial humano.
-                Ao inaugurar o mais moderno parque de bioengenharia do planeta, estamos comprometidos não apenas com a
-                disrupção de uma indústria 4.0, mas criando vínculos fortes com a comunidade científica e com cada vida que
-                vamos transformar.</p>
-                <p>Começamos pela medicina oral enquanto preparamos a recuperação óssea para que o corpo se expresse em sua
-                totalidade.</p>
-                <p>O biomaterial Plenum é mais que um implante. Sua capacidade de regeneração física traz de volta o bem-estar
-                mental e emocional.</p>
-                De um leve sorriso ao riso solto, largo. <br>
-                Dos movimentos mais sutis aos mais surpreendentes. <br>
-                Sempre resgatando a naturalidade de ser. <br>
-                Reabilitar é tornar a vida ainda maior e melhor. <br>
-                Plenum. Inovação para uma vida plena. <br>
-                
-            </div>
-                
-        </div>
+     
         <div id="imagem_visao_missao_valor" class="row">
             <div class="col-md-3">
               <div class="objetivo">
-                <h4>Missão</h4>
+                <h4>MISSÃO</h4>
             </div> 
             <div class="text_missao_visao_valores">
                 <p>
-                    Levar para os profissionais de saúde
-                    produtos inovadores de alta performance
-                    produzidos com as melhores práticas
-                    disponíveis em benefício da qualidade de
-                    vida da população.
+                    Levar para os profissionais de saúde produtos inovadores de alta performance, produzidos com as melhores práticas disponíveis em benefício da qualidade de vida da população.
                 </p>
               </div>
             </div>
@@ -312,14 +435,14 @@
             </div>
             <div class="col-md-3">
                 <div class="objetivo">
-                <h4>Visão</h4>
+                <h4>VISÃO</h4>
                 </div>
                 <div class="text_missao_visao_valores">
                 <p>
-                Ser reconhecida como uma empresa de
-                excelência no mercado de biotecnologia por
-                desenvolver e comercializar produtos de alta
-                tecnologia.
+                    Ser reconhecida como uma empresa de
+                    excelência no mercado de biotecnologia por
+                    desenvolver e comercializar produtos da
+                    mais alta tecnologia.
                 </p>
               </div>
             </div>
@@ -328,20 +451,23 @@
             </div>
             <div class="col-md-3">
                 <div class="objetivo">
-                    <h4>Valores</h4>
+                    <h4>VALORES</h4>
                 </div>
                 <div class="text_missao_visao_valores">
                 <p>
-                Produtos feitos com a ma is elevada
-                qualidade; Desenvolvimento tecnológico e
-                inovação; Ética e honestidade na condução
-                dos negócios; Foco no resultado e Trabalho
-                em equipe.
+                    <ul>
+                        <li>Produto feitos com a mais alta qualidade</li>
+                        <li>Desenvolvimento tecnológico e inovação</li>
+                        <li>Ética e honestidade na condução dos negócios</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Foco em resultado</li>
+                    </ul>
                 </p>
               </div>
-            </div>
+        </div>
           
         </div>
+        <!--
         <div id="fundo_industria"class="row">
                 <div id="text_industria" class="col-md-6" >
                     <h6 class="h6_indus">O que é? </h6><br>
@@ -579,7 +705,7 @@
                      </button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div  id="fundo_ciencia_vida" class="row">
             <div id="campo_ciencia_vida" class="col-md-6"> 
                 <div class="texto_ciencia_vida">
@@ -615,7 +741,7 @@
                 EM SUA PLENITUDE.</h3>
                 <br><br><br><br>
 
-                <button class="btn_bio_quavida">Bioengenharia e Qualidade de Vida</button>
+                <button onclick="window.location.href='bioengenharia.php'" class="btn_bio_quavida">Bioengenharia e Qualidade de Vida</button>
 
                 <button class="btn_bio_quavida_resp">Bioengenharia e Qualidade de Vida</button>
                 </div>

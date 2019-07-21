@@ -33,8 +33,8 @@
                 <h2>FAQ - Perguntas Frequentes</h2>
             </div>
     </div>
-    <div id="imagem_fundo_inovacao" class="row">
-            <div class="texto_inovacao">
+    <div id="fundo_cinza_faq" class="row">
+            <div class="texto_faq">
             <p>Acesse nossas perguntas frequentes e tire suas dúvidas quanto aos
                 nossos produtos e serviços.</p>
             <p>Você também pode entrar em contato com nossa Central de Relacionamento, através
@@ -3115,52 +3115,60 @@
             <p>Bandeiras de Crédito aceitas: Visa, Master, Dinners e Amex.<p>
         </div>
     </div>
-    <div  class="row">
-        <div id="campo_contato" class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="h2_faq">Você tem alguma dúvida?</h2>
-                    <h4 class="h4_faq">Fale com a Central de Relacionamento Plenum</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="lh"></div>
-            </div>
-            <div class="container">
-            <div class="row">
-                    <div id="faq_contato" class="col-md-6">
-                        <h4>TELEFONES PARA CONTATO</h4>
-                        <p>de segunda a domingo</p>
-                        <p>das 7h às 22h.</p>
-                        <div class="fones_faq">
-                            <div class="fonecapi">
-                                <h4>011 3109 9000</h4>
-                                <h6>Capitais e regiões metropolitanas</h6>
+    <div class="row">
+                            
+                                <div id="campo_contato" class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2 class="h2_faq">TELEFONES PARA CONTATO</h2>
+                                            <h4 class="h4_faq">de segunda a sexta das 8h às 18h.</h4>
+                                        </div>
+                                    </div>
+                                    <div id="linha-tel" class="row">
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Comercial</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
+                                                    </div>
+                                              
+                                                </div>
+                                            </div>
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Parcerias</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Imprensa</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="faq_contato" class="col-md-3">
+                                                <h4>Imprensa</h4>
+                                                <div class="fones_faq">
+                                                    <div class="fonecapi">
+                                                        <h4>+55 11 3109 9000</h4>
+                                                        <h6>relacionamento@plenum.bio</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                 
+                                     
+                                        
+                                    </div>
+                                    
+                                </div>
                             </div>
-                            <div class="fonelocal">
-                                <h4>0800 270 9604</h4>
-                                <h6>Demais localidaes</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="faq_chat" class="col-md-3">
-                        <h4>CHAT</h4>
-                        <p>de segunda a domingo</p>
-                        <p>das 7h às 22h.</p>
-                        <button class="btn_faq_chat">CHAT</button>
-                    </div>
-                    <div id="faq_email" class="col-md-3">
-                        <h4>E-MAIL</h4>
-                        <p>sua mensagem será</p>
-                        <p>respondida em até 48h</p>
-                        <button class="btn_faq_email">E-MAIL</button>
-                    </div>
-            </div>
-            </div>
-        
-            
-        </div>
-    </div>
 </div>
 <footer>
     

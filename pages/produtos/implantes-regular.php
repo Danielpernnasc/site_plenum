@@ -28,16 +28,16 @@
                     <div class="tema-choice col-md-12">
                         <h3>Selecione o Sistema desejado</h3>
                         <div class="container">
-                        <div class="row">
-                                <div class="col-md-6 col-md-offset-3">
-                                    <div class="implantes col-xs-6 col-sm-3" style="margin-top: 45%;">
-                                        <img class="osimplantes" src="../../ASSETS/PRODUTOS/01-IMPLANTES/short.png" alt="">
+                            <div class="row" style="margin: -5% 0;">
+                                <div class="_implantes_ col-md-6 col-md-offset-3">
+                                    <div class="implantes col-xs-6 col-sm-3" >
+                                        <img class="osimplantes implante-sh" src="../../ASSETS/PRODUTOS/01-IMPLANTES/short.png" alt="">
                                     </div>
-                                    <div class="implantes col-xs-6 col-sm-3" style="margin-top: 31%;">
-                                        <img class="osimplantes" src="../../ASSETS/PRODUTOS/01-IMPLANTES/regular.png"  alt="">
+                                    <div class="implantes col-xs-6 col-sm-3" >
+                                        <img class="osimplantes implante-re" src="../../ASSETS/PRODUTOS/01-IMPLANTES/regular.png"  alt="">
                                     </div>
-                                    <div class="implantes col-xs-6 col-sm-3">
-                                        <img class="osimplantes" src="../../ASSETS/PRODUTOS/01-IMPLANTES/slim.png" alt="">
+                                    <div class="implantes col-xs-6 col-sm-3" >
+                                        <img class="osimplantes implante-sl" src="../../ASSETS/PRODUTOS/01-IMPLANTES/slim.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -78,17 +78,17 @@
                       
                     </div>
                 </div>
-        <div class="row">
+                <div class="row">
             <div class="col-lg-12" style="background: #211f1f;">
 
             <div class="barra-regular row">
                     <h3>Implante Plenum® Regular</h3>
             </div>          
- 
-                <div class="row">
-                    <div class="col-md-12">
-                          <!-- Controls -->
-                          <a id="up" class="carousel-control" href="#carousel-example-vertical" role="button" data-slide="prev">
+         
+            <div class="row">
+                <div class="col-md-12">
+                     <!-- Controls -->
+                        <a id="up" class="carousel-control" href="#carousel-example-vertical" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-up" aria-hidden="true" style="margin: 0;"></span>
                             <span class="sr-only">Previous</span>
                         </a>
@@ -103,13 +103,13 @@
                                 <span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="margin:20%;"></span>
                                 <span class="sr-only">Next</span>
                         </a>
-                    </div>
                 </div>
+            </div>
             <div class="espaco-short row">
                 <div class="col-md-12"></div>
             </div>
-            <div id="especificacao-tecnica" class="row" style="border: solid 1px #fff">
-                    <div class="especificao col-md-6" style="border: solid 1px #fff">
+            <div id="especificacao-tecnica" class="row">
+                    <div class="especificacao col-md-6">
                         <h3>Especificações Técnicas</h3>
                             <div class="row">
                                 <div class="hl"></div>
@@ -172,7 +172,7 @@
                             <div id="btn-espec-tecnica" class="row">
                          
                                  <div class="col-sm-6">
-                                    <button class="btn-espec">Ver Instruções de Uso</button>
+                                    <button onclick="window.location.href='instrucao-uso.php'" class="btn-espec">Ver Instruções de Uso</button>
                                  </div>
                                  <div class="col-sm-6">
                                     <button class="btn-baixar-ficha-regular">
@@ -191,24 +191,24 @@
                                             YAAAAABJRU5ErkJggg==" />
                                             </svg>
                                         </span>&nbsp;  
-                                    <span>Baixar Ficha Técnica</span>
+                                    <span>Baixar Catálogo</span>
                             </button>
                                  </div>
                             </div>
                     </div>
                     <div class="col-md-6">
-                                quadro
+                        <video src="#" class="video-demonstra" controls></video>
                     </div>
             </div>
             <div class="linha-carousel-implantes row">
      
                   <div id="carrossel_produtos-componentes" >
                             
-                                <h3>Linha completa dos componentes para Implante Plenum Short</h3>
+                                <h3>Linha completa dos componentes para Implante Plenum Regular</h3>
                                 <div id="secondCarousel" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                 
-                                    <div class="item active">
+                                        <div class="item active">
                                                 <div class="col-md-12">
 
                         
@@ -217,21 +217,24 @@
                                                         
                                                                     <div id="campo_produtos" class="row" >
                                                                         <div id="box_produtos" class="col-md-3" >
-                                                                        <a href="componentes-re/provisorio-re.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/provisorio-smart.png" alt=""></a>
-                                                                          <h6>Provisório Smart RE</h6>
+                                                                            <a href="componentes-re/provisorio-re.php"> <img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/provisorio-smart.png" alt=""></a>
+                                                                            <h5>Provisório Smart RE</h5>
                                                                         </div>
+                                                                       
                                                                         <div  id="box_produtos" class="col-md-3">
-                                                                        <a href="componentes-re/mini-pilar-plenum-re.php"> <img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/mini-pilar-plenum-re.png" alt=""></a>
-                                                                            <h6>Mini Pilar Plenum RE</h6>
+                                                                            <a href="componentes-re/mini-pilar-plenum-re.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/mini-pilar-plenum-re.png" alt=""></a>
+                                                                            <h5>Mini Pilar Plenum RE</h5>
                                                                         </div>
+                                                                      
                                                                         <div  id="box_produtos"  class="col-md-3">
-                                                                        <a href="componentes-re/cicatrizador-scan-re.php"> <img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/cicatrizador-scan-re.png" alt=""></a>
-                                                                            <h6>Cicatrizador / Scan RE</h6>
+                                                                           <a href="componentes-re/cicatrizador-scan-re.php"> <img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/cicatrizador-scan-re.png" alt=""></a>
+                                                                           <h5>Cicatrizador / Scan RE</h5>
                                                                         </div>
                                                                         <div id="box_produtos" class="col-md-3" >
-                                                                        <a href="componentes-re/mini-pilar-angulado-re.php">  <img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/mini-pilar-angulado-re.png" alt=""></a>
-                                                                            <h6>Mini Pilar Angulado RE</h6>
+                                                                           <a href="componentes-re/mini-pilar-angulado-re.php"> <img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/mini-pilar-angulado-re.png" alt=""></a>
+                                                                            <h5>Mini Pilar Angulado RE</h5>
                                                                         </div>
+                                                                            
                                                                     </div>
                                                                 </div>
                                                             </div> 
@@ -242,30 +245,25 @@
                                                     <div  class="row">
                                                         <div id="padding_produtos" class="col-lg-12" >
                                                             <div id="campo_produtos" class="row" >
-                                                               
+                                                                
                                                                 <div  id="box_produtos" class="col-md-3">
-                                                                    <a href="componentes-re/ucla-smart-re.php"> <img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/ucla-smart-re.png" alt=""></a>
-                                                                    <h6>Ucla Smart RE</h6>
+                                                                   <a href="componentes-re/ucla-smart-re.php"> <img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/ucla-smart-re.png" alt=""></a>
+                                                                    <h5>Ucla Smart RE</h5>
                                                                 </div>
-                                                                  
                                                                 <div id="box_produtos" class="col-md-3" >
-                                                                    <a href="componentes-re/ti-base-smart-re.php"><img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/ti-base-smart-re.png" alt=""></a>
-                                                                    <h6>TI-Base Smart RE</h6>
+                                                                    <a href="componentes-re/ti-base-smart-re.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/ti-base-smart-re.png" alt=""></a>
+                                                                    <h5>TI-Base Smart RE</h5>
                                                                 </div>
-                                                                   
                                                                 <div  id="box_produtos" class="col-md-3">
-                                                                    <a href="componentes-re/attachment-re.php"> <img class="acessorios-implantes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/attachment-re.png" alt=""></a>
-                                                                    <h6>Attachment RE</h6>
+                                                                    <a href="componentes-re/attachment-re.php"><img class="box-produtos-componentes" src="../../ASSETS/PRODUTOS/COMPONENTES/acessorios-re/attachment-re.png" alt=""></a>
+                                                                    <h5>Attachment RE</h5>
                                                                 </div>
-                                                            
-                                                               
                                                             </div>
                                                         </div>
                                                     </div> 
                                                 
                                                 </div>
                                         </div>
-                                        
                                 </div>
                                 <!-- Left and right controls -->
                                 
@@ -279,11 +277,11 @@
                                     </a>
                                 </div>
                                 <div class="linha-button-componentes row">
-                                            <div class="col-md-12">
-                                                <button class="componentes" onclick="window.location.href='componentes-regular.php'">Ver todos os Componentes</button>
-                                            </div>
-                                        </div>
-                            </div>
+                                    <div class="col-md-12">
+                                        <button class="componentes" onclick="window.location.href='componentes-regular.php'">Ver todos os Componentes</button>
+                                    </div>
+                                </div>
+                                </div>
 
    
                 </div>
@@ -293,7 +291,7 @@
             <div id="image-short"class="col-xs-6 col-md-4">
                 <img src="../../ASSETS/PRODUTOS/01-IMPLANTES/regular.png" alt="">
             </div>
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-md-8 col-md-offset-1">
                 <div class="row">
                     <div class="titulo-plenum-short col-md-4">
                         <h3>Implante Plenum® Regular</h3>
@@ -304,12 +302,12 @@
                 </div>
                 <div class="row">
                     <div class="valores-short col-md-12">
-                        <h1>R$ 410,00/un</h1>
-                        <span>x2 de R$ 205,00 sem juros</span>
+                        <h1>R$ 328,00/un</h1>
+                        <span>x2 de R$ 164,00 sem juros</span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 campo-choice-dimensao">
                          <span class="span-h3">Escolha a dimensão necessária</span> &nbsp;  
                              <span class="span-short">(Marque mais de uma opção, caso necessário)</span>
                     </div>
@@ -384,7 +382,7 @@
                         São 5 grupos de produtos pré-estabelecidos compostos por implantes, biomaterias <br>
                         e kit cirúrgicos, com descontos imbatíveis.</p><br>
                             <div class="col-md-6 col-md-offset-2">
-                                <button class="btn-start-plenum">VER START PLENUM</button>
+                                <button onclick="window.location.href='start-plenum.php'" class="btn-start-plenum">VER START PLENUM</button>
                             </div>
                         </div>
                     </div>
@@ -392,6 +390,7 @@
                 
             </div>
         </div>
+               
             
 </div>     
 <footer>

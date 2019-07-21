@@ -52,7 +52,7 @@
 
 #text{
     font-family: "Crimson-Roman", sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 30px;
     color: #fff;
 }
@@ -64,28 +64,41 @@
 #h4 {
     font-family: "Gotham-Light", serif;
 }
+#h2 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+    color: #000000;
+    margin-top: 3%;
 
+}
 #text_bio{
     font-family: "Crimson-Roman", sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
 
-#h2{
+#produtos-text > h2 {
     font-family: "gothamroundedbold", serif;
     text-align: center;
     color: #000000;
-
+}
+#produtos-text > p {
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #737375;
+    margin: 5% 0;
 }
 
-#h1 {
+.text_apresenta > h1 {
     font-family: "gothamroundedbold", serif;
+    color: #fff;
 }
 .text_fabri{
     font-family: "Crimson-Roman", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
-    color: #000000;
+    color: #737375;
 }
 
 .top-link{
@@ -129,21 +142,27 @@
 }
 .link_degrade {
     font-family: "gothamroundedbold", serif;
-    font-size: 30px;
+    font-size: 22px;
 
 }
 #titulo_plenum {
     font-family: "gothamroundedbold", serif;
     color: #ffffff;
 }
-.titulos_plenum_inovacao h4 {
+#titulo_plenum_video > h1 {
+    font-family: "gothamroundedbold", serif;
+    color: #ffffff;
+}
+.titulos_plenum_inovacao > h4 {
     font-family: "gothamroundedbold", serif;
     font-size: 30px;
+
 }
+
 .texto_inovacao {
-    font-family: "gothamroundedbold", serif;
-    font-size: 22px;
-    color: #858787;
+    font-family: "Gotham-Light", serif;
+    font-size: 20px;
+    color: #fff;
 }
 
 .titulos_plenum_trajetoria h4 {
@@ -167,8 +186,8 @@
 }
 .text_missao_visao_valores{
     font-family: "Crimson-Roman", sans-serif;
-    color: #000000;
-    font-size: 16px;
+    color: #808285;
+    font-size: 18px;
 }
 
 .h6_indus{
@@ -184,13 +203,15 @@
 .text_indus {
     color: #ffffff;
     font-family: "Crimson-Roman", sans-serif;
-    padding-right: 26%;
+    /* padding-right: 15%; */
     font-size: 20px;
+    text-align: justify;
 }
 
-.texto_trajetoria_ano {
+.texto_trajetoria_ano > p {
     color: #ffffff;
     font-family: "Gotham-Light", serif;
+    font-size: 18px;
 
 }
 
@@ -250,11 +271,13 @@
 .h2_qualidade{
     font-family: "gotham-book", sans-serif;;
     font-weight: bolder;
+    width: 450px
 }
 .p_qualidade {
     font-family: "gotham-book", sans-serif;
     color: #737375;
     font-size: 22px;
+    width: 300px;
 }
 
 .h2_trans{
@@ -266,15 +289,17 @@
 .p_trans{
     font-family: "Gotham-Light", serif;
     color: #ffffff;
+    font-size: 20px;
     
 }
 #fundo_cinza_bioengenharia {
-    font-family: "Gotham-Book", serif;
+    font-family: "Gotham-Light", serif;
     font-weight: bolder;
     font-size: 20px;
 }
 .titulos_bio {
     font-family: "gothamroundedbold", serif;
+
 }
 .texto_protese{
     font-family: "Crimson-Roman", sans-serif;
@@ -282,8 +307,9 @@
     font-size: 20px;
 }
 
-.titulos_bio_center {
+#campo_beneficio > h2 {
     font-family: "gothamroundedbold", serif;
+    text-align: center;
 }
 .texto_beneficios{
     font-family: "Crimson-Roman", sans-serif;
@@ -297,7 +323,7 @@
     font-weight: bolder;
 }
 #fundo_texto_fabrica, #fundo_texto_fabrica_mobile {
-    font-family: "Gotham-Book", serif;
+    font-family: "Gotham-Light", serif;
     font-size: 20px;
     font-weight: bolder;
 
@@ -338,6 +364,7 @@
 .titulo_principios,  .h3_subtitulo {
     font-family: "gothamroundedbold", serif;
     color: #ffffff;
+    text-align: center;
 }
 #intro_visita {
     font-family: "Gotham-Book", serif;
@@ -346,7 +373,7 @@
 
 }
 .texto_visita {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Light", serif;
     font-size: 20px;
     color: #737375;
     text-align: center;
@@ -356,6 +383,7 @@
  text-align: center;   
  color: #ffffff; 
  font-family: "gothamroundedbold", serif;
+ margin: 3% 0;
 }
 
 .texto_visita_fabrica  > p {
@@ -367,8 +395,12 @@
 .agenda > h2 {
     font-family: "gothamroundedbold", serif;
 }
+.agenda > h3 {
+    font-family: "Gotham-Light", serif;
+    color: #fff;
+}
 .agenda > p {
-    font-family: "Gotham-Book", sans-serif;
+    font-family: "Gotham-Light", sans-serif;
     color: #ffffff;
     font-size: 20px;
 }
@@ -413,7 +445,9 @@
 
     color: #969696;
     font-family: "Gotham-Light", serif;
-    padding: 2%;
+    padding: 3%;
+    text-align: justify;
+    font-size: 13px;
 }
 
 .button_faq, .button_faq_mobile {
@@ -429,7 +463,7 @@
 }
 
 .h4_faq {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Light", serif;
     color: #ffffff;
     text-align: center;
 }
@@ -488,10 +522,12 @@
 
 #formulario > h2 {
     font-family: "gothamroundedbold", serif;
+    margin: -5% 1%;
+    font-size: 27px;
 }
 
 #linhas_form  {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Light", serif;
 }
 
 #endereco_fc {
@@ -810,9 +846,10 @@
     font-family: "Gotham-Book", serif;
     text-decoration: underline;
 }
-.btn-dados  {
+.link-start, .btn-dados  {
     font-family: "Gotham-Book", serif;
     font-size: 20px;
+    color: #000000;
 }
 .dados-dentista {
     font-family: "Gotham-Light", serif;
@@ -972,7 +1009,7 @@
     text-align: center;
 }
 .fundo_cinza_implantes > p {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Light", serif;
     text-align: center;
     font-size: 20px;
     color: #858787;
@@ -981,12 +1018,14 @@
     text-align: center;
 }
 .tema-choice > h3 {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Book", serif;
     color: #737375;
+    margin-top: 5%;
 }
 .tema-radio > h3 {
     font-family: "Gotham-Book", serif;
     color: #737375;
+    font-size: 18px;
 }
 .tema-radio > h3:focus {
     font-family: "gothamroundedbold", serif;
@@ -1050,7 +1089,7 @@
     text-decoration: underline;
 }
 #carrossel_produtos-componentes > h3 {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Book", serif;
 }
 
 .span-h3 {
@@ -1100,18 +1139,20 @@
     color: #fff;
 }
 .fundo_cinza_componentes > h4 {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Book", serif;
     color:#858787;
+    font-size: 20px;
 }
 .fundo_cinza_componentes > h5 {
     font-family: "gothamroundedbold", serif;
     color:#f57521;
+    margin: 1% 0;
 }
 .size-short > span {
     font-size: 12px;
 }
 .pecas-regulares > h3 {
-    font-family: "gothamroundedbold", serif;
+    font-family: "Gotham-Book", serif;
     color:#737375;
 }
 #legenda-componentes > h6 {
@@ -1119,6 +1160,12 @@
     font-size: 12px;
     color:#737375;
     margin: 31% 0;
+}
+#legenda-componentes > h5 {
+    font-family: "Gotham-Book", serif;
+    font-size: 12px;
+    color:#737375;
+
 }
 #texto-atencao > h4 {
     font-family: "gothamroundedbold", serif;
@@ -1152,7 +1199,7 @@
 #box_produtos > h6 {
     font-family: "gothamroundedbold", serif;
     color: #969696;
-    margin: 35% 0;
+    margin: -10% 30%;
 }
 .fundo_cinza_transferentes > h3 {
     font-family: "gothamroundedbold", serif;
@@ -1408,9 +1455,10 @@
 }
 
 #box_produtos > h5  {
-    font-family: "Gotham-Book", serif;
+    font-family: "Gotham-Light", serif;
     font-weight: bolder;
     color: #737375;
+    font-size: 11px;
 }
 
 .texto-modelos > p {
@@ -1493,28 +1541,57 @@
 .barra-start {
     font-family: "gothamroundedbold", serif;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
-#box-cinza > h4 {
+.box-cinza > h4 {
     font-family: "Gotham-Book", serif;
     font-weight: bolder;
     color: #fff;
     font-size: 12px;
     text-align: center;
 }
-#box-branco > h4 {
+.box-branco > h4 {
     font-family: "gothamroundedbold", serif;
     color: #000;
     font-size: 13px;
     text-align: center;
   
 }
+#valor-base > h4 {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
 
-#box-preto > h4 {
+.box-preto > h4 {
     font-family: "gothamroundedbold", serif;
     color: #fff;
     font-size: 14px;
     text-align: center;
+}
+.box-branco > p {
+    font-family: "Gotham-Book", serif;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    margin: -6% 0;
+    padding-bottom: 13%;
+}
+.box-branco-div > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+.box-branco-div > p {
+    font-family: "Gotham-Book", serif;
+    color: #000;
+    font-size: 10px;
+    text-align: center;
+    margin: -6% 0;
+    padding: 8% 0;
 }
 
 #total-smart > h3 {
@@ -1532,10 +1609,560 @@
 #campo-vendas > h4 {
     font-family: "gothamroundedbold", serif;
     color: #000;
+    text-align: center;
+    margin: 2% 0;
 
 }
 #descricao-start > h6 {
     font-family: "gothamroundedbold", serif;
     color: #000;
     font-size: 15px;
+}
+
+.fundo_cinza_instrumentais{
+    font-family: "gothamroundedbold", serif;
+    color:#dd6d39;
+    text-align: center
+}
+
+#filtro-transparente-instru > h5 {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+
+.button-instrumentais, .button-instrumentais-largo, .button-instrumentais-medio, .button-instrumentais-extra-largo{
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+#barra-cirurgico-titulo > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    text-align: center;
+}
+
+#text-instru > h3 {
+    font-family: "gothamroundedbold", serif;
+}
+#text-instru-valor > h4 {
+    font-family: "gothamroundedbold", serif
+}
+#text-instru-valor > p {
+    font-family: "Gotham-Book", serif;
+    margin: -5% 0;
+    color: #969696;
+}
+#option > h5 {
+    font-family: "gothamroundedbold", serif
+}
+.btn-uso-instrucao {
+    font-family: "Gotham-Book", serif;
+    color: #969696;
+}
+
+.linha-produtos > h4 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+}
+.texto-descricao > span {
+    font-family: "gothamroundedbold", serif;
+
+}
+#font-uso {
+    font-size: 30px;
+    font-family: "Gotham-Book", serif;
+}
+
+.texto-descricao > p {
+    font-family: "Crimson-Roman", sans-serif;
+}
+#destaque-uso {
+
+    font-family: "Gotham-Book", serif;
+    color: #737375;
+}
+.btn-baixar-uso {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.btn-vermais > span > a{
+    font-family: "Gotham-Book", serif;
+    color: #000;
+    text-decoration: underline;
+}
+.titulo-descricao-uso {
+    font-family: "gothamroundedbold", serif;
+}
+
+.titulo-versao > h3 {
+    font-family: "Gotham-Book", serif;
+}
+.titulo-versao > span {
+    font-family: "Gotham-Book", serif;
+    color: #737375;
+}
+.btn-baixar-uso-cinza {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.descri-palestrante> h5 {
+    font-family: "Gotham-Book", serif;
+    text-align: right;
+    color: #f57521;
+}
+.descri-palestrante > h2 {
+    text-align: left;
+    font-family: "Crimson-Roman", sans-serif;
+}
+.descri-palestrante > p {
+    text-align: justify;
+    font-family: "Crimson-Roman", sans-serif;
+    font-size: 25px;
+    color: #858787;
+}
+
+.text-palestrante {
+    font-family: "Gotham-Book", serif;
+    color: #737375;
+}
+.link-leia > h5  {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+.close-compras{
+    font-family: "gothamroundedbold", serif;
+    color: #ed215c
+}
+
+#titulo-comprar > h2 {
+    margin: 2% 15%;
+    color:#fff;
+    font-family: "gothamroundedbold", serif;
+} 
+#titulo-comprar-resumo > h2 {
+    margin: 2% 26%;
+    color:#fff;
+    font-family: "gothamroundedbold", serif;
+} 
+
+.titulo-comprar > h4{
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+.descricao-comprar > h5 {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+}
+.campo-comprar  {
+    font-family: "Gotham-Book", serif;
+}
+
+.btn-excluir {
+    font-family: "Gotham-Book", serif;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#loja-compras > h4 {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+}
+#loja-compras > p {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+}
+.fonecompras, .fonecompraslocal {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+    margin-right: 10%;
+}
+#compra_chat > h4  {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+}
+#compra_chat > p {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+}
+
+#compra_email > h4 {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+}
+#compra_email > p {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;
+}
+.btn_compras {
+    color: #737375;
+    font-family: "Gotham-Book", sans-serif;  
+    font-weight: bolder;
+}
+.titulo-implante-compra > h3 {
+    color:#fff;
+    font-family: "gothamroundedbold", serif;
+}
+.btn-selecionar-compras {
+    color: #fff;
+    font-family: "Gotham-Book", sans-serif;
+}
+.btn-ok {
+    color: #fff;
+    font-family: "Gotham-Book", sans-serif;
+}
+.car-title > h6 {
+    color: #fff;
+    font-family: "Gotham-Book", sans-serif;
+
+}
+.car-valor > h6 {
+    color: #fff;
+    font-family: "Gotham-Book", sans-serif;
+    text-align: right;
+}
+.soma, .subtracao  {
+    color: #fff;
+    font-family: "Gotham-Book", sans-serif;
+    font-size: 20px;
+}
+
+.texto-implante > span {
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    color:#000;
+}
+.texto-implante > h6 {
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    color:#000;
+}
+.titulo-pedidos > h3 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+}
+
+.btn-cancelar-compras {
+    margin: 2% 0;
+    text-decoration: underline;
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    color:#000;
+
+}
+.btn-finalizar {
+    font-family: "Gotham-Book", sans-serif;
+    color: #fff;
+}
+.btn-resumo-finalizar {
+    font-family: "Gotham-Book", sans-serif;
+    color: #000;
+}
+
+.title-resumo {
+    font-family: "gothamroundedbold", serif;
+}
+.titulo-atencao > h3 {
+    text-align: center;
+}
+.titulo-atencao > p {
+    text-align: center;
+}
+.titulo-atencao > h5 {
+    text-align: center;
+}
+.btn-continua-compo {
+    font-family: "gothamroundedbold", serif;
+    color: #f57521;
+}
+.btn-continua-compo {
+    font-family: "gothamroundedbold", serif;
+}
+#titulo-atencao > h3 {
+    font-family: "gothamroundedbold", serif;
+    text-align: center;
+}
+#titulo-atencao > p {
+    font-family: "Crimson-Roman", sans-serif;
+    text-align: center;
+}
+#titulo-atencao > h5 {
+    font-family: "Crimson-Roman", sans-serif;
+    text-align: center;
+   font-size: 15px;
+}
+.close-atencao > span {
+    font-family: "gothamroundedbold", serif;
+    color: #969999;
+}
+.titulo-entrega > h3 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+}
+.plenum-buscar {
+    font-family: "Gotham-Book", sans-serif;
+    color: #fff;
+}
+.ple-desti {
+    font-family: "gothamroundedbold", serif;
+    color:#000
+}
+.endereco, .cancelar {
+    font-family: "gothamroundedbold", serif;
+    color:#000
+}
+.cancelar {
+    text-decoration: underline;
+}
+.tempo-dest {
+    font-family: "Gotham-Book", sans-serif;
+    font-size: 10px;
+    color: #000;
+}
+#valor-destino > span {
+    text-align: right;
+    font-family: "gothamroundedbold", serif;
+    float: right;
+    color: #000;
+}
+.legenda-destino > span {
+    font-family: "gothamroundedbold", serif;
+    color: #000;
+}
+.btn_editar_dest > h5 {
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.incluir-endereco {
+    font-family: "Gotham-Book", sans-serif;
+    color: #fff;
+}
+.tipo-cartao {
+    font-family: "gothamroundedbold", serif;
+    color: #000; 
+} 
+#mais > span{
+    margin: 25%;
+    font-size: 30px;
+}
+.numeros > h5 {
+    text-align: right;
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    color: #000;
+}
+.resumo-valor > span {
+    text-align: right;
+    font-family: "Gotham-Book", sans-serif;
+    font-weight: bolder;
+    color: #000;
+}
+.resummo-compra > h5 {
+    font-family: "Gotham-Book", sans-serif;
+    color: #000;
+}
+.codigo-compra > span {
+    font-family: "Gotham-Book", sans-serif;
+    color: #000;
+    text-decoration: underline;
+    font-size: 20px
+}
+.data-valor > p {
+    font-family: "Gotham-Book", sans-serif;
+}
+.data-valor > h3 {
+ 
+    font-family: "gothamroundedbold", serif;
+    margin-top: 0;
+}
+.data-valor > p {
+    font-family: "Gotham-Book", sans-serif;
+
+}
+.data-valor > h4 {
+    font-family: "gothamroundedbold", serif;
+  
+}
+.destaque {
+    font-family: "Gotham-Book", sans-serif;
+    color: #f57521;
+    text-decoration: underline;
+}
+#btn-pedido {
+    float: right;
+    text-align: right;
+    margin: 2% 0;
+    text-decoration: underline;
+    color: #f57521;
+    font-family: "Gotham-Book", sans-serif;
+}
+.btn-voltar-conta > span  {
+    font-family: "Gotham-Book", serif;
+    color: #f57521;
+    text-decoration: underline;
+}
+.lembrete {
+    font-family: "Gotham-Book", serif;
+    font-size:9px;
+}
+.span-check {
+    font-family: "Gotham-Book", serif;
+    margin: 0 2%;
+}
+#box-cinza {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+#box-cinza > span {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.btn-conta {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    font-weight: bolder;
+}
+.text_pesquisa_desenv{
+    font-family: "Gotham-Light", serif;
+    font-size: 23px;
+    line-height: 30px;
+    color: #fff;
+}
+.destaque-pesquisa > h4 {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    font-size: 25px;
+}
+#text-history {
+    font-family: "Gotham-Light", serif;
+    font-size: 20px;
+    color: #fff;
+}
+#icones_princ > h3 {
+    font-family: "Gotham-Light", serif;
+    color: #fff;
+    padding: 0 1%;
+    text-align: center;
+    font-size: 22px;
+}
+.agendamento-label > label {
+    font-family: "Gotham-Light", serif;
+    color: #fff;
+}
+#novovalor > h4 {
+    text-align: right;
+    margin: 2%;
+    font-family: "gothamroundedbold", serif;
+}
+#novovalor > h5 {
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "gothamroundedbold", serif;
+    text-align: right;
+    margin: 2%;
+}
+#btn-incluir > span {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+
+}
+.sina-mais {
+    font-family: "Gotham-Book", serif;
+    font-weight: bolder;
+    color: #969696;
+}
+.text-implante-animated > h1 {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-align: center;
+}
+.text-implante-animated > p {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-align: center;
+    margin: 0 19%;
+    font-size: 20px;
+}
+#bola-implante-re > p {
+    font-family: "gothamroundedbold", serif;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+}
+.text-detalhe-implare > p {
+    font-family: "gothamroundedbold", serif;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+
+}
+
+.texto-detalhe-morse > p {
+    font-family: "gothamroundedbold", serif;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 15%;
+}
+.texto-material-implante > p {
+    font-family: "gothamroundedbold", serif;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+.texto-stress > h3 {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+}
+.texto-material-implante_right > p {
+    font-family: "gothamroundedbold", serif;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    text-align: right;
+}
+.texto-mais-detail > p {
+    font-family: "Gotham-Book", serif;
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+    margin-left: 21%;
+    text-align: left;
+}
+.texto-material-implante_right > h3 {
+    font-family: "gothamroundedbold", serif;
+    background-image: linear-gradient(to right, #faab06, #f19713, #e78220);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.texto_faq {
+    font-family: "Gotham-Light", serif;
+    font-size: 20px;
+    color: #737375
+}
+.texto_fc > h2 {
+    background-image: linear-gradient(to right, #e1735a, #e9809f, #ed87c5 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "gothamroundedbold", serif;
+}
+.texto_fc > p {
+    font-family: "Gotham-Light", serif;
+    font-size: 20px;
+    color: #737375
+} 
+.container-agenda > h4 {
+    font-family: "Gotham-Light", serif;
+    color: #fff;
 }

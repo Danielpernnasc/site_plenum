@@ -6,11 +6,11 @@
 
 echo '
 
-<nav>
+    <nav>
                 <div id="container_header" class="container">
                     <div class="row">
-                      <div class="col-md-2" >
-                          <div class="logo">
+                        <div class="col-md-2" >
+                            <div class="logo">
                                  <a href="home.php">
                                     <!--<img class="logo" src="../ASSETS/SITE/logo_plenum.png" alt="">  -->
                                     <div class="logo">
@@ -166,257 +166,228 @@ echo '
                                             
                                     </div>
                                  </a> 
-                          </div>
-                         </div>
+                            </div>
+                        </div>
                         <div class="col-md-8" >
-                        
                                 <div class="top-link">
                                     <ul>
                                          <li ><a href="#">SOBRE A PLENUM</a></li>
                                          <li ><a href="#">PRODUTOS</a></li>
-                                         <li><a href="#">PESQUISA CIENTíFICA</a></li>
+                                         <li><a href="#">START PLENUM</a></li>
                                          <li ><a href="#">ATENDIMENTO</a></li>
                                          <li><a href="#">INSIGHTS</a></li>
+                                         
                                     </ul>
-                               </div>                             
+                                </div>                             
                         </div>
-                      <div class="col-md-2">
-                      <div class="top-link-right">
-                            <div class="icones">
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                    width="20" height="20"
-                                    viewBox="0 0 192 192"
-                                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,3.84c-21.255,0 -38.4,17.145 -38.4,38.4v7.68h-30.36l-0.36,3.36l-15.36,134.4l-0.48,4.32h169.92l-0.48,-4.32l-15.36,-134.4l-0.36,-3.36h-30.36v-7.68c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,11.52c17.145,0 30.72,13.575 30.72,30.72v7.68h-61.44v-7.68c0,-17.145 13.575,-30.72 30.72,-30.72zM34.2,57.6h23.4v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h61.44v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h23.4l14.52,126.72h-152.64z"></path></g></g></g></svg>
-                                </a>
-                            </div>
-                            <div class="icones">
-                                <a href="entrada-login.php">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                    width="20" height="20"
-                                    viewBox="0 0 192 192"
-                                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,11.52c-21.255,0 -38.4,17.145 -38.4,38.4v23.04c0,12.435 6.09,23.595 15.36,30.6v17.4c0,0.405 -0.075,0.75 -1.08,1.68c-1.005,0.93 -2.79,2.175 -5.16,3.36c-4.725,2.37 -11.55,4.8 -18.48,8.16c-6.93,3.36 -14.115,7.635 -19.68,13.8c-5.565,6.165 -9.36,14.43 -9.36,24.84v3.84h153.6v-3.84c0,-10.5 -3.795,-18.795 -9.36,-24.96c-5.565,-6.165 -12.75,-10.365 -19.68,-13.68c-6.93,-3.315 -13.77,-5.82 -18.48,-8.16c-2.355,-1.17 -4.17,-2.31 -5.16,-3.24c-0.99,-0.93 -1.08,-1.32 -1.08,-1.8v-17.4c9.27,-7.005 15.36,-18.165 15.36,-30.6v-23.04c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,19.2c17.145,0 30.72,13.575 30.72,30.72v23.04c0,10.59 -5.535,20.13 -13.68,25.56l-1.68,1.2v21.24c0,2.97 1.53,5.595 3.48,7.44c1.95,1.845 4.395,3.225 7.08,4.56c5.37,2.67 11.97,5.04 18.48,8.16c6.51,3.12 12.765,6.885 17.28,11.88c3.75,4.14 5.925,9.45 6.72,15.96h-136.8c0.795,-6.435 2.985,-11.685 6.72,-15.84c4.515,-5.01 10.77,-8.835 17.28,-12c6.51,-3.165 13.125,-5.61 18.48,-8.28c2.67,-1.335 5.145,-2.745 7.08,-4.56c1.935,-1.815 3.48,-4.365 3.48,-7.32v-21.24l-1.68,-1.2c-8.145,-5.43 -13.68,-14.97 -13.68,-25.56v-23.04c0,-17.145 13.575,-30.72 30.72,-30.72z"></path></g></g></g></svg>
-                                </a>
-                            </div>
-                            <div class="icones">
-                                  
-                                <div class="dropdown_search">
-                                    <a class="lupa">
+                        <div class="col-md-2">
+                            <div class="top-link-right">
+                                <div class="icones">
+                                    <a href="loja/quantidade.php">
                                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                         width="20" height="20"
                                         viewBox="0 0 192 192"
-                                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M80.64,11.52c-36.09,0 -65.28,29.19 -65.28,65.28c0,36.09 29.19,65.28 65.28,65.28c12.885,0 24.81,-3.78 34.92,-10.2l47.16,47.16l16.32,-16.32l-46.56,-46.44c8.37,-10.98 13.44,-24.585 13.44,-39.48c0,-36.09 -29.19,-65.28 -65.28,-65.28zM80.64,26.88c27.645,0 49.92,22.275 49.92,49.92c0,27.645 -22.275,49.92 -49.92,49.92c-27.645,0 -49.92,-22.275 -49.92,-49.92c0,-27.645 22.275,-49.92 49.92,-49.92z"></path></g></g></g></svg>
+                                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,3.84c-21.255,0 -38.4,17.145 -38.4,38.4v7.68h-30.36l-0.36,3.36l-15.36,134.4l-0.48,4.32h169.92l-0.48,-4.32l-15.36,-134.4l-0.36,-3.36h-30.36v-7.68c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,11.52c17.145,0 30.72,13.575 30.72,30.72v7.68h-61.44v-7.68c0,-17.145 13.575,-30.72 30.72,-30.72zM34.2,57.6h23.4v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h61.44v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h23.4l14.52,126.72h-152.64z"></path></g></g></g></svg>
                                     </a>
-                                            <div class="input_busca">
-                                                <input class="buscador"  placeholder="Digite sua Pesquisa">
-                                                <button class="busca">Buscar</button>
-                                            </div>
                                 </div>
-                                
-                            </div>
-                              <div class="country" >
-                                    <div class="bandeira">
-                                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
-                                        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-                                    AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAG
-                                    zElEQVRYw8WXa2wcVxXHf+fe2dn17tpe23Ech8Y4j8ZpQ4A0Bdo8+lbTihKVFpAQSskXhPIFRaoK
-                                    ARFVvEWlCgESH6gUEKJFfEARAiJRV1SpKImSOgG5EXkYp3k4id+Ovbu2d3bu4cOMd9dxXn0gzmjm
-                                    zu7Mvf//+d9zzz0D/2eT67TXe+/dmN7CM/XiwW+VyHtx7kaE1APgm5tb8F2ChKt2CtwHQSKyhNF5
-                                    90WAcp7vHJ4Us/sTe0yD/93W+has2Ih6DbS8LzG0qnV8UZRiME2+MDWjw7MPeBi9v6NjNUub2wmd
-                                    i+ZD5mDfH3xV94iIatQmjMex/qOpwvnz93hGxV4uTTIyOosRwSCILJzAaxHxRSmp3AC4eq8atU4d
-                                    DiUQwLmEATAKgiKqCIpRxaAYwManQeadm9MT/G3FQX7XcYzliZkFz6v9iMeKxwYkxjOAJzFHUTAS
-                                    tSICc6Su8qzJBny7rY+ncxcRlE6/SPeKg/x0eAW/HOugXFFEF2giqrGasRxYDCKR5+ogVgCN1Yh/
-                                    S9xpW8MQr608xNONFxEgdBanhpRxfKOtjz8tP8JHU1M1faiMg0aeoy4eN7JoGWoEGgWLVA4EUGGp
-                                    N8P32k/zcP0wU4UUv+m+l7+/tYrBkXqsUTpvG+WRTf/msc3H2dd5hL2jHfxkuJNpNXHo16yFGqyr
-                                    CLgIXKNJUgSL8EzTAM+19ZM1IX1nW3n+Z08wMZmuxHYpgOOnm+g9eS/7X1/OD3b9ha/k+tiaHmD3
-                                    wCreyOdABI3PyKnqDFm75UM7bGO20xihuvhgTbLISx1v88Xmi/jiGJ3I8OyPnmJswqcUBMyWSszM
-                                    lAiCgHK5TBiGDI7U0XtqMY9vOkHOlniq8TLLvAL/mExTCELCcomwXMKFAa5cxg0VuucpAJAUZVfr
-                                    eXa2nichChoF5JGhbaz5dBdYxZWURN5noG+cU8cvUS6HqCoiQu/JJbx6cBWPbepDRPlC8zAPNYyz
-                                    50InfxhvQVGcc2iMFynQkO40xvCpukl+2/k2jzcOY+cC2TnKgWPfW9uZuBgwciFPUHRkcknuvn8F
-                                    m3es5GMbP8zE5SJjg3lEhJmSx9aNpyvJI21CnsiNsj6d52C+gcnQos7hhouRAg0m4Pn2fp5puYyJ
-                                    lyAaxsEiDI7Ws/+V01GcKBVvX9VejDGs39LJhs93cN/2Lv7883/yn3MtUQK4aiU+Uj/Om11H+f6l
-                                    Dl66tIjyXBD6EtJggur6jIHnzKkQlh0i0YjZ+hSF/Cy+7xEEIT0H+uk50E/XXe18bs/dnDtw6rqp
-                                    OSFKzpaxMTsDMBx4fPXsar7UfycDs95c5q50WrIoTzrtaGrJkPA9CvkZVJVMNkkmm4z2DhFOHr3E
-                                    r3e9ybquWXALwQ8X63nw1Md5YXAZpQg6vqqi6uieaGDLifXsHW7H1WQ0z4Q8dM87jI8WaGrOoHPZ
-                                    UqBYmK0AGCO0Lm5Az++bt6VOhZbdF1bwmb51nJqtm0fKRPgaR6WSd5ZvDSxnW99HODEdrXcR+PK2
-                                    Q2TTAUODV2hqzgAwPlbAqZKqS9DaVk9DY5r6xGm2bjxRUfCvV5q47+R6fjWy5JoViU0/uGyH35js
-                                    TFiDZ4WEETwrDIYpfj/RRiiWu7J5ctlZ1q0Z5FDvcgrTDuuBn7QYC+lsgtCFtLVc4oe79pPNlBgO
-                                    k3z9wu28ONRBUS3WCFbAGrBG8VAYLXbb3KPLdqRzyc5UwpLyDH7CkPKEpCckrOHYTCOv5VvpSk+z
-                                    vn2URzf34UyCiWI9ZU3gp4T2xeM8+fAxnt3xBtnsLPsm2/nawB2cCrIkPfA9wZ9rLSSt4IvC2HS3
-                                    rHpx4+t1SxseMMZGdYAYpKYQkXgOBHiycZCdi86SNmE0/zM+1jhSfhlVGAhSvDC4kp7phkoJVN0F
-                                    NC5IFFVw5TJTvcPPebk6SzZtMcbEldDCWmju7sDsEo4PtrCz9QyfTI+RSZQBCNXyxytLeXn8Nkoq
-                                    NKfmIqA6hlaOOObKBltn8HIZSy5jEGNq98GosywsyhTLLybv4HB5jO25dxgPffaOreBckKZ+foBX
-                                    FdBaCjGB0KB1Bq8pIyyqt7HMNdtwxftrl1xnaOHHU00EanBJaEle6y2pToIKtTQ0tAQZ8HJ1lpa0
-                                    IMbUwN1qSWq4mWnNtRoTgobKdNqqJyOFcy2rsyBxNYTE7XxP3r3pdf6JFCiXyuG/+q5cFN/372y/
-                                    PftZz5ckGExUplZ9k5t7eX0OUT6uZmWHc+Cc0+JkMDR4ZvKVudLNxK1s2LABgOnpaVm7du17B6+x
-                                    /v7+ihw9PT213yrh/+Kb8Ka61N7fCPCDJnPNr+X/ArwyB1sdmMbfAAAAJXRFWHRkYXRlOmNyZWF0
-                                    ZQAyMDE5LTA2LTA0VDE0OjE1OjA0LTA3OjAwWC86SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0w
-                                    Ni0wNFQxNDoxNTowNC0wNzowMClygvQAAAAASUVORK5CYII=" />
-                                    </svg>
-                                    
+                                <div class="icones">
+                                    <a href="entrada-login.php">
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                        width="20" height="20"
+                                        viewBox="0 0 192 192"
+                                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,11.52c-21.255,0 -38.4,17.145 -38.4,38.4v23.04c0,12.435 6.09,23.595 15.36,30.6v17.4c0,0.405 -0.075,0.75 -1.08,1.68c-1.005,0.93 -2.79,2.175 -5.16,3.36c-4.725,2.37 -11.55,4.8 -18.48,8.16c-6.93,3.36 -14.115,7.635 -19.68,13.8c-5.565,6.165 -9.36,14.43 -9.36,24.84v3.84h153.6v-3.84c0,-10.5 -3.795,-18.795 -9.36,-24.96c-5.565,-6.165 -12.75,-10.365 -19.68,-13.68c-6.93,-3.315 -13.77,-5.82 -18.48,-8.16c-2.355,-1.17 -4.17,-2.31 -5.16,-3.24c-0.99,-0.93 -1.08,-1.32 -1.08,-1.8v-17.4c9.27,-7.005 15.36,-18.165 15.36,-30.6v-23.04c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,19.2c17.145,0 30.72,13.575 30.72,30.72v23.04c0,10.59 -5.535,20.13 -13.68,25.56l-1.68,1.2v21.24c0,2.97 1.53,5.595 3.48,7.44c1.95,1.845 4.395,3.225 7.08,4.56c5.37,2.67 11.97,5.04 18.48,8.16c6.51,3.12 12.765,6.885 17.28,11.88c3.75,4.14 5.925,9.45 6.72,15.96h-136.8c0.795,-6.435 2.985,-11.685 6.72,-15.84c4.515,-5.01 10.77,-8.835 17.28,-12c6.51,-3.165 13.125,-5.61 18.48,-8.28c2.67,-1.335 5.145,-2.745 7.08,-4.56c1.935,-1.815 3.48,-4.365 3.48,-7.32v-21.24l-1.68,-1.2c-8.145,-5.43 -13.68,-14.97 -13.68,-25.56v-23.04c0,-17.145 13.575,-30.72 30.72,-30.72z"></path></g></g></g></svg>
+                                    </a>
+                                </div>
+                          <div class="icones">
+                                    <div class="dropdown_search">
+                                        <a class="lupa">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="20" height="20"
+                                            viewBox="0 0 192 192"
+                                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M80.64,11.52c-36.09,0 -65.28,29.19 -65.28,65.28c0,36.09 29.19,65.28 65.28,65.28c12.885,0 24.81,-3.78 34.92,-10.2l47.16,47.16l16.32,-16.32l-46.56,-46.44c8.37,-10.98 13.44,-24.585 13.44,-39.48c0,-36.09 -29.19,-65.28 -65.28,-65.28zM80.64,26.88c27.645,0 49.92,22.275 49.92,49.92c0,27.645 -22.275,49.92 -49.92,49.92c-27.645,0 -49.92,-22.275 -49.92,-49.92c0,-27.645 22.275,-49.92 49.92,-49.92z"></path></g></g></g></svg>
+                                        </a>
+                                                <div class="input_busca">
+                                                    <input class="buscador"  placeholder="Digite sua Pesquisa">
+                                                    <button class="busca">Buscar</button>
+                                                </div>
                                     </div>
-                                        <div class="dropdown">
-                                            <a class="dropbtn">
-                                                PT <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                                width="20" height="20"
-                                                viewBox="0 0 192 192"
-                                                style=" fill:#000000; padding-top: 5px;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M172.74,49.8c-2.04,0.06 -3.96,0.9 -5.37,2.37l-71.37,71.37l-71.37,-71.37c-1.455,-1.485 -3.435,-2.325 -5.52,-2.325c-3.12,0 -5.925,1.905 -7.095,4.8c-1.185,2.895 -0.48,6.21 1.755,8.385l76.8,76.8c3,3 7.86,3 10.86,0l76.8,-76.8c2.28,-2.19 3,-5.565 1.77,-8.49c-1.215,-2.925 -4.095,-4.8 -7.26,-4.74z"></path></g></g></g></svg>
-                                            </a>
-                                            <div class="dropdown-content">
-                                                    <a href="#">
-                                                        <div class="idioma">
-                                                            <div class="nacao">
-                                                            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
-                                                                href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-                                                            AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAG
-                                                            9ElEQVRYw7WXa2wU1xXHf3dn9oXtXdssXi+PiJiCAUPBWImdBnAggQQKFZC60IKgUCilKWnUyC1N
-                                                            I0uhUhpVSZq2EmolQkiVNqShD9qk+dAPWDWKFBJTFDWmUl0V4cZgbK+9u7M7Mzsz9/bD+rG8gkPh
-                                                            SFczd65m/uee8/+fuUdwrQnurKniiX4d0DvtwBWO6EWA4jrgt8sZdaMFHSA8e/tUKWQgXlUmqqJR
-                                                            LvSlsG2LSFmpqKqKcPlymlQqRTQa5er5jKoIPSNzCLFlQwP7d6wgEgyCbQMQDAaVPQIYUErZgGEY
-                                                            qbq6uiF9xxM/fvr1d84dvGt6grk1VaxbvoBDb5zCdSUzEuW0rF7MoWOnKItGiE8uY9u6Bn755ruU
-                                                            RaNURsLs2tjIkT+8RzIaASARq2T6lCnX7DRQfK8UmqZZnZ2dD2iqbG5bafX0ms/MuQtb+Elm8yQd
-                                                            H4nqGHnhx7AlfaYiUR3DRMNRGr0Zl0R1jKzSwKfTk8oTj8dw9BBL6mbywD21BIPBK0aoeIRC6Lqu
-                                                            d3d3fyS0ms3ta1Yvb97bcj+7fvRHPAX1M2P8YPdKtj/zO2zXoyYe4aUn1/Pltt+StVwS5SGOtLWw
-                                                            te0NkkaeihI/v/nhFnYePM4yL8tj5ddjgAKlQAJKkbUM3rvY3Sqq6ne0h6prmnVdw7I96mpi/Kc3
-                                                            hV8TZC2X+TMn0/3xMOGgRipjM+/uGP+6kCRSGmQobTJvZoxz5weoiIQZSJusSV5iz2APoggXVeCg
-                                                            UgqkBKkwrAyd1uVWX8vDDQwZJkMZm/raanavv4esaZPMWNRMreDxLUvJ510Ghk2mlId5audKlJL0
-                                                            JbOEgxpte1YR9mv0JbO4rsQfryTcWEewsY7QvXWEGusINS0g1FhHuGkB4aaFhJoWMqnps4TnzUIE
-                                                            Z29uX9TQ0Lx22Xx+8fvTSKWoSVSwftlcDp/4ANvxmBYrY+OKOo6+1YlhOlRVTGLzqkW89s4ZhtI2
-                                                            FZEQ2x5ZzLG/fsj65fN55ltrb6pLy7Lo+FtHq64QuK7Lpf40jusSDPixbJu0kcPMO4T8Gpmsieu6
-                                                            ZLI2Ab/GcCqHEDCcNvHrhblPg+F0DgCf8N3UATFSYsTWbz7b/tbZ4Wbh01hYU8XXH23kwM/+givh
-                                                            7upyntyxnNafvI3leCQqS2jbu5rvvvQ2GdOhsizIs/vXcODFPzOYNlESNobz7CvNo1AFGDECJARC
-                                                            +Aq1TUpyVo7Ogf+26n//58dIN8T06giXkwZHT5wm70gSlSUkUzlePfEBluUSnzyJ4bTJr/70Pqkh
-                                                            g1j5JC5fHOTI8XcZ6B8mVlFCXzKLlewjk+oZJ92oDJRCycLch8CSLmY+jQjM3tL+yIP3N+9+9HN8
-                                                            7eCbeAoa5sR5as8qtj99jLzjUZOI8uL3NvGlJw5j5BziFZN47YWdtDx+mGHDJloa4PjP97D1O6+w
-                                                            VOXYHy9KwZgUCmpQquCM7Tp0DlxsFXOav9GeltFmIQThkJ/6udM4c64X6Xnofp36OXFOf9iD8jyE
-                                                            T7Bk/jTOdPUCEoWgYf50znQVZJezPXZuauK51k2fVP4BME2Ljo5Trb77Fs0ik7PIWXlmxMt58N7Z
-                                                            pLMmRtYmGtL4woqFZHMWhuUQCGhs23AfpmVj5PJIKdn5xaW4rkcm5+B5sijf2k1GIUoiMGtL++L6
-                                                            Bc0bH6rn+aMn8aRi1tQKNq9dzPMvn8TxJNPiEXZtauKFV06SsxymVJSw7ytL+emr7aQMm2hpiG9v
-                                                            b+bQ6x0sNQbZF8oVhf3KSjiaAstzOJvub9UBjKzN2a4LOK4HUpLKZDnXfYm8K/EJSKUt/n2hn5yV
-                                                            RwjBcDrHhd4kacNCIEgbOXouDpFKm7ipFGaqB4QoAI7kfnQoqUBJbOVhOwbi81vb2qNTEs2aTwNV
-                                                            eK8gnWIZFedzfO16z5fkM6ywhsaW1ZgKxh1RSmF7Dp19Pa36cwdaqK2dg6br3BZTo858UhEC0zJJ
-                                                            dnSMHsnEhKrXhGyCZ6jRAqV3bnqM/lApuk8DMRJyUXRKE7fw9eLUXEFARtIgsaTHP4xBdNk3gKfn
-                                                            EAiEz4dCjPNAiE+PfbUPRb9ipUAoiVIKqTykm0WvXLeSqsrYeAQK8ZlYWK/m4o34WhSJ0fJsOQ7R
-                                                            3vPos76/l9raWjS//1Nu8f8zK5ejf4yEQnCbKDhxGyXh+w99lb5gCbrwjYd+7Dp6ubX2QBVXQxjj
-                                                            A0phSZezVhq9Oz1wPqrZy/3CJwoqADXG/tvRlxQ7oUYEIckqz/3IHewRfr9/QUL4N+hChHw+vZAK
-                                                            H8J3G5MioXAYBSWlRCLJerLPdM1fj7ZjGiAaGhowTfOabefz+VsKRSAQuOaf3NXVNfpMAt6NmtI7
-                                                            1aCqq++1OwQ0EQcA+B+6jjzWf7OiLAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0wNFQxNDoy
-                                                            MDo0OS0wNzowMMJ5+DcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMDRUMTQ6MjA6NDktMDc6
-                                                            MDCzJECLAAAAAElFTkSuQmCC" />
-                                                            </svg>
-                                                            
-                                                            </div>
-                                                            <div class="sigla">EN</div>
-                                                        </div>
-                                                    </a> 
-                                                    <a href="#">
-                                                        <div class="idioma">
-                                                            <div class="nacao">
-                                                            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                </div>
+                               <!-- <div class="country" >
+                                    <div class="bandeira">
+                                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
+                                            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                                        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAG
+                                        zElEQVRYw8WXa2wcVxXHf+fe2dn17tpe23Ech8Y4j8ZpQ4A0Bdo8+lbTihKVFpAQSskXhPIFRaoK
+                                        ARFVvEWlCgESH6gUEKJFfEARAiJRV1SpKImSOgG5EXkYp3k4id+Ovbu2d3bu4cOMd9dxXn0gzmjm
+                                        zu7Mvf//+d9zzz0D/2eT67TXe+/dmN7CM/XiwW+VyHtx7kaE1APgm5tb8F2ChKt2CtwHQSKyhNF5
+                                        90WAcp7vHJ4Us/sTe0yD/93W+has2Ih6DbS8LzG0qnV8UZRiME2+MDWjw7MPeBi9v6NjNUub2wmd
+                                        i+ZD5mDfH3xV94iIatQmjMex/qOpwvnz93hGxV4uTTIyOosRwSCILJzAaxHxRSmp3AC4eq8atU4d
+                                        DiUQwLmEATAKgiKqCIpRxaAYwManQeadm9MT/G3FQX7XcYzliZkFz6v9iMeKxwYkxjOAJzFHUTAS
+                                        tSICc6Su8qzJBny7rY+ncxcRlE6/SPeKg/x0eAW/HOugXFFEF2giqrGasRxYDCKR5+ogVgCN1Yh/
+                                        S9xpW8MQr608xNONFxEgdBanhpRxfKOtjz8tP8JHU1M1faiMg0aeoy4eN7JoGWoEGgWLVA4EUGGp
+                                        N8P32k/zcP0wU4UUv+m+l7+/tYrBkXqsUTpvG+WRTf/msc3H2dd5hL2jHfxkuJNpNXHo16yFGqyr
+                                        CLgIXKNJUgSL8EzTAM+19ZM1IX1nW3n+Z08wMZmuxHYpgOOnm+g9eS/7X1/OD3b9ha/k+tiaHmD3
+                                        wCreyOdABI3PyKnqDFm75UM7bGO20xihuvhgTbLISx1v88Xmi/jiGJ3I8OyPnmJswqcUBMyWSszM
+                                        lAiCgHK5TBiGDI7U0XtqMY9vOkHOlniq8TLLvAL/mExTCELCcomwXMKFAa5cxg0VuucpAJAUZVfr
+                                        eXa2nichChoF5JGhbaz5dBdYxZWURN5noG+cU8cvUS6HqCoiQu/JJbx6cBWPbepDRPlC8zAPNYyz
+                                        50InfxhvQVGcc2iMFynQkO40xvCpukl+2/k2jzcOY+cC2TnKgWPfW9uZuBgwciFPUHRkcknuvn8F
+                                        m3es5GMbP8zE5SJjg3lEhJmSx9aNpyvJI21CnsiNsj6d52C+gcnQos7hhouRAg0m4Pn2fp5puYyJ
+                                        lyAaxsEiDI7Ws/+V01GcKBVvX9VejDGs39LJhs93cN/2Lv7883/yn3MtUQK4aiU+Uj/Om11H+f6l
+                                        Dl66tIjyXBD6EtJggur6jIHnzKkQlh0i0YjZ+hSF/Cy+7xEEIT0H+uk50E/XXe18bs/dnDtw6rqp
+                                        OSFKzpaxMTsDMBx4fPXsar7UfycDs95c5q50WrIoTzrtaGrJkPA9CvkZVJVMNkkmm4z2DhFOHr3E
+                                        r3e9ybquWXALwQ8X63nw1Md5YXAZpQg6vqqi6uieaGDLifXsHW7H1WQ0z4Q8dM87jI8WaGrOoHPZ
+                                        UqBYmK0AGCO0Lm5Az++bt6VOhZbdF1bwmb51nJqtm0fKRPgaR6WSd5ZvDSxnW99HODEdrXcR+PK2
+                                        Q2TTAUODV2hqzgAwPlbAqZKqS9DaVk9DY5r6xGm2bjxRUfCvV5q47+R6fjWy5JoViU0/uGyH35js
+                                        TFiDZ4WEETwrDIYpfj/RRiiWu7J5ctlZ1q0Z5FDvcgrTDuuBn7QYC+lsgtCFtLVc4oe79pPNlBgO
+                                        k3z9wu28ONRBUS3WCFbAGrBG8VAYLXbb3KPLdqRzyc5UwpLyDH7CkPKEpCckrOHYTCOv5VvpSk+z
+                                        vn2URzf34UyCiWI9ZU3gp4T2xeM8+fAxnt3xBtnsLPsm2/nawB2cCrIkPfA9wZ9rLSSt4IvC2HS3
+                                        rHpx4+t1SxseMMZGdYAYpKYQkXgOBHiycZCdi86SNmE0/zM+1jhSfhlVGAhSvDC4kp7phkoJVN0F
+                                        NC5IFFVw5TJTvcPPebk6SzZtMcbEldDCWmju7sDsEo4PtrCz9QyfTI+RSZQBCNXyxytLeXn8Nkoq
+                                        NKfmIqA6hlaOOObKBltn8HIZSy5jEGNq98GosywsyhTLLybv4HB5jO25dxgPffaOreBckKZ+foBX
+                                        FdBaCjGB0KB1Bq8pIyyqt7HMNdtwxftrl1xnaOHHU00EanBJaEle6y2pToIKtTQ0tAQZ8HJ1lpa0
+                                        IMbUwN1qSWq4mWnNtRoTgobKdNqqJyOFcy2rsyBxNYTE7XxP3r3pdf6JFCiXyuG/+q5cFN/372y/
+                                        PftZz5ckGExUplZ9k5t7eX0OUT6uZmWHc+Cc0+JkMDR4ZvKVudLNxK1s2LABgOnpaVm7du17B6+x
+                                        /v7+ihw9PT213yrh/+Kb8Ka61N7fCPCDJnPNr+X/ArwyB1sdmMbfAAAAJXRFWHRkYXRlOmNyZWF0
+                                        ZQAyMDE5LTA2LTA0VDE0OjE1OjA0LTA3OjAwWC86SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0w
+                                        Ni0wNFQxNDoxNTowNC0wNzowMClygvQAAAAASUVORK5CYII=" />
+                                        </svg>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a class="dropbtn">
+                                                    PT <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                    width="20" height="20"
+                                                    viewBox="0 0 192 192"
+                                                    style=" fill:#000000; padding-top: 5px;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M172.74,49.8c-2.04,0.06 -3.96,0.9 -5.37,2.37l-71.37,71.37l-71.37,-71.37c-1.455,-1.485 -3.435,-2.325 -5.52,-2.325c-3.12,0 -5.925,1.905 -7.095,4.8c-1.185,2.895 -0.48,6.21 1.755,8.385l76.8,76.8c3,3 7.86,3 10.86,0l76.8,-76.8c2.28,-2.19 3,-5.565 1.77,-8.49c-1.215,-2.925 -4.095,-4.8 -7.26,-4.74z"></path></g></g></g></svg>
+                                        </a>
+                                        <div class="dropdown-content">
+                                            <a href="#">
+                                                <div class="idioma">
+                                                    <div class="nacao">
+                                                                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
                                                                     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-                                                                AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAE
-                                                                uElEQVRYw8WXy2tcVRzHP+fcx2Qyk06TtElsmhRp+kgrRWioD7SIiAUVwZ3diKAr/wCXmpXuxUVB
-                                                                wb0gIi6EgoVYa5t2YaM1qIkNaZM2yTQTMp2ZzL0z9/xc3Hk/0iSN+IMf59x7zv19v7/HPQ/4n0UB
-                                                                iIiqfW43b5sijxpTSokqgTcS2AngdgiV+2IDPLhyJbahtbMHyFiWAujaZfSHQDwIQuAgkGw06h04
-                                                                fXpDfd3Z+V4in78QicVsZVn1X6ldCoTUZ8P4Phu+n03Z9jk78LxXB4aG7MToKBIEIWhZH5dIGbi2
-                                                                FQGtSU5OxpbT6ZdtI+JIMklubQ20DlWpsH2caNR6XQYWgSBAjEEVChSUcmy0BksjVtiiLdAKpUq1
-                                                                +bhZEJAKAQNKwABGQwHs45ePMXryALYdCQHrtOL+zpCb+lJRz3tI9sYKNi7oKGi7EXxrBKTtqKL9
-                                                                UiAopdAdGht0aaKh2m9FosGEwOK9ABHh4KDdpkSaPa9XsOsnmDagVU/S65r0uiG9Dt5qHhEhnYqQ
-                                                                SBi6EorE3qBFJMqtarJXQ8DUTNJNE8uyMJvD+vg2dzsK2A98RAS/x+ZJT5MaH+bUGbeNA1JjTwPF
-                                                                KgERaQCrJRMa8DcK5HMeI08Jl5+H1F0P54lw4SoWiywOxnnxlEU2G+C6Gsdplz4pgQcVKjURaNQA
-                                                                8IEc17+7w6Wv5igkDYf7Y+SXIP1THkfO4B47y8j51ygUu/nxy7tc/WaJrcomKTAlpmFkek+OIn0O
-                                                                md9nuf/pAvHnFIcWDNmX3yW6lmPmapHIKzAw1onjZoDMlgjoashro+CXtJqWDr+f6Pw+Hk7nKRyy
-                                                                6H4rgomDikawPehK9JOZydO50Iub69tyBFqkoFhqq5JbLrL4yS28lId/v4DdUWTldjc3Dh3l5rc/
-                                                                kNnfiRhDIVnES3osX/iTzLy/EwIBrSo/2mez/+0h5PodnDdjpHOKxPf3uDU8wlR+HT3xOfLzZ7jM
-                                                                Ufhlnt5zB4gNuzsh0FoKWcPaZIH4h+foGLJwDkJkWPFG5BLnb1/Eyf9G9P41Irk19o2/ztqvAd5a
-                                                                sAls1UmtFKhKDbRWN67o/6CbIFhCacFyBO0IsUGf7l4PXBUu567C9+6x//0EHT16U5uqREJrXdqh
-                                                                2v6GBpGAyakUN//6h+ieLpyDEayIQXrGCI48S/yBhw5cOl/Yw7WpGab+TiMS1NmoVwElaG2wQybl
-                                                                cDUeD6uLyfGTUDQu0ajwzEeHWV3uJpntJwgCBuIv0T2QpGjg1JiD1mXQ2pDX7gsGhUFjsC0lpRSU
-                                                                S6J5F1QKnj66WPe+f3CVflbrMmsTMHZ8fpOc16RAGWxtsHMXk6T/cLGUAlVDYLfOg2XgSt0ZRITA
-                                                                GPJ3fGz/RgpvzgqrsXICUi0IbIdQi3NAeb+RsB9gKKYC7Mhewe0VdNPtoNHIdiOyGQnBiOAK2CuW
-                                                                XhrtM6ha72nlvTwK8REk6k/IRSMyM6eWleu6o2ePyDuuQ0fIQqO1ajSzo4JQdQwEYyCsASSdkdSV
-                                                                WfcLJSJqfHzcmp6e1idOnCCVSlXARkZGAOrebUd6enoEYHZ2tu55enqalZUVMzExUdzq5XS3pXo5
-                                                                bTkq8p8QUUo1FdK/orZIfWFrcrwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDYtMDRUMTQ6MTg6
-                                                                MzMtMDc6MDDm+YiVAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTA2LTA0VDE0OjE4OjMzLTA3OjAw
-                                                                l6QwKQAAAABJRU5ErkJggg==" />
+                                                                AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAG
+                                                                9ElEQVRYw7WXa2wU1xXHf3dn9oXtXdssXi+PiJiCAUPBWImdBnAggQQKFZC60IKgUCilKWnUyC1N
+                                                                I0uhUhpVSZq2EmolQkiVNqShD9qk+dAPWDWKFBJTFDWmUl0V4cZgbK+9u7M7Mzsz9/bD+rG8gkPh
+                                                                SFczd65m/uee8/+fuUdwrQnurKniiX4d0DvtwBWO6EWA4jrgt8sZdaMFHSA8e/tUKWQgXlUmqqJR
+                                                                LvSlsG2LSFmpqKqKcPlymlQqRTQa5er5jKoIPSNzCLFlQwP7d6wgEgyCbQMQDAaVPQIYUErZgGEY
+                                                                qbq6uiF9xxM/fvr1d84dvGt6grk1VaxbvoBDb5zCdSUzEuW0rF7MoWOnKItGiE8uY9u6Bn755ruU
+                                                                RaNURsLs2tjIkT+8RzIaASARq2T6lCnX7DRQfK8UmqZZnZ2dD2iqbG5bafX0ms/MuQtb+Elm8yQd
+                                                                H4nqGHnhx7AlfaYiUR3DRMNRGr0Zl0R1jKzSwKfTk8oTj8dw9BBL6mbywD21BIPBK0aoeIRC6Lqu
+                                                                d3d3fyS0ms3ta1Yvb97bcj+7fvRHPAX1M2P8YPdKtj/zO2zXoyYe4aUn1/Pltt+StVwS5SGOtLWw
+                                                                te0NkkaeihI/v/nhFnYePM4yL8tj5ddjgAKlQAJKkbUM3rvY3Sqq6ne0h6prmnVdw7I96mpi/Kc3
+                                                                hV8TZC2X+TMn0/3xMOGgRipjM+/uGP+6kCRSGmQobTJvZoxz5weoiIQZSJusSV5iz2APoggXVeCg
+                                                                UgqkBKkwrAyd1uVWX8vDDQwZJkMZm/raanavv4esaZPMWNRMreDxLUvJ510Ghk2mlId5audKlJL0
+                                                                JbOEgxpte1YR9mv0JbO4rsQfryTcWEewsY7QvXWEGusINS0g1FhHuGkB4aaFhJoWMqnps4TnzUIE
+                                                                Z29uX9TQ0Lx22Xx+8fvTSKWoSVSwftlcDp/4ANvxmBYrY+OKOo6+1YlhOlRVTGLzqkW89s4ZhtI2
+                                                                FZEQ2x5ZzLG/fsj65fN55ltrb6pLy7Lo+FtHq64QuK7Lpf40jusSDPixbJu0kcPMO4T8Gpmsieu6
+                                                                ZLI2Ab/GcCqHEDCcNvHrhblPg+F0DgCf8N3UATFSYsTWbz7b/tbZ4Wbh01hYU8XXH23kwM/+givh
+                                                                7upyntyxnNafvI3leCQqS2jbu5rvvvQ2GdOhsizIs/vXcODFPzOYNlESNobz7CvNo1AFGDECJARC
+                                                                +Aq1TUpyVo7Ogf+26n//58dIN8T06giXkwZHT5wm70gSlSUkUzlePfEBluUSnzyJ4bTJr/70Pqkh
+                                                                g1j5JC5fHOTI8XcZ6B8mVlFCXzKLlewjk+oZJ92oDJRCycLch8CSLmY+jQjM3tL+yIP3N+9+9HN8
+                                                                7eCbeAoa5sR5as8qtj99jLzjUZOI8uL3NvGlJw5j5BziFZN47YWdtDx+mGHDJloa4PjP97D1O6+w
+                                                                VOXYHy9KwZgUCmpQquCM7Tp0DlxsFXOav9GeltFmIQThkJ/6udM4c64X6Xnofp36OXFOf9iD8jyE
+                                                                T7Bk/jTOdPUCEoWgYf50znQVZJezPXZuauK51k2fVP4BME2Ljo5Trb77Fs0ik7PIWXlmxMt58N7Z
+                                                                pLMmRtYmGtL4woqFZHMWhuUQCGhs23AfpmVj5PJIKdn5xaW4rkcm5+B5sijf2k1GIUoiMGtL++L6
+                                                                Bc0bH6rn+aMn8aRi1tQKNq9dzPMvn8TxJNPiEXZtauKFV06SsxymVJSw7ytL+emr7aQMm2hpiG9v
+                                                                b+bQ6x0sNQbZF8oVhf3KSjiaAstzOJvub9UBjKzN2a4LOK4HUpLKZDnXfYm8K/EJSKUt/n2hn5yV
+                                                                RwjBcDrHhd4kacNCIEgbOXouDpFKm7ipFGaqB4QoAI7kfnQoqUBJbOVhOwbi81vb2qNTEs2aTwNV
+                                                                eK8gnWIZFedzfO16z5fkM6ywhsaW1ZgKxh1RSmF7Dp19Pa36cwdaqK2dg6br3BZTo858UhEC0zJJ
+                                                                dnSMHsnEhKrXhGyCZ6jRAqV3bnqM/lApuk8DMRJyUXRKE7fw9eLUXEFARtIgsaTHP4xBdNk3gKfn
+                                                                EAiEz4dCjPNAiE+PfbUPRb9ipUAoiVIKqTykm0WvXLeSqsrYeAQK8ZlYWK/m4o34WhSJ0fJsOQ7R
+                                                                3vPos76/l9raWjS//1Nu8f8zK5ejf4yEQnCbKDhxGyXh+w99lb5gCbrwjYd+7Dp6ubX2QBVXQxjj
+                                                                A0phSZezVhq9Oz1wPqrZy/3CJwoqADXG/tvRlxQ7oUYEIckqz/3IHewRfr9/QUL4N+hChHw+vZAK
+                                                                H8J3G5MioXAYBSWlRCLJerLPdM1fj7ZjGiAaGhowTfOabefz+VsKRSAQuOaf3NXVNfpMAt6NmtI7
+                                                                1aCqq++1OwQ0EQcA+B+6jjzWf7OiLAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0wNFQxNDoy
+                                                                MDo0OS0wNzowMMJ5+DcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMDRUMTQ6MjA6NDktMDc6
+                                                                MDCzJECLAAAAAElFTkSuQmCC" />
                                                                 </svg>
-                                                            </div>
-                                                            <div class="sigla">ES</div>
-                                                        </div>
-                                                    </a>
-                                            </div>
+                                                    </div>
+                                                    <div class="sigla">EN</div>
+                                                </div>
+                                            </a> 
+                                            <a href="#">
+                                                <div class="idioma">
+                                                    <div class="nacao">
+                                                                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
+                                                                        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                                                                    AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAE
+                                                                    uElEQVRYw8WXy2tcVRzHP+fcx2Qyk06TtElsmhRp+kgrRWioD7SIiAUVwZ3diKAr/wCXmpXuxUVB
+                                                                    wb0gIi6EgoVYa5t2YaM1qIkNaZM2yTQTMp2ZzL0z9/xc3Hk/0iSN+IMf59x7zv19v7/HPQ/4n0UB
+                                                                    iIiqfW43b5sijxpTSokqgTcS2AngdgiV+2IDPLhyJbahtbMHyFiWAujaZfSHQDwIQuAgkGw06h04
+                                                                    fXpDfd3Z+V4in78QicVsZVn1X6ldCoTUZ8P4Phu+n03Z9jk78LxXB4aG7MToKBIEIWhZH5dIGbi2
+                                                                    FQGtSU5OxpbT6ZdtI+JIMklubQ20DlWpsH2caNR6XQYWgSBAjEEVChSUcmy0BksjVtiiLdAKpUq1
+                                                                    +bhZEJAKAQNKwABGQwHs45ePMXryALYdCQHrtOL+zpCb+lJRz3tI9sYKNi7oKGi7EXxrBKTtqKL9
+                                                                    UiAopdAdGht0aaKh2m9FosGEwOK9ABHh4KDdpkSaPa9XsOsnmDagVU/S65r0uiG9Dt5qHhEhnYqQ
+                                                                    SBi6EorE3qBFJMqtarJXQ8DUTNJNE8uyMJvD+vg2dzsK2A98RAS/x+ZJT5MaH+bUGbeNA1JjTwPF
+                                                                    KgERaQCrJRMa8DcK5HMeI08Jl5+H1F0P54lw4SoWiywOxnnxlEU2G+C6Gsdplz4pgQcVKjURaNQA
+                                                                    8IEc17+7w6Wv5igkDYf7Y+SXIP1THkfO4B47y8j51ygUu/nxy7tc/WaJrcomKTAlpmFkek+OIn0O
+                                                                    md9nuf/pAvHnFIcWDNmX3yW6lmPmapHIKzAw1onjZoDMlgjoashro+CXtJqWDr+f6Pw+Hk7nKRyy
+                                                                    6H4rgomDikawPehK9JOZydO50Iub69tyBFqkoFhqq5JbLrL4yS28lId/v4DdUWTldjc3Dh3l5rc/
+                                                                    kNnfiRhDIVnES3osX/iTzLy/EwIBrSo/2mez/+0h5PodnDdjpHOKxPf3uDU8wlR+HT3xOfLzZ7jM
+                                                                    Ufhlnt5zB4gNuzsh0FoKWcPaZIH4h+foGLJwDkJkWPFG5BLnb1/Eyf9G9P41Irk19o2/ztqvAd5a
+                                                                    sAls1UmtFKhKDbRWN67o/6CbIFhCacFyBO0IsUGf7l4PXBUu567C9+6x//0EHT16U5uqREJrXdqh
+                                                                    2v6GBpGAyakUN//6h+ieLpyDEayIQXrGCI48S/yBhw5cOl/Yw7WpGab+TiMS1NmoVwElaG2wQybl
+                                                                    cDUeD6uLyfGTUDQu0ajwzEeHWV3uJpntJwgCBuIv0T2QpGjg1JiD1mXQ2pDX7gsGhUFjsC0lpRSU
+                                                                    S6J5F1QKnj66WPe+f3CVflbrMmsTMHZ8fpOc16RAGWxtsHMXk6T/cLGUAlVDYLfOg2XgSt0ZRITA
+                                                                    GPJ3fGz/RgpvzgqrsXICUi0IbIdQi3NAeb+RsB9gKKYC7Mhewe0VdNPtoNHIdiOyGQnBiOAK2CuW
+                                                                    XhrtM6ha72nlvTwK8REk6k/IRSMyM6eWleu6o2ePyDuuQ0fIQqO1ajSzo4JQdQwEYyCsASSdkdSV
+                                                                    WfcLJSJqfHzcmp6e1idOnCCVSlXARkZGAOrebUd6enoEYHZ2tu55enqalZUVMzExUdzq5XS3pXo5
+                                                                    bTkq8p8QUUo1FdK/orZIfWFrcrwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDYtMDRUMTQ6MTg6
+                                                                    MzMtMDc6MDDm+YiVAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTA2LTA0VDE0OjE4OjMzLTA3OjAw
+                                                                    l6QwKQAAAABJRU5ErkJggg==" />
+                                                                    </svg>
+                                                    </div>
+                                                    <div class="sigla">ES</div>
+                                                </div>
+                                            </a>
                                         </div>
+                                    </div>
                                 </div>
-                                </div>
-        
-                             </div>
-                    
+                            </div>-->
+                        </div>
                     </div>
-                   
-                            
                 </div>
                 <div id="dropdown_nav" class="row">   
                     <div class="col-md-12">
                         <div id="container_menu_plenum" class="container">
                             <div class= "row">
                                 <div  id="subplenum" class="col-md-3" >
-                                             
-                                                    
-                                        <div class="submenu"><a href="plenum.php">Plenum</a></div>
-                                        <div class="submenu"><a href="bioengenharia.php">Bioengenharia e Qualidade de Vida</a></div>
-                                        <div class="submenu"><a href="educacao.php">Educação</a></div>
-                                        <div class="submenu"><a href="fabrica.php">A Fábrica</a></div>
-                                        
-                                                    
-                                    </div>
-                                            <div id="subplenum" class="col-md-3" >
-                                                    
-                                                        
-                                                        <div class="submenu"><a href="produtos/implantes.php">Implantes</a></div>
-                                                        <div class="submenu"><a href="produtos/componentes.php">Componentes</a></div>
-                                                        <div class="submenu"><a href="produtos/transferentes.php">Transferentes</a></div>
-                                                        <div class="submenu"><a href="produtos/analogos.php">Análogos</a></div>
-                                                        <div class="submenu"><a href="produtos/acessorios.php">Acessórios</a></div>
-                                                        <div class="submenu"><a href="produtos/kits-cirurgicos.php">Kits Cirúgicos</a></div>
-                                                        <div class="submenu"><a href="produtos/biomateriais.php">Biomateriais</a></div>
-                                                        <div class="submenu"><a href="#">Instrumentais</a></div>
-                                                        <div class="submenu"><a href="produtos/start-plenum.php"> Start Plenum</a></div>
-                                                        <div class="submenu"><a href="#">Instruções de Uso</a></div>
-                                                   
-                                            </div>
-                                            <div  id="subplenum_artigos"  class="col-md-3" >
-                                                   
-                                                        <div class="submenu">  <a href="artigos.php">Artigos e Testes  de Validações</a> </div>
-                                                   
-                                            </div>
-                                            <div id="subplenum" class="col-md-3">
-                                           
-                                                        <div class="submenu"> <a href="faq.php">FAQ</a></div>
-                                                        <div class="submenu"> <a href="fale-conosco.php">Fale Conosco</a> </div>
-                                         
-                                            </div>
+                                    <div class="submenu"><a href="plenum.php">Plenum</a></div>
+                                    <div class="submenu"><a href="bioengenharia.php">Bioengenharia e Qualidade de Vida</a></div>
+                                    <div class="submenu"><a href="fabrica.php">A Fábrica</a></div>
                                 </div>
+                                <div id="subplenum" class="col-md-3" >
+                                    <div class="submenu"><a href="produtos/implantes.php">Implantes</a></div>
+                                    <div class="submenu"><a href="produtos/componentes.php">Componentes</a></div>
+                                    <div class="submenu"><a href="produtos/transferentes.php">Transferentes</a></div>
+                                    <div class="submenu"><a href="produtos/analogos.php">Análogos</a></div>
+                                    <div class="submenu"><a href="produtos/acessorios.php">Acessórios</a></div>
+                                    <div class="submenu"><a href="produtos/kits-cirurgicos.php">Kits Cirúgicos</a></div>
+                                    <div class="submenu"><a href="produtos/biomateriais.php">Biomateriais</a></div>
+                                    <div class="submenu"><a href="produtos/instrumentais.php">Instrumentais</a></div>
+                                    <div class="submenu"><a href="produtos/instrucao-uso.php">Instruções de Uso</a></div>
+                                </div>
+                                <div  id="subplenum_artigos"  class="col-md-3" >
+                                    <div class="submenu">  <a href="produtos/start-plenum.php">Start Plenum</a> </div>
+                                </div>
+                                <div id="subplenum" class="col-md-3">
+                                    <div class="submenu"> <a href="faq.php">FAQ</a></div>
+                                    <div class="submenu"> <a href="fale-conosco.php">Fale Conosco</a> </div>
+                                </div>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                </div> 
-               
-                </div>    
-                    
-                </div> 
-                  
-      </nav>
-        <div class="mobilenav">
-                            <div id="latnav" class="sidenav">
-                                
-                                        <a href="home.php">
-                                            <!--<img class="logo" src="../ASSETS/SITE/logo_plenum.png" alt="">-->
-                                            <div class="logo">
+    </nav>
+    <div class="mobilenav">
+                    <div id="latnav" class="sidenav">
+                        <a href="home.php">
+                            <!--<img class="logo" src="../ASSETS/SITE/logo_plenum.png" alt="">-->
+                            <div class="logo">
                                                     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="50px" viewBox="0 0 168 58" enable-background="new 0 0 168 58" xml:space="preserve">  <image id="image0" width="168" height="58" x="0" y="0"
                                                         href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAA6CAYAAAAk5RL8AAABdGlDQ1BpY2MAACiRY2BgKkksKMhh
@@ -566,10 +537,11 @@ echo '
                                                     b3B5cmlnaHQAQ29weXJpZ2h0IEFwcGxlIENvbXB1dGVyLCBJbmMuLCAyMDEwHZO5YgAAABh0RVh0
                                                     aWNjOmRlc2NyaXB0aW9uAEhEIDcwOS1Bstta8QAAAABJRU5ErkJggg==" />
                                                     </svg>
-                                            </div>
-                                        </a>
-                                        <div class="country_mobile" >
-                                                <div class="bandeira">
+                            </div>
+                        </a>
+                          <!--
+                                   <div class="country_mobile" >
+                                <div class="bandeira">
                                                 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
                                                     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -608,19 +580,18 @@ echo '
                                                 ZQAyMDE5LTA2LTA0VDE0OjE1OjA0LTA3OjAwWC86SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0w
                                                 Ni0wNFQxNDoxNTowNC0wNzowMClygvQAAAAASUVORK5CYII=" />
                                                 </svg>
-                                                
-                                                </div>
-                                                    <div class="dropdown">
-                                                        <a class="dropbtn">
-                                                            PT <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                                            width="20" height="20"
-                                                            viewBox="0 0 192 192"
-                                                            style=" fill:#000000; padding-top: 5px;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M172.74,49.8c-2.04,0.06 -3.96,0.9 -5.37,2.37l-71.37,71.37l-71.37,-71.37c-1.455,-1.485 -3.435,-2.325 -5.52,-2.325c-3.12,0 -5.925,1.905 -7.095,4.8c-1.185,2.895 -0.48,6.21 1.755,8.385l76.8,76.8c3,3 7.86,3 10.86,0l76.8,-76.8c2.28,-2.19 3,-5.565 1.77,-8.49c-1.215,-2.925 -4.095,-4.8 -7.26,-4.74z"></path></g></g></g></svg>
-                                                        </a>
-                                                        <div class="dropdown-content-mobile">
-                                                                <a href="#">
-                                                                    <div class="idioma">
-                                                                        <div class="nacao">
+                                </div>
+                                <div class="dropdown">
+                                    <a class="dropbtn">
+                                        PT <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="20" height="20"
+                                            viewBox="0 0 192 192"
+                                            style=" fill:#000000; padding-top: 5px;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M172.74,49.8c-2.04,0.06 -3.96,0.9 -5.37,2.37l-71.37,71.37l-71.37,-71.37c-1.455,-1.485 -3.435,-2.325 -5.52,-2.325c-3.12,0 -5.925,1.905 -7.095,4.8c-1.185,2.895 -0.48,6.21 1.755,8.385l76.8,76.8c3,3 7.86,3 10.86,0l76.8,-76.8c2.28,-2.19 3,-5.565 1.77,-8.49c-1.215,-2.925 -4.095,-4.8 -7.26,-4.74z"></path></g></g></g></svg>
+                                    </a>
+                                    <div class="dropdown-content-mobile">
+                                        <a href="#">
+                                            <div class="idioma">
+                                                <div class="nacao">
                                                                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                                                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
                                                                             href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -660,14 +631,13 @@ echo '
                                                                         MDo0OS0wNzowMMJ5+DcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMDRUMTQ6MjA6NDktMDc6
                                                                         MDCzJECLAAAAAElFTkSuQmCC" />
                                                                         </svg>
-                                                                        
-                                                                        </div>
-                                                                        <div class="sigla">EN</div>
-                                                                    </div>
-                                                                </a> 
-                                                                <a href="#">
-                                                                    <div class="idioma">
-                                                                        <div class="nacao">
+                                                </div>
+                                                <div class="sigla">EN</div>
+                                            </div>
+                                        </a> 
+                                        <a href="#">
+                                            <div class="idioma">
+                                                <div class="nacao">
 
                                                                         <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                                                                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">  <image id="image0" width="32" height="32" x="0" y="0"
@@ -699,99 +669,127 @@ echo '
                                                                         l6QwKQAAAABJRU5ErkJggg==" />
                                                                         </svg>
                                                                             
-                                                                        </div>
-                                                                        <div class="sigla">ES</div>
-                                                                    </div>
-                                                                </a>
-                                                        </div>
-                                                    </div>
+                                                </div>
+                                                <div class="sigla">ES</div>
                                             </div>
-                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                           
-                                    
-                                            <ul>
-                                                <li >
-                                                <button class="dropdown-btn">SOBRE A PLENUM
-                                                       
-                                                </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                          -->
+                         
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <ul>
+                                    <li >
+                                        <button class="dropdown-btn">SOBRE A PLENUM</button>
                                                 <div class="dropdown-mobile">
                                                         <a href="plenum.php">Plenum</a>
                                                         <a href="bioengenharia.php">Bioengenharia e Qualidade de Vida</a>
-                                                        <a href="educacao.php">Educação</a>
                                                         <a href="fabrica.php">A Fábrica</a>
                                                 </div>
-                                                    
-                                                </li>
-                                          
-                                                <li >
-                                                    <button class="dropdown-btn" >PRODUTOS
-                                                   
-                                                    </button>
-                                                    <div class="dropdown-mobile">
-                                                            <a href="produtos/implantes.php">Implantes</a>
-                                                            <a href="produtos/componentes.php">Componentes</a>
-                                                            <a href="produtos/transferentes.php">Transferentes</a>
-                                                            <a href="produtos/analogos.php">Análogos</a>
-                                                            <a href="produtos/acessorios.php">Acessórios</a>
-                                                            <a href="produtos/kits-cirurgicos.php">Kits Cirúgicos</a>
-                                                            <a href="produtos/biomateriais.php">Biomateriais</a>
-                                                            <a href="#">Instrumentais</a>
-                                                            <a href="produtos/start-plenum.php"> Start Plenum</a>
-                                                            <a href="#">Instruções de Uso</a>
-                                                    </div>
-                                                   
-                                                </li>
-                                             
-                                                <li >
-                                                    <button class="dropdown-btn" >PESQUISA CIENTíFICO
-                                                  
-                                                    </button>
-                                                    <div class="dropdown-mobile">
-                                                            <a href="artigos.php">Artigos e Testes  de Validações</a>
-                                                    </div>
-                                                </li>
-                                               
-                                                <li >
-                                                    <button class="dropdown-btn" >ATENDIMENTO </button>
-                                                    <div class="dropdown-mobile">
-                                                            <a href="faq.php">FAQ</a>
-                                                           <a href="fale-conosco.php">Fale Conosco</a>
-                                                    </div>
-                                                </li>
-                                                
-                                                <li ><a class="dropdown-link">INSIGHTS</a></li>
-                                            </ul>
-                                            <div class="top-link-right-mobile">
-                                                    <div class="icones_mobile">
-                                                        <a href="#">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                                            width="40" height="40"
-                                                            viewBox="0 0 192 192"
-                                                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,3.84c-21.255,0 -38.4,17.145 -38.4,38.4v7.68h-30.36l-0.36,3.36l-15.36,134.4l-0.48,4.32h169.92l-0.48,-4.32l-15.36,-134.4l-0.36,-3.36h-30.36v-7.68c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,11.52c17.145,0 30.72,13.575 30.72,30.72v7.68h-61.44v-7.68c0,-17.145 13.575,-30.72 30.72,-30.72zM34.2,57.6h23.4v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h61.44v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h23.4l14.52,126.72h-152.64z"></path></g></g></g></svg>
-                                                        </a>
-                                                    </div>
-                                                    <div class="icones_mobile">
-                                                        <a href="entrada-login.php">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                                            width="40" height="40"
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-btn">PRODUTOS</button>
+                                            <div class="dropdown-mobile">
+                                                <a href="produtos/implantes.php">Implantes</a>
+                                                <a href="produtos/componentes.php">Componentes</a>
+                                                <a href="produtos/transferentes.php">Transferentes</a>
+                                                <a href="produtos/analogos.php">Análogos</a>
+                                                <a href="produtos/acessorios.php">Acessórios</a>
+                                                <a href="produtos/kits-cirurgicos.php">Kits Cirúgicos</a>
+                                                <a href="produtos/biomateriais.php">Biomateriais</a>
+                                                <a href="produtos/instrumentais.php">Instrumentais</a>
+                                                <a href="produtos/instrucao-uso.php">Instruções de Uso</a>
+                                            </div>
+                                    </li>
+                                    <li >
+                                        <button class="dropdown-btn" >START PLENUM</button>
+                                        <div class="dropdown-mobile">
+                                                <a href="produtos/start-plenum.php"> Start Plenum</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-btn" >ATENDIMENTO </button>
+                                            <div class="dropdown-mobile">
+                                                <a href="faq.php">FAQ</a>
+                                                <a href="fale-conosco.php">Fale Conosco</a>
+                                            </div>
+                                    </li>
+                                    <li>
+                                            <button class="dropdown-btn" >IMPRESSA</button>
+                                            <div class="dropdown-mobile">
+                                                <a href="privacidade.php">Política de Privacidade</a>
+                                                <a href="ecomerce.php">Política do <br>E-commerce</a>
+                                                <a href="codigo-conduta.php">Código de Conduta</a>
+                                            </div>
+                                        </li>
+                                    <li >
+                                        <a class="dropdown-link">INSIGHTS</a>
+                                    </li>
+                                   
+                                </ul>
+                                <div class="top-link-right-mobile">
+                                    <div class="icones_mobile">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="40" height="40"
+                                            viewBox="0 0 192 192"
+                                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,3.84c-21.255,0 -38.4,17.145 -38.4,38.4v7.68h-30.36l-0.36,3.36l-15.36,134.4l-0.48,4.32h169.92l-0.48,-4.32l-15.36,-134.4l-0.36,-3.36h-30.36v-7.68c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,11.52c17.145,0 30.72,13.575 30.72,30.72v7.68h-61.44v-7.68c0,-17.145 13.575,-30.72 30.72,-30.72zM34.2,57.6h23.4v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h61.44v8.76c-2.295,1.335 -3.84,3.765 -3.84,6.6c0,4.245 3.435,7.68 7.68,7.68c4.245,0 7.68,-3.435 7.68,-7.68c0,-2.835 -1.545,-5.265 -3.84,-6.6v-8.76h23.4l14.52,126.72h-152.64z"></path></g></g></g></svg>
+                                        </a>
+                                    </div>
+                                    <div class="icones_mobile">
+                                        <a href="entrada-login.php">
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                        width="40" height="40"
                                                             viewBox="0 0 192 192"
                                                             style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M96,11.52c-21.255,0 -38.4,17.145 -38.4,38.4v23.04c0,12.435 6.09,23.595 15.36,30.6v17.4c0,0.405 -0.075,0.75 -1.08,1.68c-1.005,0.93 -2.79,2.175 -5.16,3.36c-4.725,2.37 -11.55,4.8 -18.48,8.16c-6.93,3.36 -14.115,7.635 -19.68,13.8c-5.565,6.165 -9.36,14.43 -9.36,24.84v3.84h153.6v-3.84c0,-10.5 -3.795,-18.795 -9.36,-24.96c-5.565,-6.165 -12.75,-10.365 -19.68,-13.68c-6.93,-3.315 -13.77,-5.82 -18.48,-8.16c-2.355,-1.17 -4.17,-2.31 -5.16,-3.24c-0.99,-0.93 -1.08,-1.32 -1.08,-1.8v-17.4c9.27,-7.005 15.36,-18.165 15.36,-30.6v-23.04c0,-21.255 -17.145,-38.4 -38.4,-38.4zM96,19.2c17.145,0 30.72,13.575 30.72,30.72v23.04c0,10.59 -5.535,20.13 -13.68,25.56l-1.68,1.2v21.24c0,2.97 1.53,5.595 3.48,7.44c1.95,1.845 4.395,3.225 7.08,4.56c5.37,2.67 11.97,5.04 18.48,8.16c6.51,3.12 12.765,6.885 17.28,11.88c3.75,4.14 5.925,9.45 6.72,15.96h-136.8c0.795,-6.435 2.985,-11.685 6.72,-15.84c4.515,-5.01 10.77,-8.835 17.28,-12c6.51,-3.165 13.125,-5.61 18.48,-8.28c2.67,-1.335 5.145,-2.745 7.08,-4.56c1.935,-1.815 3.48,-4.365 3.48,-7.32v-21.24l-1.68,-1.2c-8.145,-5.43 -13.68,-14.97 -13.68,-25.56v-23.04c0,-17.145 13.575,-30.72 30.72,-30.72z"></path></g></g></g></svg>
-                                                        </a>
-                                                    </div>
-                                                    <div class="icones_mobile">
-                                                        <input class="buscador_mobile"  placeholder="Digite sua Pesquisa">
-                                                            <a class="lupa_mobile">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                                                                    width="20" height="20"
-                                                                    viewBox="0 0 192 192"
-                                                                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M80.64,11.52c-36.09,0 -65.28,29.19 -65.28,65.28c0,36.09 29.19,65.28 65.28,65.28c12.885,0 24.81,-3.78 34.92,-10.2l47.16,47.16l16.32,-16.32l-46.56,-46.44c8.37,-10.98 13.44,-24.585 13.44,-39.48c0,-36.09 -29.19,-65.28 -65.28,-65.28zM80.64,26.88c27.645,0 49.92,22.275 49.92,49.92c0,27.645 -22.275,49.92 -49.92,49.92c-27.645,0 -49.92,-22.275 -49.92,-49.92c0,-27.645 22.275,-49.92 49.92,-49.92z"></path></g></g></g></svg>
-                                                                </a>
-                                                            </a>
-                                                        </div>
-                                                </div>
-                            </div> 
-                            
-                                    <span class="button_mobile"  onclick="openNav()">&#9776;
+                                        </a>
+                                    </div>
+                                    <div class="icones_mobile">
+                                        <input class="buscador_mobile"  placeholder="Digite sua Pesquisa">
+                                            <a class="lupa_mobile">
+                                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                width="20" height="20"
+                                                viewBox="0 0 192 192"
+                                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#cccccc"><g id="surface1"><path d="M80.64,11.52c-36.09,0 -65.28,29.19 -65.28,65.28c0,36.09 29.19,65.28 65.28,65.28c12.885,0 24.81,-3.78 34.92,-10.2l47.16,47.16l16.32,-16.32l-46.56,-46.44c8.37,-10.98 13.44,-24.585 13.44,-39.48c0,-36.09 -29.19,-65.28 -65.28,-65.28zM80.64,26.88c27.645,0 49.92,22.275 49.92,49.92c0,27.645 -22.275,49.92 -49.92,49.92c-27.645,0 -49.92,-22.275 -49.92,-49.92c0,-27.645 22.275,-49.92 49.92,-49.92z"></path></g></g></g></svg>
+                                            </a>
+                                    </div>
+                                </div>
+                                <div class="icones_mobile">
+                                    <div id="app-mobile"  class="col-sm-4" >
+                                        <h6>Baixe nosso aplicativo</h6>
+                                        <div class="row">
+                                            <div class="appmobile col-sm-2">
+                                                    <a href="#">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                            width="30" height="30"
+                                                            viewBox="0 0 192 192"
+                                                            style=" fill:#000000;">
+                                                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                                            <path d="M0,192v-192h192v192z" fill="none"></path><g id="original-icon" fill="#ffffff"><g id="surface1">
+                                                            <path d="M170.985,133.44c-4.14,9.195 -6.135,13.305 -11.46,21.42c-7.455,11.34 -17.97,25.5 -30.96,25.59c-11.565,0.105 -14.55,-7.545 -30.255,-7.41c-15.69,0.075 -18.96,7.56 -30.54,7.44c-13.005,-0.12 -22.95,-12.87 -30.405,-24.195c-20.85,-31.755 -23.055,-68.985 -10.17,-88.785c9.12,-14.04 23.535,-22.29 37.08,-22.29c13.8,0 22.47,7.575 33.87,7.575c11.07,0 17.805,-7.59 33.765,-7.59c12.06,0 24.81,6.57 33.93,17.91c-29.82,16.35 -24.975,58.935 5.145,70.335zM119.79,32.52c5.805,-7.455 10.215,-17.97 8.61,-28.68c-9.465,0.645 -20.535,6.69 -27,14.52c-5.865,7.14 -10.725,17.73 -8.835,27.975c10.335,0.33 21.03,-5.835 27.225,-13.815z"></path>
+                                                            </g></g></g></svg>
+                                                    </a>
+                                            </div>
+                                    
+                                            <div class="appmobile col-sm-2">
+                                                    <a href="#">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                                            width="30" height="30"
+                                                            viewBox="0 0 192 192"
+                                                            style=" fill:#000000;">
+                                                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                                            <path d="M0,192v-192h192v192z" fill="none"></path>
+                                                            <g fill="#ffffff"><g id="surface1"><path d="M62.52,0.12c-0.495,0.09 -1.005,0.18 -1.44,0.48c-1.755,1.185 -2.145,3.645 -0.96,5.4l8.28,12.36c-12.795,6.78 -22.335,18.045 -25.44,31.56h106.08c-3.105,-13.515 -12.645,-24.78 -25.44,-31.56l8.28,-12.36c1.185,-1.755 0.795,-4.215 -0.96,-5.4c-1.77,-1.185 -4.215,-0.675 -5.4,1.08l-9.12,13.44c-6.33,-2.31 -13.2,-3.6 -20.4,-3.6c-7.2,0 -14.07,1.29 -20.4,3.6l-9.12,-13.44c-0.885,-1.32 -2.49,-1.845 -3.96,-1.56zM74.88,30.72c3.18,0 5.76,2.58 5.76,5.76c0,3.195 -2.58,5.76 -5.76,5.76c-3.195,0 -5.76,-2.565 -5.76,-5.76c0,-3.18 2.565,-5.76 5.76,-5.76zM117.12,30.72c3.195,0 5.76,2.58 5.76,5.76c0,3.195 -2.565,5.76 -5.76,5.76c-3.18,0 -5.76,-2.565 -5.76,-5.76c0,-3.18 2.58,-5.76 5.76,-5.76zM30.72,57.6c-6.36,0 -11.52,5.16 -11.52,11.52v53.76c0,6.36 5.16,11.52 11.52,11.52c1.35,0 2.64,-0.285 3.84,-0.72v-75.36c-1.2,-0.435 -2.49,-0.72 -3.84,-0.72zM42.24,57.6v84.48c0,6.345 5.175,11.52 11.52,11.52h84.48c6.345,0 11.52,-5.175 11.52,-11.52v-84.48zM161.28,57.6c-1.35,0 -2.64,0.285 -3.84,0.72v75.36c1.2,0.42 2.49,0.72 3.84,0.72c6.36,0 11.52,-5.16 11.52,-11.52v-53.76c0,-6.36 -5.16,-11.52 -11.52,-11.52zM57.6,161.28v15.36c0,8.475 6.885,15.36 15.36,15.36c8.475,0 15.36,-6.885 15.36,-15.36v-15.36zM103.68,161.28v15.36c0,8.475 6.885,15.36 15.36,15.36c8.475,0 15.36,-6.885 15.36,-15.36v-15.36z"></path>
+                                                            </g></g></g></svg>
+                                                    </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div> 
+                    <span class="button_mobile"  onclick="openNav()">&#9776;
                                             <!--<img class="logo" src="../ASSETS/SITE/logo_plenum.png"> -->
                                             <div class="logo-mobile">
                                                     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -944,9 +942,8 @@ echo '
                                                     aWNjOmRlc2NyaXB0aW9uAEhEIDcwOS1Bstta8QAAAABJRU5ErkJggg==" />
                                                     </svg>
                                             </div>
-                                    </span>
+                    </span>
                                     
-                                    
-
-                    </div> ';
+    </div> 
+    ';
 ?>

@@ -29,9 +29,11 @@
             <div class="campo-login row">
                 <div class="box-login col-md-4 col-md-offset-4">
                     <div class="row">
-                        <div class="btn-voltar col-sm-12">
-                            <h6>Voltar</h6>
-                        </div>
+                        <a href="#">
+                            <div class="btn-voltar-conta col-sm-2 col-md-offset-10">
+                                <span>Voltar</span>
+                            </div>
+                        </a>
                     </div>
                     <h3>Indentificação</h3>
                     <h5>Informe seu E-mail ou CPF para prosseguir</h5>
@@ -51,7 +53,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <button class="btn-criar-conta">CRIAR MINHA CONTA</button>
+                            <button onclick="location.href='form.php'" class="btn-criar-conta">CRIAR MINHA CONTA</button>
                         </div>
                     </div>
                   

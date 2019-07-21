@@ -25,7 +25,10 @@
     <div  class="container" id="container_body_superior">
         <div id="fundo_nav" class="row"></div>  
         <div class="fundo-biomateriais row">
-            <div id="titulo_plenum" class="col-md-6">
+            <video src="../../ASSETS/VIDEOS/video_baixo_biomateriais.mp4?rel=0&arp;autoplay=1" class="video-entrada" autoplay controls="false" controls loop>
+        </div>
+        <div class="row">
+            <div id="titulo_plenum_video" class="col-md-6">
                 <h1>Biomateriais Plenum®</h1>
             </div>
         </div>
@@ -447,5 +450,6 @@ e.preventDefault();
 </script>
 
 <script src="../../js/dropdown_mobile.js"></script>
+<script src="../../js/video.js"></script>
 
 </html>

@@ -55,7 +55,7 @@
     
         <div class="row">
             <div id="texto_tecno" class="col-md-6">
-            <h2 class="titulo_bio">Tecnologia Agregada</h2>
+            <h2 class="titulo_bio">Tecnologia Agregada</h2><br>
                  <div class="texto_protese">
                     <p>Tudo o que a Plenum cria está alinhado a uma visão contemporânea da
                         relação humana com a ciência, o que resulta em uma integração
@@ -83,31 +83,32 @@
     
         <div id="fundo_beneficios" class="row">
             <div id="campo_beneficio"class="col-md-12">
-                <h2 class="titulo_bio_center">Benefícios dos implantes dentários vão além da estética</h2>
+                <h2>Benefícios dos implantes dentários vão além da estética</h2>
                 <div class="texto_beneficios">
-                            <p>Acreditamos que a verdadeira inovação deve estar sempre a serviço de uma vida plena. Nossa proposta incorpora em sua essência, a diferenciação, a
-                            relevância e o valor agregado de nossos produtos, visando trazer benefícios que vão muito além da estética.<p><br>
-                            <p>Levamos a sério a exigência do mercado e, principalmente, dos profissionais de saúde por segurança, confiabilidade, durabilidade e precisão.</p>
-                            <p>E é nesse contexto que a tecnologia e a inovação tornam-se nossas aliadas para reduzir os custos dos processos de produção, beneficiando mais pessoas.</p>
+                            <p>A Plenum inovou o processo de fabricação dos implantes, propiciando praticidade e alta qualidada.
+                                Ao desenhar digitalmente a peça em um software de alta performance, cada detalhe é minuciosamente trabalhado. A produção ocorre por
+                                meio de impressão 3D em metal, sem que haja necessidade de desgaste.<p>
+                            <p>Esse processo, também conhecido como manufatura aditiva, constrói os implantes por adição de camadas de pó de titânio – oferecendo um
+                                produto com adesão biológica superior e textura propícia para o crescimento ósseo.</p>
                 </div>
             </div>       
         </div>
-        <div class="container">
-            <div id="campo_ciencia" class="row">
-                <div class="col-md-4">
-                    <img class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_1.png" alt="">
-                    <h5 class="titulo_ciencia">Porque acreditamos na Ciência da Vida?</h5>
+      <!--  <div class="container">
+                <div id="campo_ciencia" class="row">
+                    <div class="col-md-4">
+                        <img class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_1.png" alt="">
+                        <h5 class="titulo_ciencia">Porque acreditamos na Ciência da Vida?</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_2.png" alt="">
+                        <h5 class="titulo_ciencia">Inovação e sustentabilidade nos processos</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <img  class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_3.png" alt="">
+                        <h5 class="titulo_ciencia">Tecnologia de Impressão 3D de Implantes</h5>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_2.png" alt="">
-                    <h5 class="titulo_ciencia">Inovação e sustentabilidade nos processos</h5>
-                </div>
-                <div class="col-md-4">
-                    <img  class="image_circulo" src="../ASSETS/BIOENGENHARIA/circulo_3.png" alt="">
-                    <h5 class="titulo_ciencia">Tecnologia de Impressão 3D de Implantes</h5>
-                </div>
-            </div>
-        </div>
+            </div>-->
         
         <div class="row">
         <div class="col-xs-12" style= "background: #f5f5f5">
@@ -119,72 +120,82 @@
                         <div id="secondCarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                        <div class="col-md-12">
-                                               <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12" >
-                                                            <div id="campo_produtos" class="row" >
-                                                                <div id="box_produtos" class="col-md-3" >
-                                                                            campo 1
-                                                                </div>
-                                                                <div  id="box_produtos" class="col-md-3">
-                                                                            campo 2
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 3
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 4
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> 
+                                    <div class="col-md-12">
+                                        <div  class="row">
+                                            <div id="padding_produtos" class="col-lg-12">
+                                                <div id="campo_produtos" class="row" >
+                                                    <div id="box_produtos" class="col-md-3" >
+                                                        <img class="box-produtos-implantes" src="../ASSETS/PRODUTOS/01-IMPLANTES/regular.png" alt="">
+                                                        <h5>Implantes</h5> 
+                                                    </div>
+                                                    <div  id="box_produtos" class="col-md-3">
+                                                        <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/mini-pilar-plenum-re.png" alt="">
+                                                        <h5>Componentes</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-acessorios" src="../ASSETS/PRODUTOS/ACESSORIOS/co-cr-coping-mini-pilar.png" alt="">
+                                                        <h5>Acessórios</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-kitcirurgicos" src="../ASSETS/PRODUTOS/KITCIRURGICOS/caixa-aberta-kit.png" alt="">
+                                                        <h5>Kit Cirúrgico</h5>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div> 
+                                    </div>
                                 </div>
                                 <div class="item">
-                                        <div class="col-md-12">
-                                        
+                                    <div class="col-md-12">
                                         <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12" >
-                                                            <div id="campo_produtos" class="row" >
-                                                                <div id="box_produtos" class="col-md-3" >
-                                                                            campo 1
-                                                                </div>
-                                                                <div  id="box_produtos" class="col-md-3">
-                                                                            campo 2
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 3
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 4
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> 
+                                            <div id="padding_produtos" class="col-lg-12">
+                                                <div id="campo_produtos" class="row" >
+                                                    <div id="box_produtos" class="col-md-3" >
+                                                        <img class="box-produtos-implantes" src="../ASSETS/PRODUTOS/01-IMPLANTES/regular.png" alt="">
+                                                        <h5>Implantes</h5> 
+                                                    </div>
+                                                    <div  id="box_produtos" class="col-md-3">
+                                                        <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/mini-pilar-plenum-re.png" alt="">
+                                                        <h5>Componentes</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-acessorios" src="../ASSETS/PRODUTOS/ACESSORIOS/co-cr-coping-mini-pilar.png" alt="">
+                                                        <h5>Acessórios</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-kitcirurgicos" src="../ASSETS/PRODUTOS/KITCIRURGICOS/caixa-aberta-kit.png" alt="">
+                                                        <h5>Kit Cirúrgico</h5>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div> 
+                                    </div>
                                 </div>
                                 <div class="item">
-                                        <div class="col-md-12">
-                                        
+                                    <div class="col-md-12">
                                         <div  class="row">
-                                                        <div id="padding_produtos" class="col-lg-12" >
-                                                            <div id="campo_produtos" class="row" >
-                                                                <div id="box_produtos" class="col-md-3" >
-                                                                            campo 1
-                                                                </div>
-                                                                <div  id="box_produtos" class="col-md-3">
-                                                                            campo 2
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 3
-                                                                </div>
-                                                                <div  id="box_produtos"  class="col-md-3">
-                                                                            campo 4
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> 
+                                            <div id="padding_produtos" class="col-lg-12">
+                                                <div id="campo_produtos" class="row" >
+                                                    <div id="box_produtos" class="col-md-3" >
+                                                        <img class="box-produtos-implantes" src="../ASSETS/PRODUTOS/01-IMPLANTES/regular.png" alt="">
+                                                        <h5>Implantes</h5> 
+                                                    </div>
+                                                    <div  id="box_produtos" class="col-md-3">
+                                                        <img class="box-produtos-componentes" src="../ASSETS/PRODUTOS/COMPONENTES/mini-pilar-plenum-re.png" alt="">
+                                                        <h5>Componentes</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-acessorios" src="../ASSETS/PRODUTOS/ACESSORIOS/co-cr-coping-mini-pilar.png" alt="">
+                                                        <h5>Acessórios</h5>
+                                                    </div>
+                                                    <div  id="box_produtos"  class="col-md-3">
+                                                        <img class="box-produtos-kitcirurgicos" src="../ASSETS/PRODUTOS/KITCIRURGICOS/caixa-aberta-kit.png" alt="">
+                                                        <h5>Kit Cirúrgico</h5>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div> 
+                                    </div>
                                 </div>
                 </div>
                 

@@ -28,11 +28,11 @@
         <div class="container-fluid">
             <div class="campo-login row">
                 <div class="box-login col-md-4 col-md-offset-4">
-                    <div class="row">
-                        <div class="btn-voltar col-sm-12">
-                            <h6>Voltar</h6>
-                        </div>
+                    <div class="btn-voltar-right">
+                     <h6> <a href="home.php">voltar </a> </h6>
+                    
                     </div>
+                  
                     <h5>Seja Bem-Vindo(a)</h5>
                     <h3>Nathaly Caroline Lopes Talasso</h3>
            
@@ -66,7 +66,8 @@
                     </div>
                     <div class="row">
                         <div class="campo-recuperar col-md-12">
-                            <span><a href="#">Esqueci Minha Senha</a></span>
+                            <span><a href="#">Esqueci Minha Senha</a></span><br>
+                            <span><a href="conta/criar-login.php">Cadastre-se aqui</a></span>
                         </div>
                     </div>
                   

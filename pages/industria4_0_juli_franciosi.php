@@ -180,14 +180,14 @@
     <footer>
         <?php include '../menu-footer/footer_plenum.php';?>
     </footer>
-            <script>
+           <script>
                 $(document).ready(function(){
                     $("#box-pdf").click(function(){
                         $("#modal-pdf").modal();
                     });
                 
                     })
-            </script>
+            </script> 
             <script src="../js/dropdown_mobile.js"></script>
 </body>
 </html>

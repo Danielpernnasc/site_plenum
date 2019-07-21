@@ -1013,9 +1013,7 @@
                             </div>
                         
                         </div>
-                    
-            
-        </div>
+                    </div>
 
                                     <div class="container-edu-mobile ">
                                         <div class="educacao-mobile  col-md-4">
@@ -1470,7 +1468,7 @@
     
     
         <div id="modal-edu-mobile" class="curso-ortodontia_box-mobile container">
-        <span class="close-edu-mobile" data-dismiss="modal">Fechar X</span>
+            <span class="close-edu-mobile" data-dismiss="modal">Fechar X</span>
             <div class="container-fluid">
             
                 <div class="light-box-mobile row" style="margin: 1%;">
